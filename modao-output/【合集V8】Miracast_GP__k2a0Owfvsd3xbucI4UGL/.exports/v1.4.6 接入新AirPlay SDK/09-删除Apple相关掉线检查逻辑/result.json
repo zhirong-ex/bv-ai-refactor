@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUtu7UziLQTp3E6",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/09-删除Apple相关掉线检查逻辑",
+  "exportedAt": "2026-08-25T06:12:49.465Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUtu7UzrvmjkReQ-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUtu7UziLQTp3E6&canvasId=rcUtu7UzrvmjkReQ",
+      "image": "images/001-页面-1-rcUtu7UzrvmjkReQ-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【删除60秒没搜到就删除逻辑】\n1. 原逻辑（右图），现在出现的问题：在设备搜索页面，apple系设备会消失，设备丢失的原因主要是 ，我们的60秒都没有再次解析出来所有设备，然后解析设备信息卡了，某一个设备解析不出来，导致后续全部都卡住了，目前搜到，这是官方的一个bug\n2. 所以最快的解决方法就是把这个60秒没搜到就删除的逻辑去掉",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 55,
+          "canvasY": 212,
+          "width": 383,
+          "height": 291,
+          "inlineImage": "images/inline-01-v2_t10ja8.png",
+          "inlineMode": "right-image",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

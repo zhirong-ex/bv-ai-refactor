@@ -1,0 +1,18 @@
+v1.2.0
+    对接FireMirrorReceiver: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu
+    LG_webOS镜像调整: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUC9RVUDJIY8HKJiCPvS
+    镜像准备动画: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCLmYUDJIY8L3P1CqRN
+    录音权限弹窗逻辑: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCAiDUDJIY8NmXc0HAG
+    录音权限提醒: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slvbspbsUDJIY8OLE2ybtQ
+v1.3.0（GoogleCast协议镜像）
+    GoogleCast协议镜像: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slurshkmUHG0COZkRZBSoE
+        镜像超时: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3baaUHG0COholbCEbK
+    优化native布局: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3uweUHG0COkchn4DcW
+    相关改动: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slv6dpwyUHG0COpHCbMHVG
+    插屏广告合规: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUFZEdUHG0COmLsgnGyA
+v1.3.1 campaign参数获取尝试
+    标记主页: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHFz3UHu35cBjzUyzNL
+v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改
+    其他: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHtzwUJcyS7kCr4V5JE
+    设置页面引流方式调整: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHtzrUJcyS7n2JZsjxD
+    插屏广告加载动效: https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHtzoUJcyS7n8ziQkP6

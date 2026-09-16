@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slv4x0mbVTCSo1vJku72E7",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.5（广告警告修改）/01-退出APP时的底部浮层",
+  "exportedAt": "2026-08-24T08:47:48.766Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslv4x0mVTCSo1v41RiWB2-asset-1",
+      "title": "退出APP时的底部浮层",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slv4x0mbVTCSo1vJku72E7&canvasId=sslv4x0mVTCSo1v41RiWB2",
+      "image": "images/001-退出APP时的底部浮层-sslv4x0mVTCSo1v41RiWB2-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【修改默认配置】\nmiracast_enable_exit_app_native_ad，修改为false",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "app_version": "1.5.4",
+  "synced_at": "2026-08-25T07:37:27+08:00",
+  "sources": {
+    "config": "https://boostvision.feishu.cn/sheets/Rx5rs40k1hHZSUtShdacPxmenph",
+    "analytics": "https://boostvision.feishu.cn/sheets/Y82NsQtzAhNInAt04VecueNGnhd",
+    "i18n": "https://boostvision.feishu.cn/sheets/KgrzsvYDzhAMrftRHnYcqOlTnne"
+  },
+  "counts": {
+    "config": 23,
+    "analytics": 199,
+    "i18n": 129
+  },
+  "i18n_locales": [
+    "en",
+    "zh-rCN",
+    "zh-rTW",
+    "de",
+    "fr",
+    "ja-rJP",
+    "pt",
+    "es",
+    "it",
+    "ko",
+    "ru",
+    "in",
+    "vi",
+    "hi"
+  ],
+  "i18n_locale_headers": [
+    "values",
+    "values-zh-rCN",
+    "values-zh-rTW",
+    "values-de",
+    "values-fr",
+    "values-ja-rJP",
+    "values-pt",
+    "values-es",
+    "values-it",
+    "values-ko",
+    "values-ru",
+    "values-in",
+    "values-vi",
+    "values-hi"
+  ],
+  "i18n_default_since": "v1.0.0",
+  "i18n_since_column": null,
+  "notes": {
+    "i18n_since": "多语言表暂无版本列；since 统一默认 v1.0.0。后续产品在表内增加「版本/加入版本」列并填值后，重新 sync 即可写入真实版本号"
+  }
+}

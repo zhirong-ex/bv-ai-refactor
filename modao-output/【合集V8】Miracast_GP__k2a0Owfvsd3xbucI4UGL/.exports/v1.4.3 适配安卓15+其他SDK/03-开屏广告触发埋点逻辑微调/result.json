@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUjigAVOlFBfl63",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.3 适配安卓15+其他SDK/03-开屏广告触发埋点逻辑微调",
+  "exportedAt": "2026-08-25T04:16:21.727Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUjigAVWg6119GU",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUjigAVOlFBfl63&canvasId=rcUjigAVWg6119GU",
+      "image": "images/001-页面-1-rcUjigAVWg6119GU.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "1. 相关埋点：app_open_user_trigger\n2. 当前情况：测试从全屏广告页出去，然后回来APP，有开屏广告trigger的埋点\n3. 修改为：排除从全屏广告返回后台，再回到APP内时的开屏广告trigger的埋点\nps：目前的trigger逻辑：会先进行配置、vip、是否有缓存判断，再进入展示判断，展示判断里面会有一些二次重复判断，一定是满足基本的展示条件，才会进展示逻辑\nSplash逻辑：\n1、首页在第一次可见时首先检查是否有缓存，有缓存则直接进入 展示判断逻辑\n2、首页在第一次可见时没有缓存则开始加载，Splash倒计时结束前能加载成功则进入展示判断逻辑\n后台返回逻辑：\n1、从后台回来，有缓存广告，则进入展示判断逻辑\n展示判断逻辑：\n进入就算trigger\n判断是否正在展示插屏广告\n判断是否有可依附的页面\n再次判断配置及广告是否可用（包含缓存）\n判断走loading动画还是直接展示",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 0,
+          "canvasY": 206,
+          "width": 384,
+          "height": 559,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

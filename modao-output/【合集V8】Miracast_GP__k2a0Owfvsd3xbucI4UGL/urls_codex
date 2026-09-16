@@ -1,0 +1,83 @@
+【合集V8】Miracast_GP
+    适配RokuReceiver: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfh9PW6Vk68FRH
+    埋点问题: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV28qbvcwrPcPSK
+    优化安全信号覆盖率: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV2UIf8lXL7pDOa
+v1.5.5 AI代码重构 +首页Banner和Native做测试
+    AI代码重构: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpVStb9nSdoefHMY
+    其它需求在Git上，用AI写了: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpVSthoXEvNTBBL3
+v1.5.4 升级Biling库从8.0.0到8.3.0
+v1.5.3 删除Setting里对AINote和AITranslate的引流
+v1.5.2 Banner代码调整
+    升级AdmobNextGenSDK后的Banner代码重构（使用新API）: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpVGHInLOm9TUS8Z
+v1.5.0 新增设置页面引流
+    新增引流: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9foF56wr42jAp
+v1.4.9 设置页面新增Android Remote引流
+    新增Android Remote: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9NHXDLngNGkE5
+v1.4.8 更新AirPlay Sender SDK
+    更新AirPlay Sender SDK: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV59ZjYm2r3GTZX
+    接入DTExchange: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV59ZZhMjDDI66R
+    没有GDPR埋点: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUzmdf5SXvLObQE
+v1.4.7 解决遗留bug+其他
+    GDPR相关警告修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUzYoqbQ8qz4x9r
+    SDK升级: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUv8AEtndEviBY8
+    解决遗留问题: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuySRsbDAD68K
+    升级billing 8: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHnrYLFbnRW4x
+    开屏动画时长配置: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHo79rOGlmRDF
+    插屏广告前加loading: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHqadmFCSU4Rd
+v1.4.6 接入新AirPlay SDK
+    崩溃修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqz2R79BscWmfS
+    镜像权限有关底层库bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6XqCw7eBF0Tz
+    接入新AirPlay SDK需求概要: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqF3Z023oocsRz
+    设备搜索页面: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqFQRrc3jBHVQS
+        点击Apple TV设备: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QPpKKMO8a91
+        点击Mac设备: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QR49HWJYoEi
+        点击其他AirPlay设备: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QRAt9MEl10M
+    Troubleshoot: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6fDCGcty7yHX
+    删除Apple相关掉线检查逻辑: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUtu7UziLQTp3E6
+v1.4.5 修改关于Admob 新SDK崩溃
+    修改关于Admob 新SDK崩溃: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqVlzsh8hWkHIo
+v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16
+    崩溃修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUkxmOU9A4z4EVP
+    接入Admob新SDK: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUnm3p1Th0qJSh1
+    适配Android 16: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUps5ysykr5qRsS
+v1.4.3 适配安卓15+其他SDK
+    适配安卓15: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUi2a1zc5LP3hQO
+    更新其他SDK: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUi2a27NYs1UaLW
+    开屏广告触发埋点逻辑微调: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUjigAVOlFBfl63
+v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会
+    增加开屏弹出机会: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUdQ9CYE2AReGPi
+    AirPlay sender相关埋点修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUf1vgY9VE0ZvZ7
+    Fire相关埋点: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZwxCruBu5mHRx
+    镜像过程中通知栏点击进入APP: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZkl0gS3f1opOD
+    适配新到设备+相关更新: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUf1vf5sAaMKNIz
+    【新增】开屏广告相关bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfgjExX5pHBWRr
+    【新增】开始镜像后5s超时断开: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfyfPdaVp49wTh
+    【新增】埋点bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUg2wHltAmra89z
+    【新增】录屏权限相关bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ0RY5avgPqzl
+    【新增】Fire镜像相关bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRUt2ymqN93yd
+    【新增】倒计时弹窗需求统一: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRi2PGZo4VXlL
+v1.4.1 AirPlay sender埋点配置修改
+    镜像过程中通知栏点击进入APP: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ9okZ7nyz9izQ
+    AirPlay sender相关埋点修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZAgMhzKMUqeHA
+    其他埋点配置修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ4wMQPe8z12OA
+    设备不支持导致的崩溃: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ3shZ2juyI4Uc
+    【新增】中文文案符号修改: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZHBAW79j1Xogk
+v1.4.0 新增AirPlay sender
+    AirPlay sender内部逻辑: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmc2URnZ9U58cHDNXt
+    设备搜索页面: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmZqURnZ9U9X6kAeY
+        点击Apple TV或Mac设备连接时: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmrgURnZ9UACdeUKD6
+        连接APPLE TV&Mac设备: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOngeURnZ9UCgJ6Lcmn
+    镜像教程页面: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo5wURnZ9UEeILczz5
+    开始镜像页面: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo9UURnZ9UFIWS6uJA
+    检查断连的时机: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUU58vgWdDubWDE
+    Troubleshoot: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpURRNJURnZ9UIQTKJd2z
+    其他: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUNThZURnZ9ULI533NL8
+    插屏广告合规: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUS0synwUWnwOp1
+    Contact us表单: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUSUXB0gGhMFoz
+    新增新用户状态埋点: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUTK78mlZoka6bX
+    【新增】配对连接超时处理: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXSYPIvTFa0rab
+待排期
+    底层库bug: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ4QmLBLfWotJ
+    适配新Tizen系统电视: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfhA57k5ohOl8p
+    【重要】连接设备相关问题: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUaPmfKs504fHTs
+    banner相关Google自动刷新问题: https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXChqfSwrOP87m

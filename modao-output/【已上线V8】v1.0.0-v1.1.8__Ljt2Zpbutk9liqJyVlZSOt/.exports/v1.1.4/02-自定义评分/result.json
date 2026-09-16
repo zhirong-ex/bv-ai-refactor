@@ -1,0 +1,49 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw1i5oVTCSdFSYmsnPB7",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/02-自定义评分",
+  "exportedAt": "2026-08-24T08:45:27.968Z",
+  "pageCount": 3,
+  "pages": [
+    {
+      "id": "sslpw1i5VTCSdFS6rvyY5Z-diagram-1",
+      "title": "自定义评分 — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw1i5oVTCSdFSYmsnPB7&canvasId=sslpw1i5VTCSdFS6rvyY5Z",
+      "image": "images/001-自定义评分-—-1-sslpw1i5VTCSdFS6rvyY5Z-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【设置页面调整】\n「界面」\n1. 新增Rate us选项，排序如图所示，并做功能分类\n「逻辑」\n1. 通过配置控制自定义评分的开关\ntrue：点击rate us，出现自定义评分\nFalse：点击rate us，直接跳转谷歌评分页面",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "sslpw1i5VTCSdFS6rvyY5Z-diagram-2",
+      "title": "自定义评分 — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw1i5oVTCSdFSYmsnPB7&canvasId=sslpw1i5VTCSdFS6rvyY5Z",
+      "image": "images/002-自定义评分-—-2-sslpw1i5VTCSdFS6rvyY5Z-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "sslpw1i5VTCSdFS6rvyY5Z-diagram-3",
+      "title": "自定义评分 — 3",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw1i5oVTCSdFSYmsnPB7&canvasId=sslpw1i5VTCSdFS6rvyY5Z",
+      "image": "images/003-自定义评分-—-3-sslpw1i5VTCSdFS6rvyY5Z-diagram-3.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【自定义评分】\n「界面」\n1. 图标元素：表示赞同、星星\n2. 文案多语言：Mind leaving us a 5-stars review?\n3. 星级状态\n*1～3星：哭脸+比较暗淡的颜色\n*4&5星：笑脸+比较明亮的颜色\n4. 按钮\n「逻辑」\n1. 点击rate us选项，出现自定义评分\n2. 跳转逻辑\n1～3星+confirm：关闭弹窗跳转contact us表单\n4&5星+sure！：关闭弹窗并跳转谷歌评分页面\nMaybe Later：关闭弹窗\n3. 在自定义弹窗出现时，屏蔽系统的返回按钮",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【动画交互】\n1. 背景动画和星星动画是两个独立的动画\n2. 当用户在星星的动画进行中选择星级时，则立刻停止星星动画，并直接展示背景动画的最后呈现画面",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

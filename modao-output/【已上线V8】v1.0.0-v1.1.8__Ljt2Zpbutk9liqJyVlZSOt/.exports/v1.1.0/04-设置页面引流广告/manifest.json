@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwumkVTCSUV2fs9lG4C",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/04-设置页面引流广告",
+  "exportedAt": "2026-08-24T08:36:35.858Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslnmwumVTCSUV3OYlqJhr-diagram-1",
+      "title": "设置页面引流广告",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwumkVTCSUV2fs9lG4C&canvasId=sslnmwumVTCSUV3OYlqJhr",
+      "image": "images/001-设置页面引流广告-sslnmwumVTCSUV3OYlqJhr-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【设置页面—引流】\n「界面」\n1. 引流位排版设计\n2. AD标识设计\n「逻辑」\n1. 8个引流APP的资源都需要新增（后续有新增的APP都需要新增，不仅限于8个），但APP内最多展示5个，展示的APP以及排序根据firebase的配置来展示。\n2. 如果配置了超过5个的APP，则仅展示前5个\n3. 引流资源：Fire Tv、TvCast、Samsung Remote、LG Remote、Roku Remote、Screen Mirror、IPTV、Universal remote",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【系统按钮】\n「界面」\n需要一个背景色，和界面区分",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvdjn78VTCSvTTeFChFB8",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.7（广告警告修改 最终版）/01-关闭所有广告",
+  "exportedAt": "2026-08-24T08:49:16.825Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslvdjn7VTCSvTTiNaGTzR",
+      "title": "关闭所有广告",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvdjn78VTCSvTTeFChFB8&canvasId=sslvdjn7VTCSvTTiNaGTzR",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【关闭所有广告】\nadmob：广告违规，依据cubesolver经验，直接关闭所有广告\n处理方案\n修改线上配置均为false\nmiracast_enable_app_open_ad\nmiracast_enable_mirror_tutorial_native_ad\nmiracast_enable_mirror_page_native_ad\nmiracast_enable_connect_device_interstitial_ad\nmiracast_enable_stop_mirroring_interstitial_ad\nmiracast_enable_click_setting_interstitial_ad\nmiracast_enable_setting_page_banner_ad\n关联小额付费模块，也需要关闭：\nmiracast_enable_purchase_remove_ad\n修改代码层面默认配置均为false\nmiracast_enable_app_open_ad\nmiracast_enable_mirror_tutorial_native_ad\nmiracast_enable_mirror_page_native_ad\nmiracast_enable_connect_device_interstitial_ad\nmiracast_enable_stop_mirroring_interstitial_ad\nmiracast_enable_click_setting_interstitial_ad\nmiracast_enable_setting_page_banner_ad\nmiracast_enable_purchase_remove_ad",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOngeURnZ9UCgJ6Lcmn",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/04-连接APPLE TV&Mac设备",
+  "exportedAt": "2026-08-25T04:27:44.010Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "rcUOng0iURnZ9UD1TuhDlM-diagram-1",
+      "title": "页面 1 — 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOngeURnZ9UCgJ6Lcmn&canvasId=rcUOng0iURnZ9UD1TuhDlM",
+      "image": "images/001-页面-1-—-1-rcUOng0iURnZ9UD1TuhDlM-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【No need连接】\n「逻辑」\n1. 用户点击APPLE TV/Mac设备或关闭提示弹窗后，我们判断到用户是使用no need连接，就直接弹出连接的加载动画\n\ta. 连接成功后，关闭设备连接页面，进入下一级页面",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 406,
+          "canvasY": 179,
+          "width": 296,
+          "height": 244,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUOng0iURnZ9UD1TuhDlM-diagram-2",
+      "title": "页面 1 — 2",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOngeURnZ9UCgJ6Lcmn&canvasId=rcUOng0iURnZ9UD1TuhDlM",
+      "image": "images/002-页面-1-—-2-rcUOng0iURnZ9UD1TuhDlM-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【使用pin码/password连接】\n「界面」\n使用原来的pin码弹窗+password提示链接\n「逻辑」\n1. 用户点击APPLE TV/Mac设备或关闭提示弹窗后，我们判断到用户是使用非no need 进行连接，就弹出pin码/password弹窗\n\ta. 默认弹出全键盘，不限制用户的输入\n\tb. 用户password/pin码输入不完整/错误，点击OK后，关闭password弹窗，弹出错误toast，停留在设备搜索页面\n\tc. 用户点击cancel，则清空输入内容，关闭password/pin码弹窗，停留在设备搜索页面\n2. 点击“Password”，则进入troubleshoot页面并展开对应“忘记密码”的回答\n\tI. 用户从troubleshoot点击左上角返回，返回到【使用pin码/password连接】",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 1204,
+          "canvasY": 0,
+          "width": 393,
+          "height": 454,
+          "embeddedImages": []
+        },
+        {
+          "text": "【文案】\n中文：请输入PIN码/密码\n英文：Please enter the PIN/Password",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 1218,
+          "canvasY": 538,
+          "width": 280,
+          "height": 173,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

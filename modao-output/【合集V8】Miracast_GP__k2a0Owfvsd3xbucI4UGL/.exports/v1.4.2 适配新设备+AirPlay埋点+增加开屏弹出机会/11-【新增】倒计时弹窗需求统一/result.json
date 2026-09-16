@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRi2PGZo4VXlL",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/11-【新增】倒计时弹窗需求统一",
+  "exportedAt": "2026-08-25T04:21:37.033Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUgRi2PMrmIhRmW",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRi2PGZo4VXlL&canvasId=rcUgRi2PMrmIhRmW",
+      "image": "images/001-页面-1-rcUgRi2PMrmIhRmW.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【倒计时弹窗需求统一】\n1. 相关bug：#121\n2. 目前apple弹窗在倒计时过程中返回后台，倒计时不会停止，返回前台时，如果超过5s，则倒计时停止；但是Fire弹窗会重置，即返回前台时，会重复5s倒计时\n3. 统一为：\n\ta. 对于没有自动跳转的弹窗，返回后台，倒计时不会停止，返回前台时，如果超过倒计时时长，则倒计时停止\n\tb. 对于有自动跳转的弹窗，返回后台时，倒计时暂停，返回前台后，则继续倒计时",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 44,
+          "canvasY": 256,
+          "width": 288,
+          "height": 391,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

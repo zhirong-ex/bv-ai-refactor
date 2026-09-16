@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ4QmLBLfWotJ",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/待排期/01-底层库bug",
+  "exportedAt": "2026-08-25T04:39:28.671Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUgQ4QmQMhJQ6gU",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ4QmLBLfWotJ&canvasId=rcUgQ4QmQMhJQ6gU",
+      "image": "images/001-页面-1-rcUgQ4QmQMhJQ6gU.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【底层库相关bug】\n1. 发现版本：v1.4.2\n2. bug详情：在任何场景需要等待结果前（比如开始镜像、连接），返回页面上一层， 过会儿再回来，可能没有相关的UI。比如说，Airplay镜像要等一会才会弹出pin码弹窗，退出去再回来，就没这个事件了，应该是一直在等待，相当于任何会延迟得到结果的事情，再次有可能没恢复。\n3. 可能的解决方案\n\ta. 屏蔽返回——不太合理，打断用户的操作\n\tb. 返回必须断开——比较简单，但是有些草率\n4. 最终的方案\n\ta. v1.4.2埋点看有多少用户，在等待结果前，有返回的行为，依据用户数据，决定是否要修改（相关埋点：click_start_mirroring_page_back）\n\tb. 2025/3/25更新：林哥建议，直接在返回时断开连接",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 14,
+          "canvasY": 159,
+          "width": 367,
+          "height": 452,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

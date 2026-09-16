@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slogs1hsVTCSXC1myliFqq",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.2/01-插屏广告",
+  "exportedAt": "2026-08-24T08:38:52.832Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslogs1hVTCSXC1nagUTAJ",
+      "title": "插屏广告",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slogs1hsVTCSXC1myliFqq&canvasId=sslogs1hVTCSXC1nagUTAJ",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【新增插屏广告】\n「逻辑」\n1. 插屏广告展示位置：\n1.1 连接设备成功后\n1.2 对于LG web OS用户（使用web mirror方案）和Fire Tv用户，在镜像结束，点击“stop mirroring”后\n2. 广告ID：\n1.1 连接设备成功后使用：\nMiracast_connect_device_Ad_Interstitial——ca-app-pub-3925850724927301/4990268539\n1.2 点击“stop mirroring”后使用：\nMiracast_stop_mirroring_Ad_Interstitial——ca-app-pub-3925850724927301/7424860184\n3. 加载逻辑\n3.1 connect：启动APP后，预加载一个插屏广告，消耗一个后等设备断连后，再去加载下一个\n3.2 stop mirror：开始镜像后开始预加载广告，消耗一个后，则等待到下一次开始镜像后开始预加载广告\n3.3 有检查插屏缓存机制，两个位置的缓存不共用\n4. 加载失败逻辑：加载失败后，间隔3s再次尝试加载\n4.1 请求连续加载失败3次（配置可修改），计为1个失败，间隔15s之后继续加载\n4.2 若加载失败后，间隔计时还未到15s/3s，用户就trigger了下一个广告的页面，打断15s/3s的计时，立马加载下一个插屏广告（就是trigger的层级高于15s、3s的间隔计时）\n4.3 连续5个（配置可修改）插屏广告都加载失败，本次启动app都不再加载\n4.4 无网络状态下，不加载广告",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

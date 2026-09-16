@@ -1,0 +1,17 @@
+{
+  "id": "DS-02",
+  "module": "ads-common",
+  "lanhu_name": "Loading",
+  "lanhu_image_id": "eeed56f4-256a-4ec2-9583-a1fa27aedd26",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=eeed56f4-256a-4ec2-9583-a1fa27aedd26",
+  "version_folder": "1.4.2",
+  "compose_target": "AppOpenAdLoadingOverlay",
+  "visual_tokens": {
+    "scrim": "#000000B3",
+    "label": "WELCOME BACK",
+    "dots": ["#4284F4", "#EA4435", "#FBBD06", "#34A853"]
+  },
+  "fetched_at": "2026-09-04T02:45:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

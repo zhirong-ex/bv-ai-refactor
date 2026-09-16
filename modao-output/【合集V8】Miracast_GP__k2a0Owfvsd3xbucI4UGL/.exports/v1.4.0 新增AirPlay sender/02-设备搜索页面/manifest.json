@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmZqURnZ9U9X6kAeY",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/02-设备搜索页面",
+  "exportedAt": "2026-08-25T04:26:07.435Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUOmZqZURnZ9U9fBcrw75-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmZqURnZ9U9X6kAeY&canvasId=rcUOmZqZURnZ9U9fBcrw75",
+      "image": "images/001-页面-1-rcUOmZqZURnZ9U9fBcrw75-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【新增搜索出APPLE设备】\n「界面」\n1. 能搜索到MACBOOK和TV设备\n「逻辑」\n1. 能搜索到MAC和TV设备，设备搜索结果列表排序规则：设备类型>设备名称（其他排序规则不变）\n\ta. 设备类型排序规则：新Samsung>老Samsung>Roku>FireTV>新LG>Android TV>Chromecast>Apple TV>MAC ，所有同类型设备排列在一起\n2. 新增Apple掉线检查逻辑\n\ta. 在WiFi可用状态下，每10秒进行一次：\n\t\tI. 判断设备是否已经60秒没有被二次搜索到了，若已经60秒没二次搜索到，就判定设备掉线，主动删除设备；\n\t\tII. 同时主动发起搜索（发起之后，可以一直接收，不会停止）每搜到一个设备在线时，判断是否是已经缓存过的设备，是，就更新搜索到的时间，不是，就当做新设备添加进来。",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 434,
+          "canvasY": 137,
+          "width": 400,
+          "height": 517,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "DS-07-alt-other",
+  "module": "device-search",
+  "lanhu_name": "device- 其它需要密码弹窗",
+  "image_id": "5b3f9c12-ddac-43de-b7cd-6d94f7ad9ee1",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=5b3f9c12-ddac-43de-b7cd-6d94f7ad9ee1",
+  "version_folder": "1.4.6",
+  "fetched_at": "2026-08-25T10:20:22Z",
+  "mcp": "lanhu",
+  "preview": "preview.png",
+  "error": null
+}

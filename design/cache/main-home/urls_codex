@@ -1,0 +1,14 @@
+# main-home — 蓝湖画板清单（Zhongnan 项目）
+# stage: https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49
+# 版本基准：1.4.2+（同 ads-common Banner 基准；同名画板取较新 image_id）
+#
+version	folder_name	image_id	lanhu_url	ds_id	notes
+1.4.2+	home	296a1ad3-5730-43c0-96a7-4bc02ec7af4f	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=296a1ad3-5730-43c0-96a7-4bc02ec7af4f	DS-01	首页主视觉；无 Banner/Native 底栏
+1.4.2+	home-banner	69b1afe3-1ba3-4e5d-b694-74932bf20314	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=69b1afe3-1ba3-4e5d-b694-74932bf20314	DS-02	Banner 开、Native 关；Banner 槽组件见 ads-common DS-04
+1.4.2+	miracast-native	9cebac73-316a-4750-9807-6ae64f076ac0	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=9cebac73-316a-4750-9807-6ae64f076ac0	DS-03	Home Native loaded（用户入口链接）；与 Banner 互斥
+1.4.2+	home-native-loading	029da343-5216-4ee1-8128-c57147789d92	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=029da343-5216-4ee1-8128-c57147789d92	DS-04	Home Native loading 骨架 + 底栏占位
+1.4.2+	更新	70584691-a642-4198-a7eb-059bdfda0c4d	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=70584691-a642-4198-a7eb-059bdfda0c4d	DS-05	FLEXIBLE 下载完成 RESTART 条（#EBF5FC 底）
+# skipped	home	42014d18-9cda-4930-8374-ae4980c9f16d	—	—	旧版 home，已被 DS-01 替代
+# skipped	home-banner	0d83696d-c41d-4d76-9910-f94e3c7a0e8b	—	—	ads-common DS-04 槽主本；整页构图见 DS-02
+# skipped	home-native-横屏	26e8c532-9d32-44f9-90f8-379b95d7ef8d	—	—	Diff 不出横屏专稿
+# skipped	home-native-更新	d967c2ba-bff7-4fa5-9a68-66ca199b1e20	—	—	组合态；验收叠 DS-03 + DS-05

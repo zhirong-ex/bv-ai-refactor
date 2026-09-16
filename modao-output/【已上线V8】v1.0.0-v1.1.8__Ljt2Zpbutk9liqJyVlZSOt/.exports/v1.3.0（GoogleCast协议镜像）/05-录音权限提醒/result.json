@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvbspbsVTCT3deQebw6wl",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/05-录音权限提醒",
+  "exportedAt": "2026-08-24T08:53:30.809Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslvbspbVTCT3deZgMr6a8-diagram-1",
+      "title": "录音权限提醒",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvbspbsVTCT3deQebw6wl&canvasId=sslvbspbVTCT3deZgMr6a8",
+      "image": "images/001-录音权限提醒-sslvbspbVTCT3deZgMr6a8-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【录音权限提醒】\n「界面」\n1. 弹窗\n2. 文案\n【英文】Remind\n【中文】提示\n【英文】You didn't allow the recording permission, please turn it on in the phone system settings page\n【中文】您之前已经拒绝了录音权限，请在手机系统设置页面中打开它\n【英文】Cancel\n【中文】取消\n【英文】Go Setting\n【中文】去设置\n「逻辑」\n1. 用户拒绝过一次录音权限后，再次打开“sound”开关，则出现权限提示弹窗\n2. 点击cancel关闭弹窗，点击Go setting，关闭弹窗，跳转系统权限设置页面\n2.1 仅能通过cancel关闭弹窗",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

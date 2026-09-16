@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUps5ysykr5qRsS",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16/03-适配Android 16",
+  "exportedAt": "2026-08-25T04:14:07.276Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUps5yt84ehtgHf",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUps5ysykr5qRsS&canvasId=rcUps5yt84ehtgHf",
+      "image": "images/001-页面-1-rcUps5yt84ehtgHf.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【适配安卓16】\n详细见文档：\nhttps://developer.android.com/about/versions/16\n测试注意：主要看功能、UI是否正常",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 53.1300048828125,
+          "canvasY": 311,
+          "width": 287,
+          "height": 230,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

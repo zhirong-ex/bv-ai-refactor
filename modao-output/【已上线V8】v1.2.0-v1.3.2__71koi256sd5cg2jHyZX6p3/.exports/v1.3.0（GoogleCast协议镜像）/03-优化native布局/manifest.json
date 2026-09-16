@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3uweUHG0COkchn4DcW",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/03-优化native布局",
+  "exportedAt": "2026-08-24T10:47:38.077Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslus3uwUHG0COlSUYgITj-diagram-1",
+      "title": "优化native布局",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3uweUHG0COkchn4DcW&canvasId=sslus3uwUHG0COlSUYgITj",
+      "image": "images/001-优化native布局-sslus3uwUHG0COlSUYgITj-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【修改native AD标识宽高】\n「界面」\n1、根据政策，Ad宽高>=15px，图片宽高>=120px；\n「逻辑」\n1、所有native的ad标识都需要修改；\n2、尽量通过原始dp值去做大小，或者通过代码动态计算Dp2Px；",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

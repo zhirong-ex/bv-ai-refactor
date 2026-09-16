@@ -1,0 +1,39 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV2UIf8lXL7pDOa",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/【合集V8】Miracast_GP/03-优化安全信号覆盖率",
+  "exportedAt": "2026-08-25T03:56:05.644Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcV2UIf8oEqwvee6",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV2UIf8lXL7pDOa&canvasId=rcV2UIf8oEqwvee6",
+      "image": "images/001-页面-1-rcV2UIf8oEqwvee6.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "优化安全信号覆盖率\n文档：https://notifications.google.com/g/lp/APy2Ad3ZR0qMRT5_AIC3pL1Mnufr14d4z5h5y8NZsggrTOf1Qc9E07WrmtREwo7qb7kz1fSeKE4DBMaZWamcHnY-_Y_wEVGltD9zKmOxThn0fWvciCtOFgtfpe5XSzoB5ACInIUu2B4nxUIwTLCvajK2er8?tb=ch_landing_page#main_landing\n有问题的广告源：",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 15,
+          "canvasY": 59,
+          "width": 345,
+          "height": 560,
+          "embeddedImages": [
+            "images/sticky-01-01-v2_t5p2xt.png"
+          ]
+        },
+        {
+          "text": "【解决方案——升级SDK】\n1. Nextgen \"0.17.0-alpha02”->\"0.22.0-beta01\"\n2. Meta Audience Network:\"6.20.0.0”->\"6.21.0.0\"\n3. Applovin:\"13.3.1.0”->\"13.5.1.0\"\n4. Inmob:\"10.8.3.1”->\"11.1.0.0\"\n5. pangle：”7.2.0.6.0”->\"7.8.0.7.0\"\n6. Mintegral:\"16.9.71.0”->\"17.0.31.0\"\n7. Vungle:”7.5.0.0”->\"7.6.1.0\"\n8. DTExchange:”8.3.8.0”->\"8.4.1.0\"",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 378,
+          "canvasY": 178,
+          "width": 362,
+          "height": 307,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

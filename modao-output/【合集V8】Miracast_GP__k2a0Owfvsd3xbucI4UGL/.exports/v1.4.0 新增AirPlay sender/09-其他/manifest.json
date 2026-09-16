@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUNThZURnZ9ULI533NL8",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/09-其他",
+  "exportedAt": "2026-08-25T04:31:02.087Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUNThZdURnZ9ULOsapfd4",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUNThZURnZ9ULI533NL8&canvasId=rcUNThZdURnZ9ULOsapfd4",
+      "image": "images/001-页面-1-rcUNThZdURnZ9ULOsapfd4.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【bug】\n1. 连接LG webos设备，TV端在开始镜像时，会在底部短时间出现日志框（需要隐藏）\n2. 启动APP后，首次进入设备搜索页面，搜不到chromecast设备（需要首次进入时就能正常搜索）",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 46,
+          "width": 280,
+          "height": 223,
+          "embeddedImages": []
+        },
+        {
+          "text": "【设置页面】\n「UI」\n引流放在用户协议和隐私条款前面",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 275,
+          "width": 280,
+          "height": 160,
+          "embeddedImages": []
+        },
+        {
+          "text": "【接入新广告源】\n「逻辑」\n接入vungleSDK\n需要辉辉配置后台",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 444,
+          "width": 280,
+          "height": 265,
+          "embeddedImages": []
+        },
+        {
+          "text": "【新增开屏广告埋点】\ntbc开始做埋点之前，需要和PM核对一些之前的连接埋点逻辑",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 609,
+          "width": 280,
+          "height": 139,
+          "embeddedImages": []
+        },
+        {
+          "text": "优先级：\n开屏广告>GDPR>订阅>插屏广告>系统版本更新弹窗>评分\n（但是只要有评分，就不能出现插屏广告）\n（补刀开屏展示在最前，即如果补刀开屏和pro、评分等重叠，就优先展示补刀开屏，但是如果是补刀开屏和插屏重叠，当次就不展示补刀开屏，等下一次符合条件时展示）",
+          "author": "",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 768,
+          "width": 307,
+          "height": 221,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

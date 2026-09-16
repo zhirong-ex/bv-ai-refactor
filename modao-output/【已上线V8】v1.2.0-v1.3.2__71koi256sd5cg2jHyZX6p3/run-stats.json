@@ -1,0 +1,131 @@
+{
+  "schema": "bv-modao2prd-run-stats/v1",
+  "output_dir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+  "sharing_url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only",
+  "runs": [
+    {
+      "pipeline": "bv-modao2prd",
+      "started_at": "2026-08-24T10:41:56Z",
+      "finished_at": "2026-08-24T10:51:46Z",
+      "elapsed_sec": 590,
+      "elapsed_min": 9.83,
+      "sharing_url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only",
+      "version_filter": null,
+      "phases_sec": {
+        "urls_codex": 0,
+        "export": 590,
+        "build_prd": 0
+      },
+      "canvases": {
+        "total": 14,
+        "exported": 14,
+        "skipped": 0,
+        "failed": 0
+      },
+      "avg_exported_canvas_sec": 42,
+      "per_canvas": [
+        {
+          "folder": "v1.2.0",
+          "name": "对接FireMirrorReceiver",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.2.0",
+          "name": "LG_webOS镜像调整",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.2.0",
+          "name": "镜像准备动画",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.2.0",
+          "name": "录音权限弹窗逻辑",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.2.0",
+          "name": "录音权限提醒",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.3.0（GoogleCast协议镜像）",
+          "name": "GoogleCast协议镜像",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.0（GoogleCast协议镜像）",
+          "name": "镜像超时",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.0（GoogleCast协议镜像）",
+          "name": "优化native布局",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.3.0（GoogleCast协议镜像）",
+          "name": "相关改动",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.0（GoogleCast协议镜像）",
+          "name": "插屏广告合规",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.1 campaign参数获取尝试",
+          "name": "标记主页",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改",
+          "name": "其他",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改",
+          "name": "设置页面引流方式调整",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改",
+          "name": "插屏广告加载动效",
+          "skipped": false,
+          "failed": false,
+          "sec": 18
+        }
+      ]
+    }
+  ],
+  "cumulative_export_sec": 590,
+  "last_run_at": "2026-08-24T10:51:46Z",
+  "last_run_elapsed_min": 9.83
+}

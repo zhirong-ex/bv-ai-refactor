@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slv6dpwyUHG0COpHCbMHVG",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/04-相关改动",
+  "exportedAt": "2026-08-24T10:47:59.073Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslv6dpwUHG0COqjLJByG",
+      "title": "相关改动",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slv6dpwyUHG0COpHCbMHVG&canvasId=sslv6dpwUHG0COqjLJByG",
+      "image": "images/001-相关改动-sslv6dpwUHG0COqjLJByG.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【增加Google Mirror Sender改动】\n1.\n\ta.\n2. 之前Firetv、WebMirror各自持有了一套录屏库，现在准备移除掉各自的录屏库采用安卓这边整理的一套独立的录屏库，于是要先修改之前的发送的库\n测试注意：把所有Mirror的情况都跑一边",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpvzw3qVTCSdFCOTRrPmR",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/01-GP系统评分",
+  "exportedAt": "2026-08-24T08:44:42.279Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslpvzw3VTCSdFCAn4x3kv-diagram-1",
+      "title": "GP系统评分",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpvzw3qVTCSdFCOTRrPmR&canvasId=sslpvzw3VTCSdFCAn4x3kv",
+      "image": "images/001-GP系统评分-sslpvzw3VTCSdFCAn4x3kv-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【GP评分】\n「逻辑」\n1. 一次新安装或一个新版本内，用户首次连接设备成功的前3天，连接页面自动关闭后，弹出GP评分，一次安装或一个新版本内只能弹出三次\n（单天内最多触发一次，即用户单天内成功连接设备5次，但只有第一次会触发GP评分请求）\n2. 优先级：GDPR>评分>广告，如果评分界面和广告冲突，则只展示评分，GDPR不限制，但GDPR不会和其他弹窗同时出现\n2.1 触发GP评分时，连接设备成功后的插屏和教程页面的native都不展示\n2.2 如果判定本次会触发GP系统评分，则不同时去请求native（即不会同时去请求GP评分和教程页面的native）\n*如果用户关闭了系统评分，则可以继续请求该位置的naive\n3. 通过配置控制GP评分开关",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

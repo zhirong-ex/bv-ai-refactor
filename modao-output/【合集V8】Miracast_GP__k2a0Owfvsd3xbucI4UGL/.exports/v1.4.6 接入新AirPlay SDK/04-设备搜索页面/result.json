@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqFQRrc3jBHVQS",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/04-设备搜索页面",
+  "exportedAt": "2026-08-25T06:09:01.370Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUqFQRrku0rnWYS-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqFQRrc3jBHVQS&canvasId=rcUqFQRrku0rnWYS",
+      "image": "images/001-页面-1-rcUqFQRrku0rnWYS-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【设备搜索页面】\n「UI」\n1. 新增设备：新Samsung>老Samsung>Roku>FireTV>新LG>Android TV>Chromecast>Apple TV>MAC >其他适配AirPlay的设备，所有同类型设备排列在一起\n2. 设备显示样式调整\n\ta. 设备名称+设备适配协议\n\tb. 可展示的协议（相关协议不用做多语言）\n\t\tI. 新Samsung、老Samsung、roku、Android TV：Miracast\n\t\tII. Fire TV设备：FireTV\n\t\tIII. Chromecast设备：Chromecast\n\t\tIV. 新LG设备：WebOS\n\t\tV. Apple TV、MAC 、其他适配AirPlay的设备：AirPlay\n\t\t「逻辑」\n1. 新增设备：新Samsung>老Samsung>Roku>FireTV>新LG>Android TV>Chromecast>Apple TV>MAC >其他适配AirPlay的设备，所有同类型设备排列在一起\n2. 设备显示样式调整\n\ta. 设备名称+设备适配协议（最多只能展示1种协议）\n\tb. 可展示的协议（相关协议不用做多语言）\n\t\tI. 新Samsung、老Samsung、roku、Android TV：Miracast\n\t\tII. Fire TV设备：FireTV\n\t\tIII. Chromecast设备：Chromecast\n\t\tIV. 新LG设备：WebOS\n\t\tV. Apple TV、MAC 、其他适配AirPlay的设备：AirPlay",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 416,
+          "canvasY": 18,
+          "width": 451,
+          "height": 655,
+          "embeddedImages": []
+        },
+        {
+          "text": "v1.1.0 删除了chromecast重名设备，现在因为添加了协议区分，所以不用删除了",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 423,
+          "canvasY": 711,
+          "width": 434,
+          "height": 139,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

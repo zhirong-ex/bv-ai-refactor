@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw6i32VTCSdFr8qEJoKJ",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/03-新增获取用户设备信息埋点",
+  "exportedAt": "2026-08-24T08:46:12.730Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslpw6i3VTCSdFrNHDIJ73",
+      "title": "新增获取用户设备信息埋点",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slpw6i32VTCSdFr8qEJoKJ&canvasId=sslpw6i3VTCSdFrNHDIJ73",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【新增获取用户设备信息埋点】\n1. 用户打开APP就开始回传，搜索到一个设备就传一个，在一次installs内，需要去重，只回传一次\n2. 设备信息：类型～manufacturer～modelName～modelNumber～friendlyName～sec:ProductCap～最后有空位的话，返回详细类型信息\n（拿不到的部分X代替）\n类型：1: DIAL；2: DLNA；3: ROKU；4: WEBOS；5: Samsung legacy\nmanufacturer：厂商\nmodelName&modelNumber\nfriendlyName：用户自定义设备名称，老设备可能不支持自定义修改设备名称，所以拿到的是设备型号\nsec:ProductCap：大概率只有samsung设备有",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

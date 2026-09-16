@@ -1,0 +1,12 @@
+{
+  "id": "DS-05",
+  "module": "ads-common",
+  "lanhu_name": "setting-引流-banner",
+  "lanhu_image_id": "bd7469f1-ab04-4b23-9d7b-17fa07669492",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=bd7469f1-ab04-4b23-9d7b-17fa07669492",
+  "version_folder": "1.4.2",
+  "compose_target": "BannerAdSlot (Setting)",
+  "fetched_at": "2026-09-04T02:45:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

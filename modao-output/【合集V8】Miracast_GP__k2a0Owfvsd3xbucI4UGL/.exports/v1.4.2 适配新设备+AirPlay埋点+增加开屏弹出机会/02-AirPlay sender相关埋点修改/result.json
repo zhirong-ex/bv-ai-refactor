@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUf1vgY9VE0ZvZ7",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/02-AirPlay sender相关埋点修改",
+  "exportedAt": "2026-08-25T04:17:01.674Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUf1vgYCrJsYT5F",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUf1vgY9VE0ZvZ7&canvasId=rcUf1vgYCrJsYT5F",
+      "image": "images/001-页面-1-rcUf1vgYCrJsYT5F.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【埋点】\n1. connect_apple_tv_plan，再次细分参数：status，将超时拆分\n2. 重埋apple_other_click_stop_mirror埋点\n3. 少了一个other设备的连接方式埋点\n（具体见埋点表）",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 114,
+          "width": 359,
+          "height": 358,
+          "embeddedImages": [
+            "images/sticky-01-01-v2_ssxr82.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

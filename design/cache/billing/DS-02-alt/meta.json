@@ -1,0 +1,17 @@
+{
+  "id": "DS-02-alt",
+  "module": "billing",
+  "lanhu_name": "pro-Funny Version-loading",
+  "lanhu_image_id": "d4555d86-bbcb-4ce9-b8f3-03626cea1482",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d4555d86-bbcb-4ce9-b8f3-03626cea1482",
+  "version_folder": "v1.1.3",
+  "compose_target": "presentation/screen/billing/ui/BillingPurchaseButton.kt",
+  "visual_tokens": {
+    "loading_scrim": "#D6E4EFE6",
+    "loading_icon": "沙漏 / hourglass",
+    "purchase_button": "#1F2123"
+  },
+  "fetched_at": "2026-09-04T05:50:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUkxmOU9A4z4EVP",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16/01-崩溃修改",
+  "exportedAt": "2026-08-25T04:12:55.532Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUkxmOUGrJktknz-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUkxmOU9A4z4EVP&canvasId=rcUkxmOUGrJktknz",
+      "image": "images/001-页面-1-rcUkxmOUGrJktknz-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【Fire相关崩溃修改】\n崩溃详情：查询Firetv上firemirrorReceiver版本时会有崩溃\n测试注意：按理说触发不到，但是还是可以重点走一下Fire镜像的流程",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 79,
+          "canvasY": 229,
+          "width": 336,
+          "height": 212,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpVGHInLOm9TUS8Z",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.5.2 Banner代码调整/01-升级AdmobNextGenSDK后的Banner代码重构（使用新API）",
+  "exportedAt": "2026-08-25T03:57:49.268Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rbpVGHInLOm9TUS8Z",
+      "title": "rbpVGHInLOm9TUS8Z",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpVGHInLOm9TUS8Z",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【更新AdmobNextGenSDK之后，Banner广告有新的API，需要做相应调整】\n【版本内容】\n1. Banner广告代码重构（包含使用新的API）\n\ta. 自适应Banner的大小调整\n\t\tI. 原：最高不超过屏幕高度的15%，最小50像素\n\t\tII. 新：最高不超过屏幕高度的20%，最小50-150密度无关像素之间\n2. 新增Banner广告的埋点，包含了手动加载和自动刷新的全过程，详情见埋点表\n【给产品的备注】\n1. 此版本上线之后，Miracast会再发一个包，来对比Native广告和新的Banner广告的价值，来决定使用什么广告格式\n2. 未来其他产品改NextGen的时候，要注意Banner广告大小的关联影响\n\ta. 其他产品使用Banner的页面，放这么大的Banner会影响功能使用\n\t\tI. 目前确定的是如果要用原来的Banner，就还是要用原来的API",
+          "author": "彭俊辉",
+          "kind": "",
+          "canvasX": 380,
+          "canvasY": 340,
+          "width": 734,
+          "height": 568,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnu2syzVTCSUVruVegNeM",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/02-GDPR",
+  "exportedAt": "2026-08-24T08:35:04.599Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslnu2syVTCSUVrfNWj4KJ",
+      "title": "GDPR",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnu2syzVTCSUVruVegNeM&canvasId=sslnu2syVTCSUVrfNWj4KJ",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【GDPR】\n1. GDPR流程整体改为异步，应用启动的时候从后台获取数据。GDPR获取数据回来的时候，如果还在开屏阶段，未进入主页，则等待进入主页的时候再弹出（避免和开屏动画及开屏广告冲突）。\n2. 如果已经结束了开屏阶段，则GDPR立即弹出。此时正在展示插屏广告的话，则弹出的界面在插屏广告之下，用户手动关闭插屏广告之后即可操作\n3. 对于不支持GDPR的国家，因为已经改成异步，因此从GDPR后台数据可以判定不支持，不会弹出对话框，也不会增加等待时间，因此用户无感。不用特殊处理",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

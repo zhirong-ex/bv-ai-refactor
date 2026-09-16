@@ -1,0 +1,69 @@
+>>> Version filter: v1.4.6 接入新AirPlay SDK
+>>> Folder: v1.4.6 接入新AirPlay SDK
+=== [1] v1.4.6 接入新AirPlay SDK / 崩溃修改 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/01-崩溃修改"
+}
+=== [1] done in 48s ===
+=== [2] v1.4.6 接入新AirPlay SDK / 镜像权限有关底层库bug ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/02-镜像权限有关底层库bug"
+}
+=== [2] done in 46s ===
+=== [3] v1.4.6 接入新AirPlay SDK / 接入新AirPlay SDK需求概要 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/03-接入新AirPlay SDK需求概要"
+}
+=== [3] done in 45s ===
+=== [4] v1.4.6 接入新AirPlay SDK / 设备搜索页面 ===
+{
+  "pageCount": 1,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/04-设备搜索页面"
+}
+=== [4] done in 48s ===
+=== [5] v1.4.6 接入新AirPlay SDK / 点击Apple TV设备 ===
+{
+  "pageCount": 3,
+  "annotationCount": 6,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/05-点击Apple TV设备"
+}
+=== [5] done in 46s ===
+=== [6] v1.4.6 接入新AirPlay SDK / 点击Mac设备 ===
+{
+  "pageCount": 3,
+  "annotationCount": 7,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/06-点击Mac设备"
+}
+=== [6] done in 47s ===
+=== [7] v1.4.6 接入新AirPlay SDK / 点击其他AirPlay设备 ===
+{
+  "pageCount": 2,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/07-点击其他AirPlay设备"
+}
+=== [7] done in 46s ===
+=== [8] v1.4.6 接入新AirPlay SDK / Troubleshoot ===
+{
+  "pageCount": 1,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/08-Troubleshoot"
+}
+=== [8] done in 46s ===
+=== [9] v1.4.6 接入新AirPlay SDK / 删除Apple相关掉线检查逻辑 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/09-删除Apple相关掉线检查逻辑"
+}
+=== [9] done in 45s ===
+>>> Building PRD markdown files...
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.6 接入新AirPlay SDK.md (9 canvases, relative images)
+Done. Exported 9 new, skipped 0, failed 0 / 9 canvases into /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL
+>>> Export phase: 417s | Build PRD: 0s | Total (incl. urls_codex): 417s (~6.95 min)

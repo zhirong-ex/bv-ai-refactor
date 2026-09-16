@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy11cxVTCSMPFMT06IvV",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/05-Searching",
+  "exportedAt": "2026-08-24T08:30:27.235Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "ssljy11cVTCSMPFWsmkDgS",
+      "title": "Searching",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy11cxVTCSMPFMT06IvV&canvasId=ssljy11cVTCSMPFWsmkDgS",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【搜索中页面】\n「逻辑」\n可能会出现搜索中的符号情况：\n1、空列表，搜索中，如图\n2、搜索中陆续有搜索结果时，依次展示搜索出来的结果列表\n3、有搜索结果列表时，进入搜索界面开始搜索状态，搜索结果列表与搜索中共存，并根据搜索的情况更新结果列表\n设备搜索结果列表排序规则：设备类型>设备名称\n1、设备类型排序规则：新Samsung>老Samsung>Roku>FireTV>新LG、Android TV>Chromecast，所有同类型设备排列在一起\n2、设备名称排序规则：按照设备名称首字母排序，英文字母>其他语言>符号\n2.1 字母类型内按照a-z排序；其他语言同类型语言排在一起，语言的类型的排序开发可自定义；同类符号排一起，具体的符号之间的排序开发自定义。",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

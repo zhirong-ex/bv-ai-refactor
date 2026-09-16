@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvbp0s3VTCSrEGxDaoRDO",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.6 （广告警告修改2.0）/01-广告违规",
+  "exportedAt": "2026-08-24T08:48:30.484Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslvbp0sVTCSrEHmabfBM9",
+      "title": "广告违规",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slvbp0s3VTCSrEGxDaoRDO&canvasId=sslvbp0sVTCSrEHmabfBM9",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【广告违规】\n违规内容：广告或付费宣传内容所占版面超过发布商内容\n涉及位置：开屏、首页native、搜索设备页面native\n处理方案\n修改线上配置均为false\nmiracast_enable_home_page_native_ad\nmiracast_enable_search_device_native_ad\n修改代码层面默认配置均为false\nmiracast_enable_home_page_native_ad\nmiracast_enable_search_device_native_ad",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

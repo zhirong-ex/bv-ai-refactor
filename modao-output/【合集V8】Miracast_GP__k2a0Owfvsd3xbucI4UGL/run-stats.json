@@ -1,0 +1,583 @@
+{
+  "schema": "bv-modao2prd-run-stats/v1",
+  "output_dir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+  "sharing_url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV28qbvcwrPcPSK",
+  "runs": [
+    {
+      "pipeline": "bv-modao2prd",
+      "started_at": "2026-08-25T03:54:02Z",
+      "finished_at": "2026-08-25T04:41:46Z",
+      "elapsed_sec": 2864,
+      "elapsed_min": 47.73,
+      "sharing_url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV28qbvcwrPcPSK",
+      "version_filter": null,
+      "phases_sec": {
+        "urls_codex": 0,
+        "export": 2864,
+        "build_prd": 0
+      },
+      "canvases": {
+        "total": 66,
+        "exported": 66,
+        "skipped": 0,
+        "failed": 0
+      },
+      "avg_exported_canvas_sec": 43.36,
+      "per_canvas": [
+        {
+          "folder": "【合集V8】Miracast_GP",
+          "name": "适配RokuReceiver",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "【合集V8】Miracast_GP",
+          "name": "埋点问题",
+          "skipped": false,
+          "failed": false,
+          "sec": 51
+        },
+        {
+          "folder": "【合集V8】Miracast_GP",
+          "name": "优化安全信号覆盖率",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.5.5 AI代码重构 +首页Banner和Native做测试",
+          "name": "AI代码重构",
+          "skipped": false,
+          "failed": false,
+          "sec": 18
+        },
+        {
+          "folder": "v1.5.5 AI代码重构 +首页Banner和Native做测试",
+          "name": "其它需求在Git上，用AI写了",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.5.2 Banner代码调整",
+          "name": "升级AdmobNextGenSDK后的Banner代码重构（使用新API）",
+          "skipped": false,
+          "failed": false,
+          "sec": 16
+        },
+        {
+          "folder": "v1.5.0 新增设置页面引流",
+          "name": "新增引流",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.9 设置页面新增Android Remote引流",
+          "name": "新增Android Remote",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.8 更新AirPlay Sender SDK",
+          "name": "更新AirPlay Sender SDK",
+          "skipped": false,
+          "failed": false,
+          "sec": 44
+        },
+        {
+          "folder": "v1.4.8 更新AirPlay Sender SDK",
+          "name": "接入DTExchange",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.8 更新AirPlay Sender SDK",
+          "name": "没有GDPR埋点",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "GDPR相关警告修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "SDK升级",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "解决遗留问题",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "升级billing 8",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "开屏动画时长配置",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.7 解决遗留bug+其他",
+          "name": "插屏广告前加loading",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "崩溃修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "镜像权限有关底层库bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "接入新AirPlay SDK需求概要",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "设备搜索页面",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击Apple TV设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击Mac设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击其他AirPlay设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "Troubleshoot",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "删除Apple相关掉线检查逻辑",
+          "skipped": false,
+          "failed": false,
+          "sec": 20
+        },
+        {
+          "folder": "v1.4.5 修改关于Admob 新SDK崩溃",
+          "name": "修改关于Admob 新SDK崩溃",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16",
+          "name": "崩溃修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16",
+          "name": "接入Admob新SDK",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16",
+          "name": "适配Android 16",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.3 适配安卓15+其他SDK",
+          "name": "适配安卓15",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.3 适配安卓15+其他SDK",
+          "name": "更新其他SDK",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.4.3 适配安卓15+其他SDK",
+          "name": "开屏广告触发埋点逻辑微调",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "增加开屏弹出机会",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "AirPlay sender相关埋点修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "Fire相关埋点",
+          "skipped": false,
+          "failed": false,
+          "sec": 18
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "镜像过程中通知栏点击进入APP",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "适配新到设备+相关更新",
+          "skipped": false,
+          "failed": false,
+          "sec": 15
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】开屏广告相关bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】开始镜像后5s超时断开",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】埋点bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 18
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】录屏权限相关bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】Fire镜像相关bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+          "name": "【新增】倒计时弹窗需求统一",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.1 AirPlay sender埋点配置修改",
+          "name": "镜像过程中通知栏点击进入APP",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.1 AirPlay sender埋点配置修改",
+          "name": "AirPlay sender相关埋点修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.1 AirPlay sender埋点配置修改",
+          "name": "其他埋点配置修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.1 AirPlay sender埋点配置修改",
+          "name": "设备不支持导致的崩溃",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.1 AirPlay sender埋点配置修改",
+          "name": "【新增】中文文案符号修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "AirPlay sender内部逻辑",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "设备搜索页面",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "点击Apple TV或Mac设备连接时",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "连接APPLE TV&Mac设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "镜像教程页面",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "开始镜像页面",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "检查断连的时机",
+          "skipped": false,
+          "failed": false,
+          "sec": 18
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "Troubleshoot",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "其他",
+          "skipped": false,
+          "failed": false,
+          "sec": 320
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "插屏广告合规",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "Contact us表单",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "新增新用户状态埋点",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.0 新增AirPlay sender",
+          "name": "【新增】配对连接超时处理",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "待排期",
+          "name": "底层库bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "待排期",
+          "name": "适配新Tizen系统电视",
+          "skipped": false,
+          "failed": false,
+          "sec": 19
+        },
+        {
+          "folder": "待排期",
+          "name": "【重要】连接设备相关问题",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "待排期",
+          "name": "banner相关Google自动刷新问题",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        }
+      ]
+    },
+    {
+      "pipeline": "bv-modao2prd",
+      "started_at": "2026-08-25T06:13:13Z",
+      "finished_at": "2026-08-25T06:13:13Z",
+      "elapsed_sec": 417,
+      "elapsed_min": 6.95,
+      "sharing_url": null,
+      "version_filter": [
+        "v1.4.6 接入新AirPlay SDK"
+      ],
+      "phases_sec": {
+        "urls_codex": 0,
+        "export": 417,
+        "build_prd": 0
+      },
+      "canvases": {
+        "total": 9,
+        "exported": 9,
+        "skipped": 0,
+        "failed": 0
+      },
+      "avg_exported_canvas_sec": 46.33,
+      "per_canvas": [
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "崩溃修改",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "镜像权限有关底层库bug",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "接入新AirPlay SDK需求概要",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "设备搜索页面",
+          "skipped": false,
+          "failed": false,
+          "sec": 48
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击Apple TV设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击Mac设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 47
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "点击其他AirPlay设备",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "Troubleshoot",
+          "skipped": false,
+          "failed": false,
+          "sec": 46
+        },
+        {
+          "folder": "v1.4.6 接入新AirPlay SDK",
+          "name": "删除Apple相关掉线检查逻辑",
+          "skipped": false,
+          "failed": false,
+          "sec": 45
+        }
+      ]
+    }
+  ],
+  "cumulative_export_sec": 3281,
+  "last_run_at": "2026-08-25T06:13:13Z",
+  "last_run_elapsed_min": 6.95
+}

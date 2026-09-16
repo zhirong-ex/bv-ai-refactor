@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "bv-refactor-pipeline project config",
+  "type": "object",
+  "required": ["id", "specRepo", "androidProject", "gitBranch", "modules"],
+  "properties": {
+    "id": { "type": "string" },
+    "displayName": { "type": "string" },
+    "specRepo": { "type": "string" },
+    "androidProject": { "type": "string" },
+    "workspace": { "type": "string" },
+    "gitBranch": { "type": "string" },
+    "startFrom": {
+      "enum": [
+        "modao",
+        "reconcile",
+        "spec",
+        "table-sync",
+        "design",
+        "work-plan",
+        "compose",
+        "spec-lite"
+      ]
+    },
+    "modules": { "type": "array", "items": { "type": "string" } },
+    "modao": {
+      "type": "object",
+      "properties": {
+        "sharingUrls": { "type": "array", "items": { "type": "string" } },
+        "reconcile": { "type": "string" }
+      }
+    },
+    "feishu": {
+      "type": "object",
+      "properties": {
+        "configSheet": { "type": "string" },
+        "analyticsSheet": { "type": "string" },
+        "i18nSheet": { "type": "string" },
+        "appVersion": { "type": "string" }
+      }
+    },
+    "lanhu": {
+      "type": "object",
+      "properties": {
+        "stageUrl": { "type": "string" }
+      }
+    },
+    "compose": {
+      "type": "object",
+      "properties": {
+        "autoCommit": { "type": "boolean" },
+        "push": { "type": "boolean" },
+        "pushBranchPattern": { "type": "string" }
+      }
+    },
+    "finishWith": { "enum": ["spec-lite", "none"] }
+  }
+}

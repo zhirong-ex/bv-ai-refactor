@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy11iyVTCSMPXMZyikTI",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/06-No Device",
+  "exportedAt": "2026-08-24T08:31:18.339Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "ssljy11iVTCSMPX1P2RUmM",
+      "title": "No Device",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy11iyVTCSMPXMZyikTI&canvasId=ssljy11iVTCSMPX1P2RUmM",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【搜索不到设备】\n「界面」\n页面设计\n「逻辑」\n1. 打开搜索界面后，10s搜索不出来设备或在设备搜索结果页面10s无任何操作时，弹出提示，文案如图，继续保持搜索状态。\n2. 出现有无设备提示后，关闭搜索界面，再打开搜索界面，则提示消失，重新开始搜索，10s搜索不出来设备或在设备搜索结果页面10s无任何操作时再出现\n3. 出现有无设备提示框后，如果搜索到了任意新设备或用户有点击任意设备的操作，则提示消失\n4. 点击“Contact Us”跳转Google表单",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

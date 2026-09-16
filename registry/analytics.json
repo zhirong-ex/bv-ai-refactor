@@ -1,0 +1,2826 @@
+[
+  {
+    "event": "open_app",
+    "trigger": "用户启动app时",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "last_days_logon",
+        "type": "number",
+        "unit": "天",
+        "description": "距离上次打开app间隔天数"
+      }
+    ],
+    "note": "App使用情况\n页面: 首页\n启动app\n状态事件"
+  },
+  {
+    "event": "downloader_system",
+    "trigger": "下载的用户启动APP获取到系统版本信息时（不与页面绑定）",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "values": [
+          ">=android_14",
+          ">=android_11&<android_14",
+          "<android_11"
+        ],
+        "descriptions": [
+          "下载的用户的系统大于等于14",
+          "下载的用户的系统大于等于11且小于14",
+          "下载的用户的系统小于11"
+        ]
+      }
+    ],
+    "note": "新下载用户状态监控\n页面: 其他\n下载用户的系统版本监控\n状态事件"
+  },
+  {
+    "event": "new_downloader_write_file_in",
+    "trigger": "新下载的用户启动APP写入文件有结果时（不与页面绑定）\n（只有新用户才需要上传，回归用户不用上传）",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "毫秒",
+        "description": "成功写入文件耗时（仅写入文件成功时返回该值）"
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "success",
+          "failed"
+        ],
+        "descriptions": [
+          "写入文件成功",
+          "写入文件失败"
+        ]
+      }
+    ],
+    "note": "（>=android_11）新下载用户在手机的公共存储位置music或movie写入一个空目录\n（只有新用户才需要上传，回归用户不用上传）\n状态事件"
+  },
+  {
+    "event": "downloader_status",
+    "trigger": "下载的用户启动APP获取到用户状态时（不与页面绑定）",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "not_returning",
+          "returning_2",
+          "returning_3",
+          "returning_n"
+        ],
+        "descriptions": [
+          "该用户是非回归用户（第一次下载APP，手机内无BV文件夹）",
+          "该用户是第二次下载的回归用户（手机内有BV文件 .VERS6-1）",
+          "该用户是第三次下载的回归用户（手机内有BV文件 .VERS6-2）",
+          "该用户是第四～n次下载的回归用户（手机内有BV文件 .VERS6-3 ）"
+        ]
+      },
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "时",
+        "description": "距离上次安装app间隔小时数（仅回归用户返回该值）"
+      }
+    ],
+    "note": "（>=android_11）下载用户的用户状态\n状态事件"
+  },
+  {
+    "event": "enter_home_page",
+    "trigger": "用户进入首页时（只有用户看见首页时才埋）",
+    "since": "v1.4.0",
+    "note": "进入首页\n页面: 首页\n进入首页\n状态事件"
+  },
+  {
+    "event": "custom_rate_us",
+    "trigger": "弹出自定义评分界面",
+    "since": "v1.1.4",
+    "params": [
+      {
+        "label": "",
+        "type": "",
+        "description": "选择的星星数"
+      }
+    ],
+    "note": "评分\n页面: 自定义评分\n弹出自定义评分界面\n状态事件"
+  },
+  {
+    "event": "rate_star",
+    "trigger": "",
+    "since": "v1.1.4",
+    "params": [
+      {
+        "label": "star_count",
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "note": "选择的星星数量\n点击事件"
+  },
+  {
+    "event": "custom_rate_submit",
+    "trigger": "提交自定义评分时",
+    "since": "v1.1.4",
+    "params": [
+      {
+        "label": "star_count",
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "descriptions": [
+          "选择的星星数量"
+        ]
+      }
+    ],
+    "note": "提交评分时，选择的星星数量\n状态时间"
+  },
+  {
+    "event": "custom_rate_cancel",
+    "trigger": "点击取消评分",
+    "since": "v1.1.4",
+    "note": "取消自定义评分面板\n点击事件"
+  },
+  {
+    "event": "gdpr_request_success_loading_failed",
+    "trigger": "GDPR有结果时",
+    "since": "v1.4.8",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒"
+      }
+    ],
+    "note": "GDPR从加载到展示情况\n页面: 其他页面\nGDPR失败：请求成功+下载失败\n状态事件"
+  },
+  {
+    "event": "gdpr_request_success_no_gdpr_failed",
+    "trigger": "",
+    "since": "v1.4.8",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒"
+      }
+    ],
+    "note": "GDRR失败：请求成功+no GDPR\n状态事件"
+  },
+  {
+    "event": "gdpr_request_failed",
+    "trigger": "",
+    "since": "v1.4.8",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒"
+      }
+    ],
+    "note": "GDPR失败：请求失败\n状态事件"
+  },
+  {
+    "event": "gdpr_request_success_loading_success",
+    "trigger": "",
+    "since": "v1.4.8",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒"
+      }
+    ],
+    "note": "GDPR成功：请求成功+下载成功\n状态事件"
+  },
+  {
+    "event": "rate_system",
+    "trigger": "弹出系统评分界面",
+    "since": "v1.1.4",
+    "note": "系统评分\n页面: 谷歌评分\n弹出谷歌系统评分界面\n状态事件"
+  },
+  {
+    "event": "user_device_detail",
+    "trigger": "用户打开APP后就开始回传",
+    "since": "v1.1.4",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "value": "设备信息：类型～manufacturer～modelName～modelNumber～friendlyName～sec:ProductCap～最后有空位的话，返回详细类型信息\n（拿不到的部分X代替）",
+        "description": "用户打开APP就开始回传，搜索到一个设备就传一个，在一次installs内，需要去重，只回传一次。\n类型定义：1: DIAL；2: DLNA；3: ROKU；4: WEBOS；5: Samsung legacy"
+      }
+    ],
+    "note": "获取用户设备信息\n页面: 其他页面\n获取用户设备信息\n状态事件"
+  },
+  {
+    "event": "apple_user_device_detail",
+    "trigger": "用户打开APP后就开始回传",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "value": "modelName",
+        "description": "用户打开APP就开始回传，搜索到一个设备就传一个，在一次installs内，需要去重，只回传一次。回传model name"
+      }
+    ],
+    "note": "获取Apple设备用户设备信息\n状态事件"
+  },
+  {
+    "event": "lg_web_info",
+    "trigger": "用Direct功能镜像LGWebMirror，获取到浏览器信息时",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "value": "回传信息格式：浏览器名称/版本~其他\n（拿不到的部分X代替）",
+        "description": "～：表示分割符\n其他：剩下的在100个字符限制数以内，有多少内容传多少扩展信息"
+      }
+    ],
+    "note": "用Direct功能镜像LGWebMirror，获取LG电视浏览器的信息\n状态事件"
+  },
+  {
+    "event": "webos_appcasting_info",
+    "trigger": "打开APP获取到WebOS电视是否支持原生自带镜像的信息时，在一次installs内，需要去重，只回传一次\n（搜到就能获取到）",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "value": "回传信息格式：电视品牌～0（或者1）~feature详细内容~电视型号",
+        "description": "电视品牌：回传WebOS系统的电视品牌\n0（或者1）：代表appCasting的支持情况，0表示支持，1表示不支持；\n~：表示分割符\nfeature详细内容：表示supportAppcastingFeatures详细内容，具体有什么不知道\n电视型号：若上面的信息回传完了value还没满100字符则回传电视型号"
+      }
+    ],
+    "note": "统计WebOS电视是否支持原生自带镜像\n状态事件"
+  },
+  {
+    "event": "collect_smart_home_devices",
+    "trigger": "收集sonnos音响和飞利浦的HUE灯带及其他家居的埋点",
+    "since": "v1.5.4",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "description": "1、sonnos音响及能拿到具体型号的设备\n回传格式：品牌_设备类型_设备型号\n2、飞利浦灯带\n由于只能发现网关，则发现网关后回传“have_Philips_HUE”\n3、能拿到很多信息但不知具体型号的设备\n回传重要的能供AI分析推测出类型or型号的信息\n仅上传100以内的字符"
+      }
+    ],
+    "note": "设备搜索\n页面: 其他页面\n收集sonnos音响和飞利浦的HUE灯带及其他家居的埋点\n状态事件"
+  },
+  {
+    "event": "no_device",
+    "trigger": "关闭搜索设备页面时设备搜索30s后，未搜索到设备触发",
+    "since": "v1.0.0",
+    "note": "设备搜索结果\n页面: 设备搜索页\n未搜索到设备\n状态事件"
+  },
+  {
+    "event": "search_device",
+    "trigger": "关闭搜索设备页面时设备搜索30s后，设备大于0触发",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "device_count",
+        "type": "number",
+        "unit": "个",
+        "description": "n>0"
+      }
+    ],
+    "note": "设备个数\n页面: 设备搜索页\n搜索到的设备个数\n状态事件"
+  },
+  {
+    "event": "enter_search_device_page",
+    "trigger": "用户进入设备连接页面时",
+    "since": "v1.4.0",
+    "note": "设备点击情况\n页面: 设备搜索页\n进入设备连接页面\n状态事件"
+  },
+  {
+    "event": "user_click_device_connect",
+    "trigger": "用户点击设备进行连接/配对时",
+    "since": "v1.4.0",
+    "note": "点击设备进行连接\n点击事件"
+  },
+  {
+    "event": "click_connect_dlna",
+    "trigger": "用户点击连接dlna设备时",
+    "since": "v1.4.1",
+    "note": "点击DLNA设备\n点击事件"
+  },
+  {
+    "event": "click_connect_lg_web_os",
+    "trigger": "用户点击连接lg（webos）设备时",
+    "since": "v1.2.0",
+    "note": "点击lg(web os)设备\n点击事件\nv1.4.0修改为点击设备进行连接/配对时"
+  },
+  {
+    "event": "click_connect_lg_netcast",
+    "trigger": "点击lg(netcast)设备",
+    "since": "v1.4.1",
+    "note": "点击lg(netcast)设备\n点击事件"
+  },
+  {
+    "event": "click_connect_chromecast",
+    "trigger": "用户点击连接chromecast设备时",
+    "since": "v1.4.1",
+    "note": "点击chromecast设备\n点击事件"
+  },
+  {
+    "event": "click_connect_roku",
+    "trigger": "用户点击连接roku设备时",
+    "since": "v1.4.1",
+    "note": "点击roku设备\n点击事件"
+  },
+  {
+    "event": "click_connect_samsung",
+    "trigger": "用户点击连接samsung设备时",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "Samsung_Tizen",
+          "Samsung_Smart"
+        ]
+      }
+    ],
+    "note": "点击samsung设备\n点击事件"
+  },
+  {
+    "event": "click_connect_firetv",
+    "trigger": "用户点击连接Firetv设备时",
+    "since": "v1.2.0",
+    "note": "点击Fire tv设备\n点击事件"
+  },
+  {
+    "event": "click_connect_apple_tv",
+    "trigger": "用户点击Apple TV设备进行连接/配对时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "Vendor_model_flags_features_airplayVersion_airplayProtoVersion",
+        "description": "获取设备的vendor（供应商）_型号（后面都是给SDK组用的），没有获取到的就用“X”代替"
+      }
+    ],
+    "note": "点击Apple TV设备\n点击事件\nv1.4.6新增label"
+  },
+  {
+    "event": "click_connect_mac",
+    "trigger": "用户点击Mac设备进行连接/配对时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "Vendor_model_flags_features_airplayVersion_airplayProtoVersion",
+        "description": "获取设备的vendor（供应商）_型号（后面都是给SDK组用的），没有获取到的就用“X”代替"
+      }
+    ],
+    "note": "点击Mac设备\n点击事件\nv1.4.6新增label"
+  },
+  {
+    "event": "click_connect_other_airplay",
+    "trigger": "点击其他适配AirPlay协议的设备",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "Vendor_model_flags_features_airplayVersion_airplayProtoVersion",
+        "description": "获取设备的vendor（供应商）_型号（后面都是给SDK组用的），没有获取到的就用“X”代替"
+      }
+    ],
+    "note": "点击其他适配AirPlay协议的设备\n点击事件"
+  },
+  {
+    "event": "click_connect_other_apple",
+    "trigger": "点击Apple other设备进行连接/配对时",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "modelName",
+        "description": "仅对apple品牌的other返回该值（不一定能获取到）"
+      }
+    ],
+    "note": "点击Apple other设备\n（理论上不存在了）\n点击事件"
+  },
+  {
+    "event": "show_apple_connect_remind",
+    "trigger": "apple设备的连接提示弹窗展示时",
+    "since": "v1.4.0",
+    "note": "针对apple设备的连接流程监控\n页面: 设备连接页面或其他\napple设备的连接提示弹窗展示\n状态事件"
+  },
+  {
+    "event": "close_apple_connect_remind",
+    "trigger": "apple设备的连接提示弹窗关闭时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "弹窗展示的时长"
+      }
+    ],
+    "note": "apple设备的连接提示弹窗关闭\n状态事件"
+  },
+  {
+    "event": "connect_apple_tv_plan",
+    "trigger": "设备连接页面点击连接Apple TV设备，获得连接方案后\n任意行为停止连接进程后",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need",
+          "time_out",
+          "other"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接",
+          "超时",
+          "其他情况"
+        ]
+      }
+    ],
+    "note": "设备连接页面Apple TV设备连接方式\n状态事件\n任意行为：\n1. 出现pin/password弹窗\n2. 连接no need\n3. 连接超时\n4. 切换设备连接\n5. 其他位置未知情况\n（3-5归类于other，无法区分）\nv1.4.2 ：将连接超时区分出来"
+  },
+  {
+    "event": "connect_mac_plan",
+    "trigger": "设备连接页面点击连接mac设备，获得连接方案后\n任意行为停止连接进程后",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need",
+          "time_out",
+          "other"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接",
+          "超时",
+          "其他情况"
+        ]
+      }
+    ],
+    "note": "设备连接页面Mac设备连接方式\n状态事件"
+  },
+  {
+    "event": "connect_other_airplay_plan",
+    "trigger": "设备连接页面点击连接其他适配AirPlay协议的设备，任意行为停止连接进程后",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin",
+          "no_need",
+          "time_out",
+          "other"
+        ],
+        "descriptions": [
+          "通过pin码连接",
+          "直接连接",
+          "超时",
+          "其他情况"
+        ]
+      }
+    ],
+    "note": "设备连接页面，其他适配AirPlay协议的设备的连接方式\n状态事件"
+  },
+  {
+    "event": "connect_apple_other_plan",
+    "trigger": "设备连接页面点击连接other设备，\n任意行为停止连接进程后",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need",
+          "time_out",
+          "other"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接",
+          "超时",
+          "其他情况"
+        ]
+      }
+    ],
+    "note": "设备连接页面other设备连接方式\n（理论上不存在了）\n状态事件\n任意行为：\n1. 出现pin/password弹窗\n2. 连接no need\n3. 连接超时\n4. 切换设备连接\n5. 其他位置未知情况\n（4&5归类于other，无法区分）"
+  },
+  {
+    "event": "click_password_forget_password",
+    "trigger": "用户点击password弹窗上的“忘记密码”时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "error",
+          "mac"
+        ],
+        "descriptions": [
+          "想要连接的是apple TV设备",
+          "出错",
+          "想要连接的是mac设备"
+        ]
+      }
+    ],
+    "note": "用户点击pin码/password弹窗上的“password”\n点击事件\nv1.4.6弃用"
+  },
+  {
+    "event": "close_password_pop_show",
+    "trigger": "提示“关闭password弹窗”出现时",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备",
+          "连接的设备时其他apple设备时（可能分辨不出）"
+        ]
+      }
+    ],
+    "note": "针对apple系设备需要password连接统计\n页面: 设备连接页面或其他\n提示“关闭password弹窗”出现时\n状态事件"
+  },
+  {
+    "event": "connect_chromecast_success",
+    "trigger": "chromecast设备连接成功后触发",
+    "since": "v1.0.0",
+    "note": "设备连接成功情况\n页面: 其他\nchromecast设备连接状态\n状态事件\nv1.4.0 备注：埋点触发均不与页面绑定"
+  },
+  {
+    "event": "connect_firetv_success",
+    "trigger": "firetv设备连接成功后触发",
+    "since": "v1.0.0",
+    "note": "firetv设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_roku_success",
+    "trigger": "roku设备连接成功后触发",
+    "since": "v1.0.0",
+    "note": "roku设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_samsung_success",
+    "trigger": "samsung设备连接成功后触发",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "Samsung_Tizen",
+          "Samsung_Smart"
+        ],
+        "descriptions": [
+          "连接设备是新Samsung",
+          "连接设备是老Samsung"
+        ]
+      }
+    ],
+    "note": "samsung设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_lg_web_os_success",
+    "trigger": "lg设备连接成功后触发",
+    "since": "v1.0.0",
+    "note": "lg(web os)设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_lg_netcast_success",
+    "trigger": "lg(net cast)设备连接成功后触发",
+    "since": "v1.4.1",
+    "note": "lg(net cast)设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_dlna_success",
+    "trigger": "DLNA设备连接成功后触发",
+    "since": "v1.4.1",
+    "note": "DLNA设备连接状态\n状态事件"
+  },
+  {
+    "event": "connect_apple_tv_success",
+    "trigger": "设备连接页面apple tv设备连接成功后触发",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      }
+    ],
+    "note": "设备连接页面Apple TV设备连接成功状态\n状态事件"
+  },
+  {
+    "event": "connect_mac_success",
+    "trigger": "设备连接页面Mac设备连接成功后触发",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      }
+    ],
+    "note": "设备连接页面Mac设备连接成功状态\n状态事件"
+  },
+  {
+    "event": "connect_other_airplay_success",
+    "trigger": "设备连接页面，其他适配AirPlay协议的设备连接成功后触发",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码连接",
+          "直接连接"
+        ]
+      },
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "vendor",
+        "description": "供应商"
+      }
+    ],
+    "note": "设备连接页面，其他适配AirPlay协议的设备成功状态\n状态事件"
+  },
+  {
+    "event": "connect_other_apple_success",
+    "trigger": "设备连接页面apple other设备连接成功后触发",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      }
+    ],
+    "note": "设备连接页面apple other设备连接成功状态\n（理论上不存在了）\n状态事件"
+  },
+  {
+    "event": "connect_other_success",
+    "trigger": "连接设备是其他品牌的设备连接成功后触发（非真连接设备）",
+    "since": "v1.0.0",
+    "note": "其他设备连接状态\n状态事件\nv1.4.1 对非真连接设备也做了区分，所以可以和非真连接的数据做对比"
+  },
+  {
+    "event": "click_device_connect",
+    "trigger": "用户连接设备后，有连接结果时",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "connect_state",
+        "type": "text",
+        "values": [
+          "succeed",
+          "failed"
+        ],
+        "descriptions": [
+          "连接设备成功",
+          "连接设备失败"
+        ]
+      }
+    ],
+    "note": "设备连接结果汇总\n页面: 设备搜索页面/mirror页面\n设备连接结果统计\n状态事件\nv1.4.0 备注：埋点触发均不与页面绑定"
+  },
+  {
+    "event": "connect_failed",
+    "trigger": "",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "connect_fail_step",
+        "type": "text",
+        "values": [
+          "click device",
+          "connecting",
+          "paring"
+        ],
+        "descriptions": [
+          "连接设备失败在“点击设备，开始连接”的状态",
+          "连接设备失败在“连接中”的状态",
+          "连接设备失败在“配对中”的状态（目前只有新LG、Fire TV、 Apple设备有这个状态）"
+        ]
+      },
+      {
+        "label": "connect_fail_info",
+        "type": "text",
+        "value": "对于其他：品牌_系统_设备型号-厂商-厂商型号\n对于AirPlay：",
+        "description": "返回连接失败状态下的设备信息包括：品牌_系统_设备型号-厂商-厂商型号，超出字段部分直接截断，获取不到的信息用“None”占位代替"
+      },
+      {
+        "label": "position",
+        "type": "text",
+        "values": [
+          "fire_search",
+          "lg_web_search",
+          "apple_search",
+          "apple_mirror"
+        ],
+        "descriptions": [
+          "Fire设备在设备连接页面连接失败",
+          "LG（web）设备在设备连接页面连接失败",
+          "Apple设备在设备连接页面连接失败",
+          "Apple设备在设备mirror页面连接失败"
+        ]
+      }
+    ]
+  },
+  {
+    "event": "apple_connect_base_error",
+    "trigger": "针对Apple设备，连接底层库错误时",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "position",
+        "type": "text",
+        "values": [
+          "connect_device_page",
+          "mirror_page",
+          "mirroring"
+        ],
+        "descriptions": [
+          "在设备连接页面发起错误",
+          "在镜像页面发起错误",
+          "在镜像过程中发起错误"
+        ]
+      },
+      {
+        "label": "device_info",
+        "type": "text",
+        "value": "mode_flags_features_version_airplayProtocolVersion_responseCode_url_msg",
+        "description": "没有的内容用X填充"
+      }
+    ],
+    "note": "针对Apple设备连接底层库错误监控\n页面: 其他\n（不与页面绑定）\n针对Apple设备，连接底层库错误时\n状态事件"
+  },
+  {
+    "event": "pair_failed",
+    "trigger": "发起配对失败时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "position",
+        "type": "text",
+        "values": [
+          "fire_search",
+          "lg_web_search",
+          "apple_search",
+          "apple_mirror"
+        ],
+        "descriptions": [
+          "Fire设备在设备连接页面配对失败",
+          "LG（web）设备在设备连接页面配对失败",
+          "Apple设备在设备连接页面配对失败",
+          "Apple设备在设备mirror页面配对失败"
+        ]
+      }
+    ],
+    "note": "针对出现pin码弹窗的设备\n页面: 设备搜索页面/mirror页面\n配对失败\n（逻辑上和connect_failed的paring数量一样）\n状态事件"
+  },
+  {
+    "event": "click_homepage_mirror",
+    "trigger": "从主页点击进入mirror功能时触发",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "connect_state",
+        "type": "text",
+        "values": [
+          "succeed",
+          "failed"
+        ],
+        "descriptions": [
+          "从主页进入mirror功能时，是已连接目标设备的状态",
+          "从主页进入mirror功能时，是未连接目标设备的状态"
+        ]
+      },
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other",
+          "lg_web",
+          "lg_netcast",
+          "samsung",
+          "chromecast",
+          "dlna",
+          "roku",
+          "fire",
+          "other"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备",
+          "连接的设备时其他apple设备时\n（理论上不存在了）",
+          "连接的设备是LG webOS",
+          "连接的设备时 LG netcast",
+          "连接的设备是Samsung",
+          "连接的设备是chromecast",
+          "连接的设备是DLNA",
+          "连接的设备是roku",
+          "连接的设备是Fire",
+          "连接的设备是otherr/异常"
+        ]
+      }
+    ],
+    "note": "Mirror使用情况\n页面: 首页\n从首页点击进入mirror功能\n点击事件"
+  },
+  {
+    "event": "enter_mirror_tutorial_page",
+    "trigger": "用户进入教程页面时",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other",
+          "lg_web",
+          "lg_netcast",
+          "samsung",
+          "chromecast",
+          "dlna",
+          "roku",
+          "fire",
+          "no_device",
+          "other"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备",
+          "连接的设备时其他apple设备时\n（理论上不存在了）",
+          "连接的设备是LG webOS",
+          "连接的设备时 LG netcast",
+          "连接的设备是Samsung",
+          "连接的设备是chromecast",
+          "连接的设备是DLNA",
+          "连接的设备是roku",
+          "连接的设备是Fire",
+          "当前未连接设备（设备断开）",
+          "连接的设备是other/异常"
+        ]
+      }
+    ],
+    "note": "页面: 镜像教程\n进入教程页面\n状态事件\nv1.4.0加入主event，v1.4.1加入参数“device_source”"
+  },
+  {
+    "event": "click_go_mirroring",
+    "trigger": "点击“go mirror”按钮时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other",
+          "lg_web",
+          "lg_netcast",
+          "samsung",
+          "chromecast",
+          "dlna",
+          "roku",
+          "fire",
+          "no_device",
+          "other"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备",
+          "连接的设备时其他apple设备时\n（理论上不存在了）",
+          "连接的设备是LG webOS",
+          "连接的设备时 LG netcast",
+          "连接的设备是Samsung",
+          "连接的设备是chromecast",
+          "连接的设备是DLNA",
+          "连接的设备是roku",
+          "连接的设备是Fire",
+          "当前未连接设备（设备断开）",
+          "连接的设备是other/异常"
+        ]
+      }
+    ],
+    "note": "点击“go mirror”按钮\n点击事件"
+  },
+  {
+    "event": "mirror_tutorial_new_user_state",
+    "trigger": "新用户点击“Go mirroring”按钮，离开教程页面时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "新用户首次完成连接成功到点击“Go mirroring”流程的间隔时长"
+      }
+    ],
+    "note": "新用户在镜像教程页面的情况\n状态事件"
+  },
+  {
+    "event": "mirror_tutorial_old_user_state",
+    "trigger": "新用户点击“Go mirroring”按钮，离开教程页面时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "老用户首次完成连接成功到点击“Go mirroring”流程的间隔时长"
+      }
+    ],
+    "note": "老用户在镜像教程页面的情况\n状态事件"
+  },
+  {
+    "event": "enter_mirror_page",
+    "trigger": "进入镜像页面时",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other",
+          "lg_web",
+          "fire",
+          "chromecast",
+          "other",
+          "no_device"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备",
+          "连接的设备时其他apple设备时\n（理论上不存在了）",
+          "连接的设备是LG webOS",
+          "连接的设备是Fire",
+          "连接的设备是chromecast",
+          "连接的设备是other/异常",
+          "当前未连接设备（设备断开）"
+        ]
+      }
+    ],
+    "note": "页面: Screen Mirror\n进入镜像页面\n状态事件\nv1.4.0加入主event，v1.4.1加入参数“device_source”"
+  },
+  {
+    "event": "click_start_mirroring",
+    "trigger": "点击“start mirroring”按钮时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_source",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other",
+          "lg_web",
+          "chromecast",
+          "fire",
+          "other",
+          "no_device"
+        ],
+        "descriptions": [
+          "连接的设备是apple tv",
+          "连接的设备是mac",
+          "连接的是其他适配AirPlay协议的设备\n（理论上不存在了）",
+          "连接的设备时其他apple设备时",
+          "连接的设备是LG webOS",
+          "连接的设备是chromecast",
+          "连接的设备是Fire",
+          "连接的设备是other/异常",
+          "当前未连接设备（设备断开）"
+        ]
+      }
+    ],
+    "note": "点击“start mirroring”按钮\n点击事件\nv1.0.0时有主event，v1.4.0加入了device_source的label"
+  },
+  {
+    "event": "click_start_mirroring_page_back",
+    "trigger": "在开始镜像页面点击返回时",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "other",
+          "not_mirroring",
+          "mirroring"
+        ],
+        "descriptions": [
+          "其他（连接中、获取权限中等）",
+          "不在镜像中",
+          "镜像中"
+        ]
+      }
+    ],
+    "note": "在开始镜像页面点击返回\n点击事件"
+  },
+  {
+    "event": "start_mirror_success",
+    "trigger": "成功镜像时",
+    "since": "v1.0.0",
+    "note": "镜像成功\n状态事件\nv1.1.3优化：之前是手机端成功就算成功，目前是电视端成功才算成功"
+  },
+  {
+    "event": "stop_mirror",
+    "trigger": "不论任何情况，结束镜像投屏时",
+    "since": "v1.0.0",
+    "note": "停止屏幕直播\n点击事件"
+  },
+  {
+    "event": "lg_web_os_start_mirror",
+    "trigger": "LG webos一次镜像结束后",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "touch_pad_duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "LG webos用户每一次使用web mirror镜像过程中，使用触控板的总时长"
+      },
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "LG webos用户每一次使用web mirror进行镜像的时长"
+      }
+    ],
+    "note": "页面: LG webos镜像页面\n用户连接设备为LG webos,开始镜像后的操作\n状态事件\nv1.1.3废弃（触控板变为了功能按钮）"
+  },
+  {
+    "event": "lg_web_modify_quality_page",
+    "trigger": "LG webos用户，仅从镜像教程界面进入修改镜像参数页时触发",
+    "since": "v1.3.0",
+    "note": "用户连接设备为LGwebOS，进入参数选择页\n状态事件"
+  },
+  {
+    "event": "lg_web_click_start_mirror",
+    "trigger": "LG webos用户进入修改镜像参数页，点击开始镜像按钮",
+    "since": "v1.3.0",
+    "note": "用户连接设备为LGwebOS，参数选择页点击开始镜像按钮\n点击事件"
+  },
+  {
+    "event": "lg_web_start_mirror",
+    "trigger": "LGwebOS用户镜像成功后",
+    "since": "v1.2.0",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      }
+    ],
+    "note": "用户连接设备为LGwebOS，开始镜像后的数据\n状态事件"
+  },
+  {
+    "event": "lg_web_os_stop_mirror",
+    "trigger": "用户点击“stop mirroring”时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功web mirror",
+          "用户点击“stop mirroring”时，web mirror加载未完成"
+        ]
+      },
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "LG webos用户每一次使用web mirror进行镜像的时长"
+      }
+    ],
+    "note": "用户点击stop mirroring\n状态事件"
+  },
+  {
+    "event": "lg_web_stop_mirror",
+    "trigger": "不论任何情况，镜像成功后结束投屏时（包含用户切换设备等）",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "结束镜像\n状态事件"
+  },
+  {
+    "event": "lg_web_mirror_volume_up",
+    "trigger": "在LG用户使用web mirror的过程中，点击音量加时",
+    "since": "v1.1.3",
+    "note": "用户使用web mirror方案，点击音量加\n点击事件"
+  },
+  {
+    "event": "lg_web_mirror_volume_down",
+    "trigger": "在LG用户使用web mirror的过程中，点击音量减时",
+    "since": "v1.1.3",
+    "note": "用户使用web mirror方案，点击音量减\n点击事件"
+  },
+  {
+    "event": "lg_web_mirror_volume_mute",
+    "trigger": "在LG用户使用web mirror的过程中，点击静音时",
+    "since": "v1.1.3",
+    "note": "用户使用web mirror方案，点击静音\n点击事件"
+  },
+  {
+    "event": "lg_web_mirror_full_screen",
+    "trigger": "在LG用户使用web mirror的过程中，点击全屏/退出全屏时",
+    "since": "v1.1.3",
+    "note": "用户使用web mirror方案，点击全屏/退出全屏\n点击事件"
+  },
+  {
+    "event": "lg_web_mirror_play_pause",
+    "trigger": "在LG用户使用web mirror的过程中，点击播放/暂停时",
+    "since": "v1.1.3",
+    "note": "用户使用web mirror方案，点击播放/暂停\n点击事件"
+  },
+  {
+    "event": "lg_web_os_mirror_switch_plan",
+    "trigger": "LG webos用户开始镜像后，切换miracast方案时",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "switch_status",
+        "type": "text",
+        "values": [
+          "succeed",
+          "failed"
+        ],
+        "descriptions": [
+          "切换方案成功",
+          "切换方案失败（用户主动关闭/其他原因）"
+        ]
+      }
+    ],
+    "note": "用户连接设备为LG webos，出现切换镜像方案的弹窗\n状态事件"
+  },
+  {
+    "event": "lg_web_os_mirror_not_support",
+    "trigger": "LG webos用户点击开始镜像后，弹出不支持镜像提示",
+    "since": "v1.3.0",
+    "note": "LG webos用户，弹出不支持镜像提示\n状态事件"
+  },
+  {
+    "event": "fire_tv_modify_quality_page",
+    "trigger": "FireTV用户，仅从镜像教程界面进入修改镜像参数页时触发",
+    "since": "v1.3.0",
+    "note": "页面: Fire TV镜像页面\n用户连接设备为FireTV，进入参数选择页\n状态事件"
+  },
+  {
+    "event": "fire_tv_click_start_mirror",
+    "trigger": "FireTV用户进入修改镜像参数页，点击开始镜像按钮",
+    "since": "v1.3.0",
+    "note": "用户连接设备为FireTV，参数选择页点击开始镜像按钮\n点击事件"
+  },
+  {
+    "event": "fire_start_mirror",
+    "trigger": "Fire tv用户镜像成功后",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      },
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "Fire tv用户每一次镜像的时长"
+      }
+    ],
+    "note": "用户连接设备为Fire tv,开始镜像后的数据\n状态事件"
+  },
+  {
+    "event": "fire_tv_stop_mirror",
+    "trigger": "Fire tv用户点击“stop mirroring”时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      },
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "Fire用户每一次使用mirror进行镜像的时长"
+      }
+    ],
+    "note": "用户点击点击stop mirroring\n点击事件"
+  },
+  {
+    "event": "fire_stop_mirror",
+    "trigger": "不论任何情况，镜像成功后结束投屏时（包含用户切换设备等）",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "结束镜像\n状态事件"
+  },
+  {
+    "event": "fire_tv_receiver_status",
+    "trigger": "用户点击start mirroring时",
+    "since": "v1.2.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "installed",
+          "not_installed"
+        ],
+        "descriptions": [
+          "用户点击start mirroring时，TV端已安装receiver",
+          "用户点击start mirroring时，TV端未安装receiver"
+        ]
+      }
+    ],
+    "note": "用户点击start mirroring时，FireMirror Receiver的下载情况\n点击事件\nv1.2.0对接Fire Mirror Receiver\nv1.4.2:不与页面绑定"
+  },
+  {
+    "event": "fire_tv_download_receiver_pop_up",
+    "trigger": "弹出提醒下载receiver弹窗",
+    "since": "v1.2.0",
+    "params": [
+      {
+        "label": "",
+        "type": "",
+        "description": "弹出提醒下载receiver弹窗"
+      }
+    ],
+    "note": "提醒下载receiver弹窗展示\n状态事件"
+  },
+  {
+    "event": "fire_start_mirror_failed",
+    "trigger": "Fire tv用户镜像失败",
+    "since": "v1.0.0",
+    "note": "用户连接设备为Fire tv，镜像失败\n状态事件\nv1.4.2:不与页面绑定"
+  },
+  {
+    "event": "googlecast_modify_quality_page",
+    "trigger": "Chromecast用户，仅从镜像教程界面进入修改镜像参数页时触发",
+    "since": "v1.3.0",
+    "note": "页面: GoogleCast协议镜像页面\n用户连接设备为Chromecast，进入参数选择页\n状态事件"
+  },
+  {
+    "event": "googlecast_click_start_mirror",
+    "trigger": "Chromecast用户进入修改镜像参数页，点击开始镜像按钮",
+    "since": "v1.3.0",
+    "note": "用户连接设备为Chromecast，参数选择页点击开始镜像按钮\n点击事件"
+  },
+  {
+    "event": "googlecast_screen_mirroring",
+    "trigger": "镜像成功后触发",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      }
+    ],
+    "note": "镜像成功\n状态事件"
+  },
+  {
+    "event": "googlecast_click_stop_mirror",
+    "trigger": "Chromecast用户进入修改镜像参数页，点击结束镜像按钮",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      }
+    ],
+    "note": "用户连接设备为Chromecast，参数选择页点击结束镜像按钮\n点击事件"
+  },
+  {
+    "event": "googlecast_stop_mirror",
+    "trigger": "不论任何情况，镜像成功后结束投屏时（包含用户切换设备等）",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "结束镜像\n状态事件"
+  },
+  {
+    "event": "googlecast_mirror_switch_plan",
+    "trigger": "googlecast协议用户开始镜像后，切换miracast方案时",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "switch_status",
+        "type": "text",
+        "values": [
+          "succeed",
+          "failed"
+        ],
+        "descriptions": [
+          "切换方案成功",
+          "切换方案失败（用户主动关闭/其他原因）"
+        ]
+      }
+    ],
+    "note": "GoogleCast用户已连接设备，出现切换镜像方案的弹窗\n状态事件"
+  },
+  {
+    "event": "googlecast_mirror_not_support",
+    "trigger": "GoogleCast用户点击开始镜像后，弹出不支持镜像提示",
+    "since": "v1.3.0",
+    "note": "GoogleCast用户，弹出不支持镜像提示\n状态事件"
+  },
+  {
+    "event": "stop_mirror_abnormal",
+    "trigger": "用户开始镜像后，异常结束时触发",
+    "since": "v1.3.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "description": "设备类型"
+      },
+      {
+        "label": "phone_info",
+        "type": "text",
+        "value": "手机信息：型号~系统",
+        "description": "用户手机的具体信息"
+      }
+    ],
+    "note": "页面: 镜像界面\n用户异常结束镜像\n状态事件"
+  },
+  {
+    "event": "mirror_failed_summary",
+    "trigger": "用户镜像失败时，不与页面绑定",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "values": [
+          "lg_webos",
+          "fire_tv",
+          "google",
+          "apple_tv",
+          "mac",
+          "other_airplay",
+          "apple_other"
+        ],
+        "descriptions": [
+          "LG webos设备",
+          "Fire TV设备",
+          "google设备",
+          "apple TV设备",
+          "mac设备",
+          "连接的是其他适配AirPlay协议的设备",
+          "apple 其他设备\n（理论上不存在了）"
+        ]
+      }
+    ],
+    "note": "用户镜像失败统计\n状态事件"
+  },
+  {
+    "event": "click_volumeswitch",
+    "trigger": "当连接设备为LG webos、Fire，点击音量控制开关时",
+    "since": "v1.2.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "turn_on",
+          "turn_off"
+        ],
+        "descriptions": [
+          "用户手动点击切换音量开关为开时",
+          "用户手动点击切换音量开关为关时"
+        ]
+      }
+    ],
+    "note": "页面: 镜像准备页面\nLG webos、Fire点击音量控制开关\n点击事件"
+  },
+  {
+    "event": "record_audio_permission_pop_up",
+    "trigger": "出现录音权限提示弹窗，选择cancel或go setting时",
+    "since": "v1.2.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "cancel",
+          "go_setting"
+        ],
+        "descriptions": [
+          "点击cancel关闭弹窗",
+          "点击go setting跳转系统权限页面"
+        ]
+      }
+    ],
+    "note": "页面: 录音权限提示弹窗\n出现录音权限提示弹窗\n状态事件"
+  },
+  {
+    "event": "mirror_projection_start_fgs_failed",
+    "trigger": "镜像失败时",
+    "since": "v1.3.3",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "description": "失败情况"
+      },
+      {
+        "label": "device_info",
+        "type": "text",
+        "description": "设备信息"
+      },
+      {
+        "label": "source",
+        "type": "text",
+        "description": "来源"
+      }
+    ],
+    "note": "页面: 镜像界面\nfgs权限情况\n状态事件"
+  },
+  {
+    "event": "mirror_projection_start_service",
+    "trigger": "安卓14及以上，开始镜像且用户同意后回传",
+    "since": "v1.3.3",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "description": "崩溃时的设备信息"
+      },
+      {
+        "label": "source",
+        "type": "text",
+        "description": "来源"
+      }
+    ],
+    "note": "使用镜像功能崩溃的设备\n状态事件"
+  },
+  {
+    "event": "mirror_projection_callback",
+    "trigger": "安卓14及以上，获取到镜像功能的回调时",
+    "since": "v1.3.3",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "description": "设备信息"
+      },
+      {
+        "label": "source",
+        "type": "text",
+        "description": "来源"
+      }
+    ],
+    "note": "镜像功能的回调\n状态事件"
+  },
+  {
+    "event": "enter_airplay_modify_quality_page",
+    "trigger": "用户连接apple设备，进入参数选择页时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "other",
+          "other_airplay",
+          "mac"
+        ],
+        "descriptions": [
+          "连接的是apple TV设备",
+          "其他\n（理论上不存在了）",
+          "连接的是其他适配AirPlay协议的设备（可能分辨不出）",
+          "连接的是mac设备"
+        ]
+      },
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "modelName",
+        "description": "仅对other_airplay返回该值"
+      }
+    ],
+    "note": "页面: AirPlay sender镜像页面\n用户连接apple设备，进入参数选择页\n状态事件"
+  },
+  {
+    "event": "airplay_click_start_mirror",
+    "trigger": "用户连接apple设备，参数选择页点击开始镜像按钮时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "values": [
+          "apple_tv",
+          "other",
+          "other_airplay",
+          "mac"
+        ],
+        "descriptions": [
+          "连接的是apple TV设备",
+          "其他\n（理论上不存在了）",
+          "连接的是其他适配AirPlay协议的设备（可能分辨不出）",
+          "连接的是mac设备"
+        ]
+      },
+      {
+        "label": "device_source",
+        "type": "text",
+        "value": "modelName",
+        "description": "仅对other_airplay返回该值"
+      }
+    ],
+    "note": "用户连接apple设备，参数选择页点击开始镜像按钮\n点击事件"
+  },
+  {
+    "event": "apple_tv_screen_mirroring_success",
+    "trigger": "apple tv镜像成功时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      }
+    ],
+    "note": "apple tv镜像成功\n状态事件"
+  },
+  {
+    "event": "mac_screen_mirroring_success",
+    "trigger": "mac镜像成功时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      }
+    ],
+    "note": "mac镜像成功\n状态事件"
+  },
+  {
+    "event": "apple_other_screen_mirroring_success",
+    "trigger": "Apple other镜像成功时（包括other_airplay）",
+    "since": "v1.4.1",
+    "params": [
+      {
+        "label": "mirror_quality",
+        "type": "text",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了高质量投屏",
+          "投屏开始时，选择了中质量投屏",
+          "投屏开始时，选择了低质量投屏"
+        ]
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "pin_password",
+          "no_need"
+        ],
+        "descriptions": [
+          "通过pin码/password连接",
+          "直接连接"
+        ]
+      },
+      {
+        "label": "mirror_audio",
+        "type": "text",
+        "values": [
+          "on",
+          "off"
+        ],
+        "descriptions": [
+          "投屏开始时，选择了打开声音",
+          "投屏开始时，选择了关闭声音"
+        ]
+      }
+    ],
+    "note": "Apple other镜像成功\n（包括other_airplay）\n状态事件\nv1.4.6 修改事件描述：新增“包括other_airplay”"
+  },
+  {
+    "event": "apple_tv_click_stop_mirror",
+    "trigger": "用户连接设备为apple tv，参数选择页点击结束镜像按钮时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      }
+    ],
+    "note": "用户连接设备为apple tv，参数选择页点击结束镜像按钮\n点击事件"
+  },
+  {
+    "event": "apple_tv_stop_mirror",
+    "trigger": "不论任何情况，apple tv镜像成功后结束投屏时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "apple tv结束镜像\n状态事件"
+  },
+  {
+    "event": "mac_click_stop_mirror",
+    "trigger": "用户连接设备为mac，参数选择页点击结束镜像按钮时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      }
+    ],
+    "note": "用户连接设备为mac，参数选择页点击结束镜像按钮\n点击事件"
+  },
+  {
+    "event": "mac_stop_mirror",
+    "trigger": "不论任何情况，mac镜像成功后结束投屏时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "mac结束镜像\n状态事件"
+  },
+  {
+    "event": "other_airplay_click_stop_mirror",
+    "trigger": "用户连接设备为其他适配AirPlay协议的设备，参数选择页点击结束镜像按钮时",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      }
+    ],
+    "note": "用户连接设备为其他适配AirPlay协议的设备，参数选择页点击结束镜像按钮\n点击事件"
+  },
+  {
+    "event": "other_airplay_stop_mirror",
+    "trigger": "不论任何情况，其他适配AirPlay协议的设备镜像成功后结束投屏时",
+    "since": "v1.4.6",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "其他适配AirPlay协议的设备结束镜像\n状态事件"
+  },
+  {
+    "event": "apple_other_click_stop_mirror",
+    "trigger": "用户连接设备为apple other，参数选择页点击结束镜像按钮时",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "mirror_succeed",
+          "mirror_not_succeed"
+        ],
+        "descriptions": [
+          "用户点击“stop mirroring”时，已经成功镜像",
+          "用户点击“stop mirroring”时，镜像加载未完成"
+        ]
+      }
+    ],
+    "note": "用户连接设备为apple other，参数选择页点击结束镜像按钮\n点击事件\nv1.4.1没埋上"
+  },
+  {
+    "event": "apple_other_stop_mirror",
+    "trigger": "不论任何情况，apple other结束镜像时",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "duration",
+        "type": "number",
+        "unit": "秒",
+        "description": "镜像总时长"
+      }
+    ],
+    "note": "apple other结束镜像\n状态事件"
+  },
+  {
+    "event": "click_setting",
+    "trigger": "用户点击setting按钮时",
+    "since": "v1.0.0",
+    "note": "Setting使用情况\n页面: 其他\n用户点击setting的情况\n点击事件"
+  },
+  {
+    "event": "click_rate_us",
+    "trigger": "用户点击rate us时",
+    "since": "v1.1.4",
+    "note": "页面: setting页面\n点击rate us"
+  },
+  {
+    "event": "click_setting_troubleshoot",
+    "trigger": "用户点击setting页面的troubleshoot时",
+    "since": "v1.0.0",
+    "note": "点击troubleshoot"
+  },
+  {
+    "event": "click_restore",
+    "trigger": "用户点击restore时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "setting",
+          "remove_ad_pro_page"
+        ],
+        "descriptions": [
+          "用户在setting页面上点击restore",
+          "用户在小额付费页面上点击restore"
+        ]
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "values": [
+          "vip",
+          "no vip"
+        ],
+        "descriptions": [
+          "用户有vip",
+          "用户无vip"
+        ]
+      }
+    ],
+    "note": "点击restore"
+  },
+  {
+    "event": "click_setting_contact_us",
+    "trigger": "用户点击setting页面的联系我们时",
+    "since": "v1.0.0",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "setting",
+          "search_device"
+        ]
+      }
+    ],
+    "note": "点击联系我们"
+  },
+  {
+    "event": "test_ads_group_app_url",
+    "trigger": "用户进入到标记主页时",
+    "since": "v1.3.1",
+    "params": [
+      {
+        "label": "param1",
+        "type": "text"
+      },
+      {
+        "label": "param2",
+        "type": "text"
+      }
+    ],
+    "note": "市场配置Deeplink的情况下，我们能拿到的信息\n页面: 标记后的主页\n测试deeplink的信息能拿到的参数\n状态事件"
+  },
+  {
+    "event": "test_ads_group_app_information",
+    "trigger": "用户进入到标记主页时",
+    "since": "v1.3.1",
+    "params": [
+      {
+        "label": "deeplink",
+        "type": "text"
+      }
+    ],
+    "note": "测试deeplink的信息能拿到的关于GA的参数"
+  },
+  {
+    "event": "first_backstage_switch_foreground",
+    "trigger": "用户在一次启动APP后，首次从后台返回APP时",
+    "since": "v1.4.0",
+    "note": "获取用户切回app的信息\n页面: 其他页面\n用户在一次启动APP内，首次切回APP\n状态事件"
+  },
+  {
+    "event": "backstage_switch_foreground",
+    "trigger": "用户在一次启动APP内，切回APP时",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "device_info",
+        "type": "text",
+        "unit": "次",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          ">5"
+        ],
+        "descriptions": [
+          "从后台切回APP的次数"
+        ]
+      }
+    ],
+    "note": "用户在一次启动APP内，切回APP的情况\n状态事件"
+  },
+  {
+    "event": "return_loading_impression",
+    "trigger": "",
+    "since": "v1.4.2",
+    "note": "开屏广告展示情况\n页面: 其他\n返回APP的loading页展示\n状态事件"
+  },
+  {
+    "event": "app_open_request",
+    "trigger": "开屏广告开始请求",
+    "since": "v1.4.0",
+    "note": "开屏触发的广告请求\n状态事件"
+  },
+  {
+    "event": "app_open_request_success",
+    "trigger": "开屏广告请求成功",
+    "since": "v1.4.0",
+    "note": "开屏触发的广告加载成功\n状态事件"
+  },
+  {
+    "event": "app_open_request_failed",
+    "trigger": "开屏广告获得请求失败的回调时",
+    "since": "v1.4.0",
+    "note": "开屏广告请求失败\n状态事件"
+  },
+  {
+    "event": "app_open_request_time",
+    "trigger": "开屏广告请求成功时（不和页面绑定，什么时候请求成功了，什么时候埋这个点）\n（v1.4.2 每次请求成功都埋）",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "user_status",
+        "type": "text",
+        "unit": "秒",
+        "values": [
+          ">=0&<=3",
+          ">3&<=6",
+          ">6&<=10",
+          ">10",
+          ">=0&<=6",
+          ">=0&<=5"
+        ],
+        "descriptions": [
+          "统计开屏广告加载成功的时长"
+        ]
+      }
+    ],
+    "note": "开屏广告请求成功耗时\n（可以和“开屏触发的广告加载成功”埋点对比数据，看是否能对得上）\n状态事件"
+  },
+  {
+    "event": "app_open_user_trigger",
+    "trigger": "开屏广告用户触发展示时",
+    "since": "v1.4.0",
+    "note": "用户触发展示广告\n状态事件"
+  },
+  {
+    "event": "app_open_user_impression_error",
+    "trigger": "用户在展示开屏广告出现错误时",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "user_status",
+        "type": "text",
+        "values": [
+          "has_been_shown",
+          "app_not_in_foreground"
+        ],
+        "descriptions": [
+          "开屏广告已经被展示过",
+          " APP不在前台"
+        ]
+      },
+      {
+        "label": "status",
+        "type": "text",
+        "description": "除以上两种错误外返回，不知道会返回什么，共100字符"
+      }
+    ],
+    "note": "用户展示开屏广告时的错误统计\n状态事件"
+  },
+  {
+    "event": "app_open_user_start_impression",
+    "trigger": "开屏广告用户展示成功后\n(default、guarantee只针对第一次开屏广告展示)",
+    "since": "v1.4.2",
+    "params": [
+      {
+        "label": "position",
+        "type": "text",
+        "values": [
+          "default",
+          "guarantee",
+          "return"
+        ],
+        "descriptions": [
+          "开屏广告默认场景展示成功（用户开屏直接展示）",
+          "开屏广告保底场景展示成果（用户从后台切回前台后展示）",
+          "开屏广告每次返回APP时展示成功（不包含第一次的保底展示）"
+        ]
+      }
+    ],
+    "note": "开屏触发的广告，用户方展示成功\n状态事件"
+  },
+  {
+    "event": "app_open_user_impression",
+    "trigger": "开屏广告用户展示成功&广告关闭后\nv1.4.2 ：default、guarantee只针对第一次开屏广告展示",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "position",
+        "type": "text",
+        "values": [
+          "default",
+          "guarantee",
+          "return"
+        ],
+        "descriptions": [
+          "开屏广告默认场景展示成功（用户开屏直接展示）",
+          "开屏广告保底场景展示成果（用户从后台切回前台后展示）",
+          "开屏广告每次返回APP时展示成功（不包含第一次的保底展示）"
+        ]
+      }
+    ],
+    "note": "开屏触发的广告，用户方展示成功，关闭后\n状态事件"
+  },
+  {
+    "event": "app_open_user_click",
+    "trigger": "用户点击开屏广告时",
+    "since": "v1.4.0",
+    "note": "开屏触发的广告，用户点击广告\n状态事件"
+  },
+  {
+    "event": "connect_device_request",
+    "trigger": "连接设备成功广告位触发向广告平台发送请求时",
+    "since": "v1.1.2",
+    "note": "插屏广告展示情况\n页面: 设备搜索页面\n设备连接成功触发的插屏请求\n状态事件"
+  },
+  {
+    "event": "connect_device_request_success",
+    "trigger": "连接设备成功广告位触发的广告加载成功(下载完毕)时",
+    "since": "v1.1.2",
+    "note": "设备连接成功触发的插屏加载成功\n状态事件"
+  },
+  {
+    "event": "connect_device_user_trigger",
+    "trigger": "连接设备成功广告位触发的插屏广告，用户触发展示时机时",
+    "since": "v1.1.2",
+    "note": "设备连接成功触发的插屏用户触发展示\n状态事件"
+  },
+  {
+    "event": "connect_device_user_impression",
+    "trigger": "连接设备成功广告位触发的插屏广告，用户展示成功时",
+    "since": "v1.1.2",
+    "note": "设备连接成功触发的插屏用户展示成功\n状态事件"
+  },
+  {
+    "event": "connect_device_user_click",
+    "trigger": "连接设备成功广告位触发的插屏广告，用户点击广告时",
+    "since": "v1.1.2",
+    "note": "设备连接成功触发的插屏用户点击广告\n状态事件"
+  },
+  {
+    "event": "click_setting_device_request",
+    "trigger": "点击设置页面广告位触发向广告平台发送请求时",
+    "since": "v1.1.3",
+    "note": "页面: 设置页面\n点击设置页面触发的插屏请求\n状态事件"
+  },
+  {
+    "event": "click_setting_request_success",
+    "trigger": "点击设置页面广告位触发的广告加载成功(下载完毕)时",
+    "since": "v1.1.3",
+    "note": "点击设置页面触发的插屏加载成功\n状态事件"
+  },
+  {
+    "event": "click_setting_user_trigger",
+    "trigger": "点击设置页面广告位触发的插屏广告，用户触发展示时机时",
+    "since": "v1.1.3",
+    "note": "点击设置页面触发的插屏用户触发展示\n状态事件"
+  },
+  {
+    "event": "click_setting_user_impression",
+    "trigger": "点击设置页面广告位触发的插屏广告，用户展示成功时",
+    "since": "v1.1.3",
+    "note": "点击设置页面触发的插屏用户展示成功\n状态事件"
+  },
+  {
+    "event": "click_setting_user_click",
+    "trigger": "点击设置页面广告位触发的插屏广告，用户点击广告时",
+    "since": "v1.1.3",
+    "note": "点击设置页面触发的插屏用户点击广告\n状态事件"
+  },
+  {
+    "event": "stop_mirroring_request",
+    "trigger": "点击“stop mirroring”成功广告位触发向广告平台发送请求时",
+    "since": "v1.1.2",
+    "note": "页面: 停止镜像页面\n（对于LG web OS用户（使用web mirror方案）和Fire Tv用户）\n点击“stop mirroring”成功触发的插屏请求\n状态事件"
+  },
+  {
+    "event": "stop_mirroring_request_success",
+    "trigger": "点击“stop mirroring”成功广告位触发的广告加载成功(下载完毕)时",
+    "since": "v1.1.2",
+    "note": "点击“stop mirroring”成功触发的插屏加载成功\n状态事件"
+  },
+  {
+    "event": "stop_mirroring_user_trigger",
+    "trigger": "点击“stop mirroring”成功广告位触发的插屏广告，用户触发展示时机时",
+    "since": "v1.1.2",
+    "note": "点击“stop mirroring”成功触发的插屏用户触发展示\n状态事件"
+  },
+  {
+    "event": "stop_mirroring_user_impression",
+    "trigger": "点击“stop mirroring”成功广告位触发的插屏广告，用户展示成功时",
+    "since": "v1.1.2",
+    "note": "点击“stop mirroring”成功触发的插屏用户展示成功\n状态事件"
+  },
+  {
+    "event": "stop_mirroring_user_click",
+    "trigger": "点击“stop mirroring”成功广告位触发的插屏广告，用户点击广告时",
+    "since": "v1.1.2",
+    "note": "点击“stop mirroring”成功触发的插屏用户点击广告\n状态事件"
+  },
+  {
+    "event": "native_search_device_user_trigger",
+    "trigger": "Search界面广告位触发的Native广告用户触发展示",
+    "since": "v1.1.0",
+    "note": "原生广告展示情况\n页面: 搜索设备页面\nSearch界面广告位触发的Native广告用户触发展示\n状态事件"
+  },
+  {
+    "event": "native_search_device_user_impression",
+    "trigger": "Search界面广告位触发的Native广告用户展示成功",
+    "since": "v1.1.0",
+    "note": "Search界面广告位触发的Native广告用户展示成功\n状态事件"
+  },
+  {
+    "event": "native_search_device_user_click",
+    "trigger": "Search界面广告位触发的Native广告用户点击广告",
+    "since": "v1.1.0",
+    "note": "Search界面广告位触发的Native广告用户点击广告\n状态事件"
+  },
+  {
+    "event": "native_exit_device_user_trigger",
+    "trigger": "退出APP浮层广告位触发的Native广告用户触发展示",
+    "since": "v1.1.0",
+    "note": "页面: 退出APP\n退出APP浮层广告位触发的Native广告用户触发展示\n状态事件"
+  },
+  {
+    "event": "native_exit_device_user_impression",
+    "trigger": "退出APP浮层广告位触发的Native广告用户展示成功",
+    "since": "v1.1.0",
+    "note": "退出APP浮层广告位触发的Native广告用户展示成功\n状态事件"
+  },
+  {
+    "event": "native_exit_device_user_click",
+    "trigger": "退出APP浮层广告位触发的Native广告用户点击广告",
+    "since": "v1.1.0",
+    "note": "退出APP浮层广告位触发的Native广告用户点击广告\n状态事件"
+  },
+  {
+    "event": "home_page_user_trigger",
+    "trigger": "首页广告位触发的Native广告用户触发展示",
+    "since": "v1.1.3",
+    "note": "页面: 首页\n首页广告位触发的Native广告用户触发展示\n状态事件"
+  },
+  {
+    "event": "home_page_user_impression",
+    "trigger": "首页广告位触发的Native广告用户展示成功",
+    "since": "v1.1.3",
+    "note": "首页广告位触发的Native广告用户展示成功\n状态事件"
+  },
+  {
+    "event": "home_page_user_click",
+    "trigger": "首页广告位触发的Native广告用户点击广告",
+    "since": "v1.1.3",
+    "note": "首页广告位触发的Native广告用户点击广告\n状态事件"
+  },
+  {
+    "event": "mirror_page_user_trigger",
+    "trigger": "镜像界面广告位触发的Native广告用户触发展示",
+    "since": "v1.1.3",
+    "note": "页面: LG Web OS（web mirror）镜像页面&fire tv&roku TV镜像页面\n镜像界面广告位触发的Native广告用户触发展示\n状态事件\nv1.4.7 roku设备也有这个广告位"
+  },
+  {
+    "event": "mirror_page_user_impression",
+    "trigger": "镜像界面广告位触发的Native广告用户展示成功",
+    "since": "v1.1.3",
+    "note": "镜像界面广告位触发的Native广告用户展示成功\n状态事件"
+  },
+  {
+    "event": "mirror_page_user_click",
+    "trigger": "镜像界面广告位触发的Native广告用户点击广告",
+    "since": "v1.1.3",
+    "note": "镜像界面广告位触发的Native广告用户点击广告\n状态事件"
+  },
+  {
+    "event": "native_mirror_tutorial_user_trigger",
+    "trigger": "mirror教程广告位触发的Native广告用户触发展示",
+    "since": "v1.1.0",
+    "note": "页面: 教程页面\n教程界面广告位触发的Native广告用户触发展示\n状态事件"
+  },
+  {
+    "event": "native_mirror_tutorial_user_impression",
+    "trigger": "mirror教程广告位触发的Native广告用户展示成功",
+    "since": "v1.1.0",
+    "note": "教程界面广告位触发的Native广告用户展示成功\n状态事件"
+  },
+  {
+    "event": "native_mirror_tutorial_user_click",
+    "trigger": "mirror教程广告位触发的Native广告用户点击广告",
+    "since": "v1.1.0",
+    "note": "教程界面广告位触发的Native广告用户点击广告\n状态事件"
+  },
+  {
+    "event": "home_banner_request",
+    "trigger": "home页面banner广告主动发起请求时",
+    "since": "v1.5.2",
+    "note": "Banner广告情况\n页面: 首页\nhome页面banner广告主动发起请求\n状态事件"
+  },
+  {
+    "event": "home_banner_request_success",
+    "trigger": "home页面banner广告主动请求成功时",
+    "since": "v1.5.2",
+    "note": "home页面banner广告主动请求成功\n状态事件"
+  },
+  {
+    "event": "home_banner_request_failed",
+    "trigger": "home页面banner广告主动请求失败时",
+    "since": "v1.5.2",
+    "params": [
+      {
+        "label": "code",
+        "type": "text",
+        "description": "回传Admob给的失败回调"
+      }
+    ],
+    "note": "home页面banner广告主动请求失败\n状态事件"
+  },
+  {
+    "event": "home_banner_refreshed_success",
+    "trigger": "home页面banner广告自动刷新成功时",
+    "since": "v1.5.2",
+    "note": "home页面banner广告自动刷新成功\n状态事件"
+  },
+  {
+    "event": "home_banner_refreshed_failed",
+    "trigger": "home页面banner广告自动刷新失败时",
+    "since": "v1.5.2",
+    "params": [
+      {
+        "label": "code",
+        "type": "text",
+        "description": "回传Admob给的失败回调"
+      }
+    ],
+    "note": "home页面banner广告自动刷新失败\n状态事件"
+  },
+  {
+    "event": "home_banner_all_impression",
+    "trigger": "home页面banner广告的所有展示时（主动请求+自动刷新）",
+    "since": "v1.5.2",
+    "note": "home页面banner广告的所有展示（主动请求+自动刷新）\n状态事件"
+  },
+  {
+    "event": "setting_banner_request",
+    "trigger": "setting页面banner广告主动发起请求时",
+    "since": "v1.5.2",
+    "note": "页面: Setting页面\nsetting页面banner广告主动发起请求\n状态事件"
+  },
+  {
+    "event": "setting_banner_request_success",
+    "trigger": "setting页面banner广告主动请求成功时",
+    "since": "v1.5.2",
+    "note": "setting页面banner广告主动请求成功\n状态事件"
+  },
+  {
+    "event": "setting_banner_request_failed",
+    "trigger": "setting页面banner广告主动请求失败时",
+    "since": "v1.5.2",
+    "params": [
+      {
+        "label": "code",
+        "type": "text",
+        "description": "回传Admob给的失败回调"
+      }
+    ],
+    "note": "setting页面banner广告主动请求失败\n状态事件"
+  },
+  {
+    "event": "setting_banner_refreshed_success",
+    "trigger": "setting页面banner广告自动刷新成功时",
+    "since": "v1.5.2",
+    "note": "setting页面banner广告自动刷新成功\n状态事件"
+  },
+  {
+    "event": "setting_banner_refreshed_failed",
+    "trigger": "setting页面banner广告自动刷新失败时",
+    "since": "v1.5.2",
+    "params": [
+      {
+        "label": "code",
+        "type": "text",
+        "description": "回传Admob给的失败回调"
+      }
+    ],
+    "note": "setting页面banner广告自动刷新失败\n状态事件"
+  },
+  {
+    "event": "setting_banner_all_impression",
+    "trigger": "setting页面banner广告的所有展示时（主动请求+自动刷新）",
+    "since": "v1.5.2",
+    "params": [
+      {
+        "label": "duration",
+        "type": "",
+        "unit": "秒",
+        "description": "native广告从request到impression的间隔时间"
+      }
+    ],
+    "note": "setting页面banner广告的所有展示（主动请求+自动刷新）\n状态事件"
+  },
+  {
+    "event": "native_ad_expire",
+    "trigger": "native广告过期并展示时（1小时）",
+    "since": "v1.1.3",
+    "note": "native广告过期，并展示\n状态事件"
+  },
+  {
+    "event": "open_app_ad_request_impression_duration",
+    "trigger": "开屏展示后",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "duration",
+        "type": "",
+        "unit": "秒",
+        "description": "开屏广告从request到impression的间隔时间\n（v1.4.2 ：包括loading页面展示的1.5s，可能不止一个loading页面，eg：用户在loading页面返回后台再回来，就又会展示一个完整的loading页面）"
+      }
+    ],
+    "note": "开屏广告从request到impression的间隔\n状态事件"
+  },
+  {
+    "event": "open_app_ad_expire",
+    "trigger": "开屏广告过期并展示时（4小时）",
+    "since": "v1.1.3",
+    "note": "开屏广告过期，并展示\n状态事件"
+  },
+  {
+    "event": "int_ad_request_impression_duration",
+    "trigger": "插屏展示后",
+    "since": "v1.4.0",
+    "params": [
+      {
+        "label": "duration",
+        "type": "",
+        "unit": "秒",
+        "description": "插屏广告从request到impression的间隔时间"
+      }
+    ],
+    "note": "插屏广告从request到impression的间隔\n状态事件"
+  },
+  {
+    "event": "interstitial_ad_expire",
+    "trigger": "插屏广告过期并展示时（1小时）",
+    "since": "v1.1.3",
+    "note": "插屏广告过期，并展示\n状态事件\nv1.4.0修改代码触发时机，之前埋到了广告关闭时"
+  },
+  {
+    "event": "click_settings_bootstrap_tvcast",
+    "trigger": "点击引流位chromecast，跳转后",
+    "since": "v1.1.0",
+    "note": "设置页面引流APP的点击情况\n页面: setting\n点击引流位chromecast\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_android",
+    "trigger": "点击引流位Android TV Remote",
+    "since": "v1.4.9",
+    "note": "点击引流位Android TV Remote\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_ai_translate",
+    "trigger": "点击引流位AI Translate",
+    "since": "v1.5.0",
+    "note": "点击引流位AI Translate\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_ai_note",
+    "trigger": "点击引流位AI Note",
+    "since": "v1.5.0",
+    "note": "点击引流位AI Note\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_screen_mirror",
+    "trigger": "点击引流位Screen mirror，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位Screen mirror\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_firetv",
+    "trigger": "点击引流位firetv，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位fire tv\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_roku",
+    "trigger": "点击引流位roku，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位roku\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_samsung",
+    "trigger": "点击引流位samsung，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位samsung\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_iptv",
+    "trigger": "点击引流位iptv，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位iptv\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_ur",
+    "trigger": "点击引流位Universal Remote，跳转后",
+    "since": "v1.4.0",
+    "note": "点击引流位Universal Remote\n点击事件"
+  },
+  {
+    "event": "click_settings_bootstrap_lg",
+    "trigger": "点击引流位lg，跳转后",
+    "since": "v1.1.0",
+    "note": "点击引流位lg\n点击事件"
+  },
+  {
+    "event": "exit_app",
+    "trigger": "用户点击系统返回退出APP",
+    "since": "v1.1.0",
+    "params": [
+      {
+        "label": "exit_button",
+        "type": "text",
+        "values": [
+          "back ",
+          "floating button"
+        ]
+      }
+    ],
+    "note": "退出APP情况\n页面: 首页\n用户退出APP\n点击事件"
+  },
+  {
+    "event": "click_remove_ad",
+    "trigger": "点击付费图标按钮时触发",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "home_page",
+          "mirror_tutorial",
+          "setting"
+        ],
+        "descriptions": [
+          "主页点击小额付费图标",
+          "镜像教程界面点击小额付费图标",
+          "setting界面点击小额付费选项"
+        ]
+      }
+    ],
+    "note": "小额付费\n页面: 其他页面\n打开小额付费界面\n点击事件"
+  },
+  {
+    "event": "remove_ad_skip",
+    "trigger": "付费去除广告界面用户手动点击关闭时触发",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "home_page",
+          "mirror_tutorial",
+          "setting"
+        ],
+        "descriptions": [
+          "主页点击小额付费图标",
+          "镜像教程界面点击小额付费图标",
+          "setting界面点击小额付费选项"
+        ]
+      }
+    ],
+    "note": "关闭小额付费界面\n点击事件"
+  },
+  {
+    "event": "remove_ad_purchase",
+    "trigger": "点击付费按钮，弹出系统付费弹窗时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "home_page",
+          "mirror_tutorial",
+          "setting"
+        ],
+        "descriptions": [
+          "主页点击小额付费图标",
+          "镜像教程界面点击小额付费图标",
+          "setting界面点击小额付费选项"
+        ]
+      },
+      {
+        "label": "total_open_app_count",
+        "type": "number",
+        "unit": "次",
+        "description": "打开app总次数"
+      },
+      {
+        "label": "first_open_days",
+        "type": "number",
+        "unit": "天",
+        "description": "距离首次注册（打开）app天数"
+      }
+    ],
+    "note": "点击购买按钮\n点击事件"
+  },
+  {
+    "event": "remove_ad_purchase_cancel",
+    "trigger": "已弹出付款界面付款失败时触发",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "home_page",
+          "mirror_tutorial",
+          "setting"
+        ],
+        "descriptions": [
+          "主页点击小额付费图标",
+          "镜像教程界面点击小额付费图标",
+          "setting界面点击小额付费选项"
+        ]
+      },
+      {
+        "label": "total_open_app_count",
+        "type": "number",
+        "unit": "次",
+        "description": "打开app总次数"
+      },
+      {
+        "label": "first_open_days",
+        "type": "number",
+        "unit": "天",
+        "description": "距离首次注册（打开）app天数"
+      },
+      {
+        "label": "puchase_failed_reason",
+        "type": "text",
+        "values": [
+          "cancel",
+          "google"
+        ],
+        "descriptions": [
+          "在付费界面返回，取消付费",
+          "手机故障其他原因"
+        ]
+      }
+    ],
+    "note": "购买失败\n状态事件"
+  },
+  {
+    "event": "remove_ad_purchase_activated",
+    "trigger": "付费成功时",
+    "since": "v1.1.3",
+    "params": [
+      {
+        "label": "source",
+        "type": "text",
+        "values": [
+          "home_page",
+          "mirror_tutorial",
+          "setting"
+        ],
+        "descriptions": [
+          "主页点击小额付费图标",
+          "镜像教程界面点击小额付费图标",
+          "setting界面点击小额付费选项"
+        ]
+      },
+      {
+        "label": "total_open_app_count",
+        "type": "number",
+        "unit": "次",
+        "description": "打开app总次数"
+      },
+      {
+        "label": "first_open_days",
+        "type": "number",
+        "unit": "天",
+        "description": "距离首次注册（打开）app天数"
+      }
+    ],
+    "note": "购买成功\n状态事件"
+  }
+]

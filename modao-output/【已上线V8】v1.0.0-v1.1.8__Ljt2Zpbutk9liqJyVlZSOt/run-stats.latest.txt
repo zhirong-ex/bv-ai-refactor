@@ -1,0 +1,8 @@
+bv-modao2prd run 2026-08-24T08:53:52Z
+Total: 26.88 min (1613 s)
+  urls_codex: 0.02 min | export: 26.87 min | build_prd: 0 min
+Canvases: 36 exported, 0 skipped, 0 failed / 36 total
+Avg per exported canvas: 0.74 min (44.67 s)
+
+Historical runs in this project: 1
+Cumulative export time: 26.87 min

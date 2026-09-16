@@ -1,0 +1,21 @@
+{
+  "id": "DS-01",
+  "module": "main-home",
+  "spec_alias": "DS:main-home-main",
+  "lanhu_name": "home",
+  "lanhu_image_id": "296a1ad3-5730-43c0-96a7-4bc02ec7af4f",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=296a1ad3-5730-43c0-96a7-4bc02ec7af4f",
+  "version_folder": "1.4.2+",
+  "compose_target": "presentation/screen/mainhome/",
+  "visual_tokens": {
+    "page_background": "gradient_home",
+    "cta_button": "#1F2123",
+    "cta_shadow": "#4990E780",
+    "top_icon_ring": "#1F21232E",
+    "device_ring_connected": "#ECDDF5",
+    "device_ring_disconnected": "#ECDDF5"
+  },
+  "fetched_at": "2026-09-04T10:24:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

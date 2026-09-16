@@ -1,0 +1,65 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo9UURnZ9UFIWS6uJA",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/06-开始镜像页面",
+  "exportedAt": "2026-08-25T04:29:12.915Z",
+  "pageCount": 3,
+  "pages": [
+    {
+      "id": "rcUOo5wYURnZ9UGzFEakP8-diagram-1",
+      "title": "页面 1 — 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo9UURnZ9UFIWS6uJA&canvasId=rcUOo5wYURnZ9UGzFEakP8",
+      "image": "images/001-页面-1-—-1-rcUOo5wYURnZ9UGzFEakP8-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【开始镜像页面】\n「UI」无\n「逻辑」\n1. 定义质量参数\n\ta. high：1920*1080 500mbit/s\n\tb. medium：1280*720 200mbit/s\n\tc. low：1280*720 100mbit/s\n2. 页面逻辑不变",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 425,
+          "canvasY": 184,
+          "width": 326,
+          "height": 284,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUOo5wYURnZ9UGzFEakP8-diagram-2",
+      "title": "页面 1 — 2",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo9UURnZ9UFIWS6uJA&canvasId=rcUOo5wYURnZ9UGzFEakP8",
+      "image": "images/002-页面-1-—-2-rcUOo5wYURnZ9UGzFEakP8-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【备注】\n「逻辑」\n1. 从目前开发自测时可以得知，如果该设备是使用pin码连接，则能直接开始镜像，如果是使用password连接，则在点击开始镜像前会需要再次输入password",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 1258,
+          "canvasY": 157,
+          "width": 326,
+          "height": 203,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUOo5wYURnZ9UGzFEakP8-diagram-3",
+      "title": "页面 1 — 3",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOo9UURnZ9UFIWS6uJA&canvasId=rcUOo5wYURnZ9UGzFEakP8",
+      "image": "images/003-页面-1-—-3-rcUOo5wYURnZ9UGzFEakP8-diagram-3.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【停止镜像后重新开始镜像时】\n「逻辑」\n1. 对于使用Apple设备的用户，停止镜像后就等于断开设备镜像连接，重新开始镜像时需要重新连接设备\n\ta. 如果Apple设备在线，则针对该设备弹出连接状态/pin码弹窗，连接逻辑不变\n\t\tI. 连接成功，开始镜像\n\t\tII. 连接失败，停留在该页面\n\tb. 如果Apple设备不在线，则在点击“开始镜像”时，跳转设备连接页面，后续连接逻辑不变（做埋点看有多少用户设备不在线，再考虑要不要加这个弹窗）\n\t\tI. 连接当前设备成功，关闭连接页面，回到开始镜像页面并开始镜像\n\t\tII. 连接其他设备成功，则按照其他设备的逻辑进入对应的镜像教程页面，后续不变\n\t\tIII. 连接失败，停留在设备连接页面",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 2097,
+          "canvasY": 217,
+          "width": 491,
+          "height": 418,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

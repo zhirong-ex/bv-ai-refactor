@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmrgURnZ9UACdeUKD6",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/03-点击Apple TV或Mac设备连接时",
+  "exportedAt": "2026-08-25T04:26:51.653Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUOmrgdURnZ9UBA5gA1vw-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUOmrgURnZ9UACdeUKD6&canvasId=rcUOmrgdURnZ9UBA5gA1vw",
+      "image": "images/001-页面-1-rcUOmrgdURnZ9UBA5gA1vw-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【文案】\n中文：为了确保能和您的Apple设备连接成功，请注意以下两点\n英文：To ensure successfully connecting with your Apple device, please note\n中文：打开APPLE TV/MAC的系统设置-通用-隔空投送\n与接力-打开“隔空播放接收器”开关-允许“任何人”隔空播放\n至此电脑\n英文：On your Apple TV/Mac, go to System Settings - General - AirDrop & Handoff - enable \"AirPlay Receiver\" - Allow \"Everyone\" to AirPlay to this device\n中文：注意：如果您使用的是macOS 12.5或更早版本的Mac，请选择菜单-系统偏好设置，然后单击“共享”。\n英文：Note: If you're using a Mac with macOS 12.5 or earlier, choose Apple menu - System Preferences, then click \"Sharing\".\n中文：您的设备上可能会出现接收确认弹窗，请“允许”。\n英文：An AirDrop confirmation pop up will appear on your device. Please choose \"Accept\".\n中文：知道了\n英文：Get",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 433,
+          "canvasY": 0,
+          "width": 517,
+          "height": 559,
+          "embeddedImages": []
+        },
+        {
+          "text": "【点击Apple设备时的提示弹窗】\n「UI」\n1. 主要图片上要突出用户需要选择的项目\n\ta. 弹窗限制2/3的屏幕高度，滑动区域（红框内）为处标题外的正文部分\n2. “知道了”的可点击和不可点击状态\n「逻辑」\n1. 当用户点击首次点击APPLE TV/MAC设备时，出现提示弹窗\n\ta. 该提示针对单独的设备，本次首次点击A设备，出现提示；下次首次点击B设备时，出现提示。后续再次点击A设备或B设备时，则不再弹出\n\tb. 如果当时有已连接的设备，则在点击其他设备时，就断开已连接设备\n\tc. 5s内，“知道了”按钮不可点击；5s后，点击”知道了“，关闭提示弹窗，开始连接设备（连接设备的需求在后一页）\n\td. 这个提示也会加入troubleshoot",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 433,
+          "canvasY": 637,
+          "width": 517,
+          "height": 391,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

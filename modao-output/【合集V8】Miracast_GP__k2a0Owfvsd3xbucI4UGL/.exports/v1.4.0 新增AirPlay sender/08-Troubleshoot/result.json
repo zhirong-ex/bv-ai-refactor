@@ -1,0 +1,53 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpURRNJURnZ9UIQTKJd2z",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/08-Troubleshoot",
+  "exportedAt": "2026-08-25T04:30:18.878Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcURRNJBURnZ9UJKy1hB15-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpURRNJURnZ9UIQTKJd2z&canvasId=rcURRNJBURnZ9UJKy1hB15",
+      "image": "images/001-页面-1-rcURRNJBURnZ9UJKy1hB15-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "Troubleshoot只有英文\n【文案】\n中文：关于Apple设备\n英文：About Apple device\n中文：已经找到设备，但是连接不上\n英文：Device found but connect failed\n中文：忘记密码\n英文：Forgot Password\n中文：密码是用户自己设置的，如果您遗忘了之前的密码，请按照以下步骤重置密码\n英文：The password is set by the user. If you forget your previous password, please follow the steps below to reset.\n中文：打开APPLE TV/MAC的系统设置-通用-隔空投送与接力-需要密码设定-在文本栏中输入密码-点击“好”，则重置密码成功。\n英文：On your Apple TV/Mac, go to System Settings - General - AirPlay Receiver - Set to require a password - enter the password in the text field - click \"OK\", password reset complete.\n中文：重置成功后，最新密码需要一些时间才能生效，所以请等待一段时间，重新选择设备进行连接\n英文：After reset complete, the new password will take some time to take effect, please wait for a while & reselect the device to connect.",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 931,
+          "canvasY": 0,
+          "width": 475,
+          "height": 664,
+          "embeddedImages": []
+        },
+        {
+          "text": "1. 打开APPLE TV/MAC的系统设置-通用-隔空投送\n\n与接力-打开“隔空播放接收器“开关-允许“任何人”隔空播放\n\n至此电脑\n\n注意：如果您使用的是macOS 12.5或更早版本的Mac，\n\n请选择菜单-“系统首选项”，然后单击“共享”。\n\n2. 您的设备上可能会出现“接收确认弹窗”，请允许\n\n密码是用户自己设置的，如果您遗忘了之前的密码，请按照\n\n以下步骤重置密码\n\n1. 打开APPLE TV/MACBOOK的系统设置-通用-隔空投送与\n\n接力-需要密码“设定”-在文本栏中输入密码-点击“好”，则重\n\n置密码成功。\n\n2. 重置成功后，最新密码需要一些时间才能生效，所以请等待一段时间，重新选择设备进行连接",
+          "author": "",
+          "kind": "canvas-spec",
+          "canvasX": 449,
+          "canvasY": 79,
+          "width": 389,
+          "height": 874,
+          "embeddedImages": [
+            "images/inline-01-v2_slhn4t.png",
+            "images/inline-02-v2_slhn28.png",
+            "images/inline-03-v2_slhokm.png",
+            "images/inline-04-v2_sk1wku.png",
+            "images/inline-05-v2_sk1wia.png"
+          ]
+        },
+        {
+          "text": "【Troubleshoot新增关于Apple设备的问题】\n「UI」\n参考之前Troubleshoo的页面新增\n「逻辑」\n参考之前Troubleshoo的页面新增，页面逻辑不变",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 931,
+          "canvasY": 671,
+          "width": 475,
+          "height": 181,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

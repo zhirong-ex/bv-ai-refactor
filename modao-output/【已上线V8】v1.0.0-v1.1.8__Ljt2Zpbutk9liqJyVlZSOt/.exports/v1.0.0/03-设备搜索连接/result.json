@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy0olvVTCSMOsUXxRZJo",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/03-设备搜索连接",
+  "exportedAt": "2026-08-24T08:28:56.545Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "ssljy0olVTCSMOsfKq0gAY",
+      "title": "设备搜索连接",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljy0olvVTCSMOsUXxRZJo&canvasId=ssljy0olVTCSMOsfKq0gAY",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【设备搜索页面】\n「页面」\n1. 页面设计\n2. 加载的动效\n「逻辑」\n1、支持搜索出多个设备，暂时未做设置数量限制，目前不限制搜索到的类型：\n1.1 Samsung（新、老）、Roku、FireTV、LG（web OS）、Chromecast这部分设备，连接后会有对应的最佳镜像方案\n1.2 其余设备，点击连接后，跳转系统镜像方案\n2、已链接设备和未链接设备有状态区别：\n2.1 已配对状态时点击设备即链接设备，链接成功后直接关闭设备搜索界面，进入对应最佳的镜像方案页面\n2.2 未配对状态时，点击弹出弹窗提示用户需要操作匹配\n* 需要匹配的设备：新LG（Pin码连接）、Fire TV（开启ADB）\n* Fire tv电视未匹配但用户已经关闭弹窗时，进入加载等待状态，（设备旁边没有转圈和✅），需要用户再次点击设备链接\n3、该界面的设备链接状态与首页的设备状态展示区域一致\n4、每次打开设备搜索界面，开启设备搜索状态。\n4.1 10s后未搜索到设备，弹出无设备状态，但持续保持搜索状态\n4.2 10s内搜索到设备并连接，则停止设备搜索状态。需要用户手动刷新设备或者再次打开设备连接界面，再次开始搜索设备。（一直刷新会导致设备连接状态混乱）",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

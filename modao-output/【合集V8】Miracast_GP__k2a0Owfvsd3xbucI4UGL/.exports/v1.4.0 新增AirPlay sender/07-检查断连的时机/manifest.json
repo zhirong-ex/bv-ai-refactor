@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUU58vgWdDubWDE",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/07-检查断连的时机",
+  "exportedAt": "2026-08-25T04:29:55.841Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUU58vgae2g5pUl",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUU58vgWdDubWDE&canvasId=rcUU58vgae2g5pUl",
+      "image": "images/001-页面-1-rcUU58vgae2g5pUl.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【断连检查时机汇总】\n1. 目前已有：首页的“Screen mirror”按钮；教程页面的“Go mirroring”按钮；镜像准备页面的“Start mirroring”按钮\n2. 新增：镜像准备页面的调整quality按钮&声音开关按钮\n备注：对于LG webOS设备在镜像过程中断连，或在点击镜像控制按钮时断连，会直接返回到镜像准备页面",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 48,
+          "canvasY": 209,
+          "width": 280,
+          "height": 272,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

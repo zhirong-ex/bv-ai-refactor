@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuySRsbDAD68K",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.7 解决遗留bug+其他/03-解决遗留问题",
+  "exportedAt": "2026-08-25T04:03:02.542Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUuySRsh95PnFNs",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuySRsbDAD68K&canvasId=rcUuySRsh95PnFNs",
+      "image": "images/001-页面-1-rcUuySRsh95PnFNs.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【遗留问题】\n1. Samsung、moto手机设备连接相关问题：https://console.firebase.google.com/u/0/project/zhongnan-mirror-sender/crashlytics/app/android:com.boost.mirror.sender/issues/43483a6588047c0063c126b571c7afdb?hl=zh-cn&time=last-seven-days&types=crash&sessionEventKey=68AD46D602B700012EC17409E69589BA_2121208888500612786\n2. https://gitlab.boostvision.com.cn/boostvision/android/mirroring/zhongnan.android/-/issues/127",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 53,
+          "canvasY": 98,
+          "width": 321,
+          "height": 370,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

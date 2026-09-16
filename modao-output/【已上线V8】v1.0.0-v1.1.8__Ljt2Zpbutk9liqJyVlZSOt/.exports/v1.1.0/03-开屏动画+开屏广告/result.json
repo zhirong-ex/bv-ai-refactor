@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwumfVTCSUUekAlEKgG",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/03-开屏动画+开屏广告",
+  "exportedAt": "2026-08-24T08:35:47.565Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslnmwumVTCSUUedMOYzLA",
+      "title": "开屏动画+开屏广告",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwumfVTCSUUekAlEKgG&canvasId=sslnmwumVTCSUUedMOYzLA",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【开屏】ca-app-pub-3925850724927301/2211106696\n「界面」\n1. 开屏动画（5s）\n「逻辑」\n1. 启动APP时，播放开屏动画（5s），并同时加载开屏广告\n1.1 如果在5s内加载成功，则展示开屏广告\n1.2 如果5s内没有加载成功，则继续加载至加载成功，在下一次进入APP时展示\n2. 启动APP时，检测网络情况，在完全没网络的情况下，不播放开屏动画，直接进入首页",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

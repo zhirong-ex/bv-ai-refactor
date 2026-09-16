@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9NHXDLngNGkE5",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.9 设置页面新增Android Remote引流/01-新增Android Remote",
+  "exportedAt": "2026-08-25T03:58:58.633Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcV9NHXDVZinUerg",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9NHXDLngNGkE5&canvasId=rcV9NHXDVZinUerg",
+      "image": "images/001-页面-1-rcV9NHXDVZinUerg.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【设置页面引流新增Android Remote】\n「逻辑」\n1. 引流链接：https://play.google.com/store/apps/details?id=com.boost.android.remote&referrer=utm_source%3Dcrossapp%26utm_medium%3DUniversalMirrorSetteings%26utm_campaign%3DAndroidTVRemote_CrossApp_UniversalMirrorSetteings\n2. APP Title：Smart TV Remote for Android TV\n3. icon：t115272\n4. 相关配置：miracast_settings_promotion_order\n\ta. Android Remote的Bundle ID：com.boost.android.remote",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 251,
+          "canvasY": 31,
+          "width": 481,
+          "height": 328,
+          "embeddedImages": []
+        },
+        {
+          "text": "【文案】\n简中：Android 智能电视遥控器\n繁中：Android 智慧電視遙控器\n德：Android Smart-TV-Fernbedienung\n西：Control Remoto Android TV\n日：Android TV用スマートリモコン\n韩：Android TV 스마트 리모컨\n法：Télécommande Android TV\n意：Telecomando Android TV\n葡：Controle Android TV\n泰：รีโมต Android TV\n俄：Пульт Android TV\n英文：Smart TV Remote for Android TV\n开发可以直接自己填多语言表：只做简中、繁中、德语、西语、日语、韩语、法语、意大利语、葡萄牙语、泰语、俄语、英语，其他的就都用英语。",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 251.20001220703125,
+          "canvasY": 376.010009765625,
+          "width": 481,
+          "height": 454,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

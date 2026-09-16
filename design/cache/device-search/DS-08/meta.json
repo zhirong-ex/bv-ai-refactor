@@ -1,0 +1,12 @@
+{
+  "id": "DS-08",
+  "module": "device-search",
+  "lanhu_name": "device-sumsung",
+  "image_id": "63829a2e-4d33-4826-a76e-d84dab69bf6a",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=63829a2e-4d33-4826-a76e-d84dab69bf6a",
+  "version_folder": "1.4.6",
+  "fetched_at": "2026-08-25T10:20:22Z",
+  "mcp": "lanhu",
+  "preview": "preview.png",
+  "error": null
+}

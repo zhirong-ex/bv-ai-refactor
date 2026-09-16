@@ -1,0 +1,30 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljwj8o9VTCSMMFBkEQ1Ox",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/02-权限",
+  "exportedAt": "2026-08-24T08:28:13.160Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "ssljwj7pVTCSMMGVFHYKQs-asset-1",
+      "title": "权限 — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljwj8o9VTCSMMFBkEQ1Ox&canvasId=ssljwj7pVTCSMMGVFHYKQs",
+      "image": "images/001-权限-—-1-ssljwj7pVTCSMMGVFHYKQs-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【权限弹出时机说明】\n「网络权限」\n每次启动App时检测，无wifi或权限时，设备搜索页进入无wifi去设置状态\n「捕捉屏幕权限」\n1. 首次连接设备成功后，点击“开始镜像”按钮，如果采用非系统镜像方案，则弹出权限确认底部浮层\n1.1 同意授权：开始启动镜像\n1.2 取消授权/点击空白处关闭：弹窗提示，点击“OK”，关闭提示弹窗\n2. 每次连接设备成功后，点击“开始镜像”按钮，都要读取权限，没有权限的话，继续进行捕捉屏幕权限获取询问",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "ssljwj7pVTCSMMGVFHYKQs-asset-2",
+      "title": "权限 — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljwj8o9VTCSMMFBkEQ1Ox&canvasId=ssljwj7pVTCSMMGVFHYKQs",
+      "image": "images/002-权限-—-2-ssljwj7pVTCSMMGVFHYKQs-asset-2.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    }
+  ]
+}

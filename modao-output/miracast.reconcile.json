@@ -1,0 +1,15 @@
+{
+  "project": "miracast",
+  "output": "modao-output/_reconciled/miracast",
+  "sources": [
+    "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+    "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+    "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL"
+  ],
+  "git_url": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git",
+  "git_branch": "develop",
+  "changelog_path": "ChangeLog",
+  "exclude": ["待排期", "v1.5.5"],
+  "min_version": "1.0.0",
+  "max_version": "1.5.5"
+}

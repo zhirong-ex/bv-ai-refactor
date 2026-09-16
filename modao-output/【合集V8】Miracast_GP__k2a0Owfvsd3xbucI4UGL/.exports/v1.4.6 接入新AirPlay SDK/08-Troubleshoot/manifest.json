@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6fDCGcty7yHX",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/08-Troubleshoot",
+  "exportedAt": "2026-08-25T06:12:07.026Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUr6fDCNgjCCNu8-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6fDCGcty7yHX&canvasId=rcUr6fDCNgjCCNu8",
+      "image": "images/001-页面-1-rcUr6fDCNgjCCNu8-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【troubleshoot修改】\n1. 删除第一个问题：About Apple device\n2. 在第二个问题里新增关于Apple TV、Macbook的回答\n\ta. 排序For Apple TV、For Macbook、Other\n\tb. 之前的回答归类于Other",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 405,
+          "canvasY": 102,
+          "width": 489,
+          "height": 217,
+          "embeddedImages": []
+        },
+        {
+          "text": "【文案和连接设备页面的弹窗一致】\nFor Apple TV\nFor Macbook:",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 405,
+          "canvasY": 358,
+          "width": 431,
+          "height": 701,
+          "embeddedImages": [
+            "images/sticky-02-01-v2_szhmte.png",
+            "images/sticky-02-02-v2_szivld.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

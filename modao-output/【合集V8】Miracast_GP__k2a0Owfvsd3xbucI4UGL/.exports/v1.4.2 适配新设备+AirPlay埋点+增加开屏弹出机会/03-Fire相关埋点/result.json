@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZwxCruBu5mHRx",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/03-Fire相关埋点",
+  "exportedAt": "2026-08-25T04:17:43.187Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZwxCs2yRqFYjR",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZwxCruBu5mHRx&canvasId=rcUZwxCs2yRqFYjR",
+      "image": "images/001-页面-1-rcUZwxCs2yRqFYjR.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "fire_start_mirror_failed\nfire_tv_receiver_status\n目前还和页面绑定\n可以后续细埋失败的原因",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 9,
+          "canvasY": 221,
+          "width": 291,
+          "height": 205,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

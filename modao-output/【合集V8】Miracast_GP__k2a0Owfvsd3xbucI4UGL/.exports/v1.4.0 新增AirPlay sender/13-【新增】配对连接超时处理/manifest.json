@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXSYPIvTFa0rab",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/13-【新增】配对连接超时处理",
+  "exportedAt": "2026-08-25T04:38:41.551Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUXSYPIyXnwd1LF-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXSYPIvTFa0rab&canvasId=rcUXSYPIyXnwd1LF",
+      "image": "images/001-页面-1-rcUXSYPIyXnwd1LF-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【配对/连接超时处理】\n「涉及UI」不需要新增\n1. 加载动画\n「逻辑」\n1. 本次新增标红的字段的超时处理\n\ta. 针对配对：发起配对的超时\n\tb. 针对连接电视：连接超时\n2. 发起配对的超时：发起配对时，出现加载动画，5s不成功则toast“Failed”，并取消当前设备的配对，停在当前页面；成功则直接调起pin码框\n\ta. 用户可以通过再次点击当前设备，直接取消配对，加载动画消失\n3. 连接超时：发起连接请求时，出现加载动画，5s不成功则toast“Failed”，并取消当前设备的连接，停在当前页面；成功则toast“Success”\n\ta. 用户可以通过再次点击当前设备，直接取消连接，加载动画消失",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 140,
+          "canvasY": 271,
+          "width": 546,
+          "height": 426,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QPpKKMO8a91",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/05-点击Apple TV设备",
+  "exportedAt": "2026-08-25T06:09:48.037Z",
+  "pageCount": 3,
+  "pages": [
+    {
+      "id": "rcUnEdZWUr6bJYODjZ0NVY-diagram-1",
+      "title": "页面 1 — 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QPpKKMO8a91&canvasId=rcUnEdZWUr6bJYODjZ0NVY",
+      "image": "images/001-页面-1-—-1-rcUnEdZWUr6bJYODjZ0NVY-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【新增文案】\n中文：打开APPLE TV的系统设置-点击“隔空播放和HomeKit”-打开“隔空播放“开关-允许“所有人”访问至此电视\n英文：Go to Apple TV Settings - AirPlay and HomeKit > Turn on AirPlay > Set access to \"Everyone\"\n中文：为了提高连接设备的成功率，如果您使用了密码，请关闭“要求密码”的开关\n英文：For better connection, turn off \"Require Password\" if it's enabled\n中文：配置生效需要一定的时间，如果您刚刚关闭了密码，请等待一段时间后，再次尝试连接该设备\n英文：Changes may take time—wait a moment before trying again\n中文：下次不再提醒\n英文：Don’t remind me next time",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 419,
+          "canvasY": 76,
+          "width": 531,
+          "height": 435,
+          "embeddedImages": []
+        },
+        {
+          "text": "【点击Apple TV设备时的提示弹窗】\n「UI」可以参考TVCast v2.2.4\n1. 主要图片上要突出用户需要选择的项目\n\ta. 弹窗限制2/3的屏幕高度，滑动区域（红框内）为处标题外的正文部分\n2. “知道了”的可点击和不可点击状态\n「逻辑」\n1. 当用户点击首次点击APPLE TV设备时，出现提示弹窗，“下次不再提醒”默认不勾选\n\ta. 5s内，“知道了”按钮不可点击；5s后，点击”知道了“，关闭提示弹窗，开始连接设备\n\tb. 只有当用户勾选“下次不再提醒”+点击“知道了”，下次点击该设备时才不再弹出该提示弹窗\n\tc. 弹窗出现时，屏蔽系统弹窗",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 419,
+          "canvasY": 532,
+          "width": 531,
+          "height": 391,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUnEdZWUr6bJYODjZ0NVY-diagram-2",
+      "title": "页面 1 — 2",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QPpKKMO8a91&canvasId=rcUnEdZWUr6bJYODjZ0NVY",
+      "image": "images/002-页面-1-—-2-rcUnEdZWUr6bJYODjZ0NVY-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "rcUnEdZWUr6bJYODjZ0NVY-diagram-3",
+      "title": "页面 1 — 3",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QPpKKMO8a91&canvasId=rcUnEdZWUr6bJYODjZ0NVY",
+      "image": "images/003-页面-1-—-3-rcUnEdZWUr6bJYODjZ0NVY-diagram-3.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "图1",
+          "author": "",
+          "kind": "label",
+          "canvasX": 1403,
+          "canvasY": 24,
+          "width": 63,
+          "height": 56,
+          "inlineImage": "images/inline-01-v2_sxdlvs.png",
+          "inlineMode": "replace",
+          "embeddedImages": []
+        },
+        {
+          "text": "【连接APPLE TV设备-pin码】\n「UI」\n1. 使用之前的弹窗，只有四位数字\n「逻辑」\n1. 开始连接APPLE TV设备时，发现该设备需要用“pin码”来连接，就弹出pin码弹窗\n\ta. 弹窗逻辑不变",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 2825,
+          "canvasY": 156,
+          "width": 292,
+          "height": 265,
+          "embeddedImages": []
+        },
+        {
+          "text": "【开始连接APPLE TV设备- password】\n「UI」\n1. 弹窗如原型，文案不变\n「逻辑」\n1. 开始连接APPLE TV设备时，发现该设备需要用“password”来连接，则弹出弹窗进行提示\n\ta. 5s内，“知道了”按钮不可点击；5s后，点击”知道了“，关闭提示弹窗，开始连接设备\n\tb. 弹窗出现时，屏蔽系统返回",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 2093,
+          "canvasY": 175,
+          "width": 292,
+          "height": 328,
+          "embeddedImages": []
+        },
+        {
+          "text": "图2",
+          "author": "",
+          "kind": "label",
+          "canvasX": 1403,
+          "canvasY": 484,
+          "width": 63,
+          "height": 56,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

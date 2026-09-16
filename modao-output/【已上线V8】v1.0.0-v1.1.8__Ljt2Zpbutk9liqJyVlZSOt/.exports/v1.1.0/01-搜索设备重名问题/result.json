@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slo897i8VTCSUVwV8XzXgF",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/01-搜索设备重名问题",
+  "exportedAt": "2026-08-24T08:34:16.823Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslo897iVTCSUVwFPm6z5S",
+      "title": "搜索设备重名问题",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slo897i8VTCSUVwV8XzXgF&canvasId=sslo897iVTCSUVwFPm6z5S",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【搜索设备重名逻辑】\n1. 搭载chromecast的设备，按当前的逻辑去重\n2. 其他设备不做去重",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

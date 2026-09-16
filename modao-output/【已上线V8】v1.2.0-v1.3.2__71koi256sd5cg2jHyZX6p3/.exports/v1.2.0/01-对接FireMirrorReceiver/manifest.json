@@ -1,0 +1,73 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/01-对接FireMirrorReceiver",
+  "exportedAt": "2026-08-24T10:42:23.383Z",
+  "pageCount": 6,
+  "pages": [
+    {
+      "id": "rcUAeRyOUDJIY89FIHwm3F-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/001-页面-1-rcUAeRyOUDJIY89FIHwm3F-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "success！",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "failed！",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUBz4AJUDJIY8A3FXUN9J-diagram-1",
+      "title": "pin码",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/002-pin码-rcUBz4AJUDJIY8A3FXUN9J-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "rcUBzAwWUDJIY8AHXxDmXh-diagram-1",
+      "title": "页面 3",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/003-页面-3-rcUBzAwWUDJIY8AHXxDmXh-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "rcUBzCYsUDJIY8AYJsur0W-diagram-1",
+      "title": "页面 4",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/004-页面-4-rcUBzCYsUDJIY8AYJsur0W-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "rcUC4XbaUDJIY8AeRbnMSx-diagram-1",
+      "title": "页面 5",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/005-页面-5-rcUC4XbaUDJIY8AeRbnMSx-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【界面】\n1. 下载提示弹窗\n\ta. 文案：Click \"Download\" on TV\n\t\tI. After the receiver is successfully downloaded , click \"start mirroring\" on your phone again.\n\t\tII. start mirroring标粗\n\tb. 弹窗弹出时背景添加灰色蒙板\n2. pin码弹窗\n\ta. 与新LG的pin码弹窗保持一致\n3. pin码匹配成功/失败toast\n\ta. 将新LG与Fire TV的pin码匹配状态toast均修改为纯字符，不再使用图标类型toast\n4. trouble shoot2.2.1文案修改，链接：https://boostvision.feishu.cn/docx/MylyduNzjoxjOXxpaNfcDGfDnjh\n【逻辑】\n1. 移除ADB连接：在设备搜索页用户选择Fire设备后，设备连接方式修改为https连接\n\ta. 目前Fire连接方式：仅ADB连接\n2. pin码弹窗（逻辑与新LG通用）\n\ta. 仅能通过点击“cancel”和“OK”退出弹窗\n\t\tI. 点击空白处和系统返回键无法返回退出弹窗；\n\tb. 点击输入框调起纯数字键盘\n\t\tI. 点击空白处（系统不支持）、系统返回键能够收起键盘\n\tc. pin码提交后，无论pin码是否匹配成功，均收起弹窗；\n\td. pin码提交后，弹出toast向用户反馈连接状态，展示时间2s\n\t\tI. pin码匹配成功，收起设备搜索页\n\t\tII. pin码匹配失败，停留在设备搜索页\n3. Fire设备连接成功后，用户点击“开始屏幕镜像”时：\n\ta. 电视端\n\t\tI. 若用户已下载receiver，则直接启动（通过后台remote指令）\n\t\tII. 若未下载，则调起电视端amazon商店的receiver下载页面）\n\tb. 手机端\n\t\tI. 若用户已下载receiver，直接开始镜像\n\t\tII. 若用户未下载receiver，弹出弹窗\n\t1. “confirm”按钮等待5s后才能点击，仅能通过点击“confirm”返回，点击空白处、点击系统返回键无法返回\n4. 弃用ADB关联影响：\n\ta. 移除“Remind”弹窗\n\t\tI. 目前：在网络不佳的情况下，五秒未连接成功，弹出“remind”弹窗\n\tb. 移除“Warning”弹窗：\n\t\tI. 目前：30s后或用户点击“OK”，则弹出“Warning”弹窗。需要用户再次点击设备链接\n\tc. 移除ADB相关troubleshoot",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUCLd86UDJIY8AffOE1T9-diagram-1",
+      "title": "页面 6",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUAeRyUDJIY85VSc0DYu",
+      "image": "images/006-页面-6-rcUCLd86UDJIY8AffOE1T9-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZkl0gS3f1opOD",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/04-镜像过程中通知栏点击进入APP",
+  "exportedAt": "2026-08-25T04:18:01.986Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZkl0gZgBBB4El",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZkl0gS3f1opOD&canvasId=rcUZkl0gZgBBB4El",
+      "image": "images/001-页面-1-rcUZkl0gZgBBB4El.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【镜像过程中通知栏点击进入APP后，APP保持存活】\n1. 目前：对于适配了自研镜像协议的镜像设备，在镜像过程中，可以通过通知栏点击进入镜像页面，但是点击返回会退出APP\n2. 修改为：点击返回后，APP保活，按照当前的页面逻辑进行正常跳转\n相关设备：Fire TV、LG webos、Apple设备\n相关手机系统：android 13以下的手机（没有单独获取通知权限）",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 31,
+          "canvasY": 230,
+          "width": 311,
+          "height": 349,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

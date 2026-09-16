@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ4wMQPe8z12OA",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.1 AirPlay sender埋点配置修改/03-其他埋点配置修改",
+  "exportedAt": "2026-08-25T04:23:53.679Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZ4wMQVI6T5BRb",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ4wMQPe8z12OA&canvasId=rcUZ4wMQVI6T5BRb",
+      "image": "images/001-页面-1-rcUZ4wMQVI6T5BRb.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【埋点修改】\nconnect_apple_tv_success\nconnect_mac_success\n应该没有position这个参数，代码层面有，需要删掉",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 14,
+          "canvasY": 39,
+          "width": 280,
+          "height": 175,
+          "embeddedImages": []
+        },
+        {
+          "text": "【配置修改】\n广告收入靠前的位置，默认配置和代码内的广告开关为开\n相关配置：\n1. 开屏广告：miracast_enable_app_open_ad\n2. 设备搜索页面底部的native广告：miracast_enable_search_device_native_ad\n3. 连接设备成功后的插屏广告：\nmiracast_enable_connect_device_interstitial_ad\n小额付费配置开关：默认配置和代码内的广告开关为开\nmiracast_enable_purchase_remove_ad",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 14,
+          "canvasY": 269,
+          "width": 364,
+          "height": 367,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

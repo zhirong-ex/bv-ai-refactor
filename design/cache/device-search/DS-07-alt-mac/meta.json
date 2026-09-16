@@ -1,0 +1,12 @@
+{
+  "id": "DS-07-alt-mac",
+  "module": "device-search",
+  "lanhu_name": "device- Mac需要密码弹窗",
+  "image_id": "d866e610-4ade-4263-aade-a5ab50171dad",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d866e610-4ade-4263-aade-a5ab50171dad",
+  "version_folder": "1.4.6",
+  "fetched_at": "2026-08-25T10:20:22Z",
+  "mcp": "lanhu",
+  "preview": "preview.png",
+  "error": null
+}

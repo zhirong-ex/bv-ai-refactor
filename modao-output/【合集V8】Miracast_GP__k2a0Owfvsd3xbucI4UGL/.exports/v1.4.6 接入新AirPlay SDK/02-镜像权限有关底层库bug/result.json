@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6XqCw7eBF0Tz",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/02-镜像权限有关底层库bug",
+  "exportedAt": "2026-08-25T06:07:28.953Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUr6XqD26ib0MzO",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6XqCw7eBF0Tz&canvasId=rcUr6XqD26ib0MzO",
+      "image": "images/001-页面-1-rcUr6XqD26ib0MzO.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【镜像权限底层库bug】\n需要开发自行排查一下\n1. 具体权限：Manifest.permission.SYSTEM_ALERT_WINDOW\n2. 具体情况：带我们自己Mirror功能的app，该权限没法请求到时，小概率造成黑屏\n\ta. 在安卓15以上没请求到\n\tb. 安卓11-15 部分情况请求不到\n3. 修改方案（具体可以问问童老师）：",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 112,
+          "canvasY": 201,
+          "width": 548,
+          "height": 377,
+          "embeddedImages": [
+            "images/sticky-01-01-v2_szhkg8.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHqadmFCSU4Rd",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.7 解决遗留bug+其他/06-插屏广告前加loading",
+  "exportedAt": "2026-08-25T04:05:21.663Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUuHqadqbCzUGix",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHqadmFCSU4Rd&canvasId=rcUuHqadqbCzUGix",
+      "image": "images/001-页面-1-rcUuHqadqbCzUGix.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【增加插屏广告前置loading页面】\n「界面」\n1. 增加一个表示loading状态的页面\n2. 元素：文案、图标，蒙层(能看到底部页面）\n\ta. 中文：广告加载中\n\tb. 英文：Ad loading\n\t「loading界面逻辑」\n1. 触发展示插屏广告时，先判断有没有插屏广告可以展示\n\ta. 如果有广告，则先展示loading页，等待1秒后，展示插屏广告；\n\tb. 如果没广告，则不展示loading页\n2. 展示loading页面时，屏蔽系统返回，页面覆盖的按钮也不可以点击",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 5.5,
+          "canvasY": 203.5,
+          "width": 382,
+          "height": 445,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ9okZ7nyz9izQ",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.1 AirPlay sender埋点配置修改/01-镜像过程中通知栏点击进入APP",
+  "exportedAt": "2026-08-25T04:22:28.240Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZ9okZEsJs9z6X",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ9okZ7nyz9izQ&canvasId=rcUZ9okZEsJs9z6X",
+      "image": "images/001-页面-1-rcUZ9okZEsJs9z6X.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【bug修改：镜像过程中通知栏点击进入APP】\n「逻辑」\n1. 对于适配了自研镜像协议的镜像设备，在镜像过程中，可以通过通知栏点击进入镜像页面（如果在镜像中，就是镜像中的状态）（之前是可以实现的，现在不行）\n\ta. Fire TV\n\tb. LG webos\n\tc. Apple设备\n2. 我们没有单独去获取手机的通知权限，所以android 13以上的手机没有该功能",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 33,
+          "canvasY": 131,
+          "width": 344,
+          "height": 312,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

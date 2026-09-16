@@ -1,0 +1,19 @@
+# device-search — 蓝湖画板清单（Lanhu MCP 拉取）
+# fetched: 2026-08-25
+# project: Zhongnan
+# stage: https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49
+
+ds_id	image_id	lanhu_name	lanhu_url	note
+DS-01	9472047f-b527-4a2d-9505-5ba227e6265b	device-新增设备	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=9472047f-b527-4a2d-9505-5ba227e6265b	v1.4.6 主列表+协议标签+native
+DS-01-alt	89cde083-a62b-4921-aff0-211dbede5e38	device-连接中	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=89cde083-a62b-4921-aff0-211dbede5e38	Connecting 加载变体 → preview-connecting.png
+DS-02	135a9da0-0d0f-41e5-9d09-b546cb84acd1	device-no wifi	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=135a9da0-0d0f-41e5-9d09-b546cb84acd1	NoWifi
+DS-03	aaccaffc-1b96-44cb-83cd-e5d6f5bae955	device-未搜索到设备-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=aaccaffc-1b96-44cb-83cd-e5d6f5bae955	NoDeviceHint + native
+DS-04	4d30634e-cb71-471c-9205-501a523366f3	device-pin码	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=4d30634e-cb71-471c-9205-501a523366f3	PinDialog
+DS-05	60928932-0c3e-49df-b4dc-40ee4ff8b973	device- Apple tv提示弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=60928932-0c3e-49df-b4dc-40ee4ff8b973	AppleTvGuideDialog v1.4.6
+DS-06	b7dbd240-8ab9-422e-ab0c-19cd3ced8aec	device- Mac提示弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=b7dbd240-8ab9-422e-ab0c-19cd3ced8aec	MacGuideDialog v1.4.6
+DS-07	d1c4a842-6f24-4003-bb0c-0562066a47cf	device- Apple tv需要密码弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d1c4a842-6f24-4003-bb0c-0562066a47cf	Password 引导（Apple TV）
+DS-07-alt-mac	d866e610-4ade-4263-aade-a5ab50171dad	device- Mac需要密码弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d866e610-4ade-4263-aade-a5ab50171dad	Password 引导（Mac）
+DS-07-alt-other	5b3f9c12-ddac-43de-b7cd-6d94f7ad9ee1	device- 其它需要密码弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=5b3f9c12-ddac-43de-b7cd-6d94f7ad9ee1	Password 引导（其他 AirPlay）
+DS-08	63829a2e-4d33-4826-a76e-d84dab69bf6a	device-sumsung	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=63829a2e-4d33-4826-a76e-d84dab69bf6a	SamsungPairDialog
+DS-09	8c417000-2a2d-483b-b0fd-c39bee42a5a5	device-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=8c417000-2a2d-483b-b0fd-c39bee42a5a5	底部 native 广告位
+DS-10	—	—	—	蓝湖无 device-search 独立 Banner 画板；见 spec/gaps.md

@@ -1,0 +1,275 @@
+>>> Folder: v1.0.0
+=== [1] v1.0.0 / 流程图&功能清单 ===
+{
+  "pageCount": 2,
+  "annotationCount": 0,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/01-流程图&功能清单"
+}
+=== [1] done in 50s ===
+=== [2] v1.0.0 / 权限 ===
+{
+  "pageCount": 2,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/02-权限"
+}
+=== [2] done in 45s ===
+=== [3] v1.0.0 / 设备搜索连接 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/03-设备搜索连接"
+}
+=== [3] done in 45s ===
+=== [4] v1.0.0 / No wifi ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/04-No wifi"
+}
+=== [4] done in 46s ===
+=== [5] v1.0.0 / Searching ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/05-Searching"
+}
+=== [5] done in 46s ===
+=== [6] v1.0.0 / No Device ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/06-No Device"
+}
+=== [6] done in 45s ===
+=== [7] v1.0.0 / connect（新Samsung、新LG、Fire TV） ===
+{
+  "pageCount": 8,
+  "annotationCount": 5,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/07-connect（新Samsung、新LG、Fire TV）"
+}
+=== [7] done in 46s ===
+=== [8] v1.0.0 / LG web os 网页UI ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/08-LG web os 网页UI"
+}
+=== [8] done in 46s ===
+=== [9] v1.0.0 / 主页 ===
+{
+  "pageCount": 2,
+  "annotationCount": 12,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/09-主页"
+}
+=== [9] done in 46s ===
+>>> Folder: v1.1.0
+=== [10] v1.1.0 / 搜索设备重名问题 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/01-搜索设备重名问题"
+}
+=== [10] done in 46s ===
+=== [11] v1.1.0 / GDPR ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/02-GDPR"
+}
+=== [11] done in 46s ===
+=== [12] v1.1.0 / 开屏动画+开屏广告 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/03-开屏动画+开屏广告"
+}
+=== [12] done in 47s ===
+=== [13] v1.1.0 / 设置页面引流广告 ===
+{
+  "pageCount": 1,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/04-设置页面引流广告"
+}
+=== [13] done in 47s ===
+=== [14] v1.1.0 / native广告 ===
+{
+  "pageCount": 6,
+  "annotationCount": 4,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/05-native广告"
+}
+=== [14] done in 47s ===
+=== [15] v1.1.0 / banner页面 ===
+{
+  "pageCount": 2,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/06-banner页面"
+}
+=== [15] done in 45s ===
+>>> Folder: v1.1.2
+=== [16] v1.1.2 / 插屏广告 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.2/01-插屏广告"
+}
+=== [16] done in 19s ===
+=== [17] v1.1.2 / 加广告源+加billing库 ===
+{
+  "pageCount": 1,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.2/02-加广告源+加billing库"
+}
+=== [17] done in 47s ===
+=== [18] v1.1.2 / banner的无网络情况 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.2/03-banner的无网络情况"
+}
+=== [18] done in 45s ===
+>>> Folder: v1.1.3
+=== [19] v1.1.3 / 小额付费 ===
+{
+  "pageCount": 1,
+  "annotationCount": 0,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.3/01-小额付费"
+}
+=== [19] done in 46s ===
+=== [20] v1.1.3 / 页面 5 ===
+{
+  "pageCount": 1,
+  "annotationCount": 0,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.3/02-页面 5"
+}
+=== [20] done in 48s ===
+=== [21] v1.1.3 / 首页广告修改 ===
+{
+  "pageCount": 1,
+  "annotationCount": 3,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.3/03-首页广告修改"
+}
+=== [21] done in 47s ===
+=== [22] v1.1.3 / LG WebOS触控板变按钮+Fire TV加native ===
+{
+  "pageCount": 3,
+  "annotationCount": 4,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.3/04-LG WebOS触控板变按钮+Fire TV加native"
+}
+=== [22] done in 46s ===
+=== [23] v1.1.3 / 针对stop mirror的插屏广告的补充 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.3/05-针对stop mirror的插屏广告的补充"
+}
+=== [23] done in 46s ===
+>>> Folder: v1.1.4
+=== [24] v1.1.4 / GP系统评分 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/01-GP系统评分"
+}
+=== [24] done in 46s ===
+=== [25] v1.1.4 / 自定义评分 ===
+{
+  "pageCount": 3,
+  "annotationCount": 3,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/02-自定义评分"
+}
+=== [25] done in 47s ===
+=== [26] v1.1.4 / 新增获取用户设备信息埋点 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/03-新增获取用户设备信息埋点"
+}
+=== [26] done in 46s ===
+=== [27] v1.1.4 / 多语言 ===
+{
+  "pageCount": 1,
+  "annotationCount": 0,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.4/04-多语言"
+}
+=== [27] done in 46s ===
+>>> Folder: v1.1.5（广告警告修改）
+=== [28] v1.1.5（广告警告修改） / 退出APP时的底部浮层 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.5（广告警告修改）/01-退出APP时的底部浮层"
+}
+=== [28] done in 47s ===
+>>> Folder: v1.1.6 （广告警告修改2.0）
+=== [29] v1.1.6 （广告警告修改2.0） / 广告违规 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.6 （广告警告修改2.0）/01-广告违规"
+}
+=== [29] done in 46s ===
+>>> Folder: v1.1.7（广告警告修改 最终版）
+=== [30] v1.1.7（广告警告修改 最终版） / 关闭所有广告 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.7（广告警告修改 最终版）/01-关闭所有广告"
+}
+=== [30] done in 46s ===
+>>> Folder: v1.1.8（性能优化）
+=== [31] v1.1.8（性能优化） / 性能优化 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.8（性能优化）/01-性能优化"
+}
+=== [31] done in 47s ===
+>>> Folder: v1.3.0（GoogleCast协议镜像）
+=== [32] v1.3.0（GoogleCast协议镜像） / GoogleCast协议镜像 ===
+{
+  "pageCount": 2,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/01-GoogleCast协议镜像"
+}
+=== [32] done in 45s ===
+=== [33] v1.3.0（GoogleCast协议镜像） / 镜像超时 ===
+{
+  "pageCount": 1,
+  "annotationCount": 0,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/02-镜像超时"
+}
+=== [33] done in 46s ===
+=== [34] v1.3.0（GoogleCast协议镜像） / 优化native布局 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/03-优化native布局"
+}
+=== [34] done in 44s ===
+=== [35] v1.3.0（GoogleCast协议镜像） / 相关改动 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/04-相关改动"
+}
+=== [35] done in 19s ===
+=== [36] v1.3.0（GoogleCast协议镜像） / 录音权限提醒 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.3.0（GoogleCast协议镜像）/05-录音权限提醒"
+}
+=== [36] done in 46s ===
+>>> Building PRD markdown files...
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.0.0.md (9 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.0.md (6 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.2.md (3 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.3.md (5 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.4.md (4 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.5（广告警告修改）.md (1 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.6 （广告警告修改2.0）.md (1 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.7（广告警告修改 最终版）.md (1 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.8（性能优化）.md (1 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.3.0（GoogleCast协议镜像）.md (5 canvases, relative images)
+Done. Exported 36 new, skipped 0, failed 0 / 36 canvases into /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt
+>>> Export phase: 1612s | Build PRD: 0s | Total (incl. urls_codex): 1613s (~26.88 min)

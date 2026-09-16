@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slkho6wtVTCSMR3X39rXYc",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/08-LG web os 网页UI",
+  "exportedAt": "2026-08-24T08:32:43.982Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslkho6wVTCSMR3PVP5Oue",
+      "title": "LG web os 网页UI",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slkho6wtVTCSMR3X39rXYc&canvasId=sslkho6wVTCSMR3PVP5Oue",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【电视屏幕上的LG Webos的web mirror UI】\n「界面」\n1. 整个页面\n2. 四个功能的按钮设计，以及对应状态的按钮设计\n「逻辑」\n1. 有“全屏/退出全屏”、“音量调整”、“暂停/启动”、“退出”共计四个功能，假如鼠标在按钮上悬停，有title效果\n2. “全屏/退出全屏”——Full Screen/Exit full screen\n2.1 点击全屏，进入全屏模式，“全屏”按钮变为“退出全屏”按钮\n3.“音量”——Volume；“静音”——Mute\n3.1 非静音状态下，鼠标悬停在“音量”按钮上时，出现音量调整条，点击进行调整；直接点击“音量”按钮主体，变为静音状态\n3.2 静音状态下，鼠标悬停在“静音”按钮上时，不出现音量调整条，点击“静音”按钮主体，变成音量调节状态\n4. “暂停/启动”——Pause/Start\n4.1 点击“暂停”按钮后，变成“启动”按钮，手机上有操作，但电视上画面停留在暂停时的画面；重新启动后，电视画面更新为手机上当前的画面\n5. “退出”——Exit\n5.1 能退出镜像的按钮：物理遥控器上的“电源”；电视浏览器右上角的“关闭”；手机APP内的“stop mirroring”；电视屏幕上的“退出”。\n5.2 退出是指电视屏幕上停止镜像，画面停留在手机上停止镜像的最后一帧；手机APP内按钮显示“start mirroring”，手机APP内和电视屏幕上的镜像状态保持一致\n5.3 全屏状态下不出现退出按钮",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

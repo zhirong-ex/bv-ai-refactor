@@ -1,0 +1,23 @@
+{
+  "id": "DS-01",
+  "module": "billing",
+  "lanhu_name": "pro-Serious Version",
+  "lanhu_image_id": "420efee9-aed7-44c2-b79f-4eed66a08311",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=420efee9-aed7-44c2-b79f-4eed66a08311",
+  "version_folder": "v1.1.3",
+  "compose_target": "presentation/screen/billing/ui/BillingSeriousContent.kt",
+  "visual_tokens": {
+    "page_background": "background_pro",
+    "accent_sky": "#D5E8F7",
+    "accent_panel": "#CEE9FD",
+    "purchase_button": "#1F2123",
+    "purchase_shadow": "#4990E780",
+    "close_ring_border": "#1F21232E",
+    "feature_icon_fill": "#FFFFFF",
+    "cta_label_i18n": "string_one_time_payment_of"
+  },
+  "loading_note": "价格未返回：购买钮内 icon_refresh 旋转 700ms，按钮 disabled；无独立 SERIOUS loading 画板",
+  "fetched_at": "2026-09-04T05:50:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

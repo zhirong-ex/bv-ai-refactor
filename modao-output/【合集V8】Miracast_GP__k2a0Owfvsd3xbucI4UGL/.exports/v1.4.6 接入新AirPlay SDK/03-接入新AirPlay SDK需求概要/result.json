@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqF3Z023oocsRz",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/03-接入新AirPlay SDK需求概要",
+  "exportedAt": "2026-08-25T06:08:14.138Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUqF3Z0DU4PA0p0-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqF3Z023oocsRz&canvasId=rcUqF3Z0DU4PA0p0",
+      "image": "images/001-页面-1-rcUqF3Z0DU4PA0p0-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【新老SDK差异点】\n1. 老SDK：用户没有打开接收器开关时，我们也能搜到设备\n\ta. 新SDK：用户没有打开接收器开关时，我们不能搜到该设备\n2. 老SDK：password能正常连接（pin码和password无法区分）\n\ta. 新SDK：password连接很容易出问题，所以会引导用户关闭password，APP内不给password入口",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 163,
+          "canvasY": 343,
+          "width": 463,
+          "height": 202,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

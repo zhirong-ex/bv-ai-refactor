@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3baaUHG0COholbCEbK",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/02-镜像超时",
+  "exportedAt": "2026-08-24T10:46:54.821Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslus3baUHG0COjdtZtwel-diagram-1",
+      "title": "镜像超时",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=slus3baaUHG0COholbCEbK&canvasId=sslus3baUHG0COjdtZtwel",
+      "image": "images/001-镜像超时-sslus3baUHG0COjdtZtwel-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "镜像超时说明：\n\n【逻辑】\n\n1、连接Chromecast、LGWebOS设备，点击“Start Mirroring”，先判断是否支持自研镜像；\n\n（1）若不支持，则继续判断手机是否支持系统镜像；\n\n* 若支持系统镜像，则立即弹出【切换镜像提示弹窗】，弹窗部分的逻辑不变，同LG_Webos；\n\n* 若不支持系统镜像，则立即弹出不支持镜像的Toast提示，该提示的展示逻辑同以往一致；\n\n（2）若支持自研镜像，LG维持原超时逻辑，Chromecast用户若5s后仍未与设备建立连接，则立即弹出【切换镜像提示弹窗】；",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

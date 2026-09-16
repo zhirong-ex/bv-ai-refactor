@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUg2wHltAmra89z",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/08-【新增】埋点bug",
+  "exportedAt": "2026-08-25T04:20:09.753Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUg2wHm3A7ZD8MS",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUg2wHltAmra89z&canvasId=rcUg2wHm3A7ZD8MS",
+      "image": "images/001-页面-1-rcUg2wHm3A7ZD8MS.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "相关埋点：lg_web_os_mirror_not_support\n之前：在镜像到Chromecast的，超时后也会埋\n修改为：只和LG webos设备挂钩",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 30,
+          "canvasY": 167,
+          "width": 289,
+          "height": 361,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHo79rOGlmRDF",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.7 解决遗留bug+其他/05-开屏动画时长配置",
+  "exportedAt": "2026-08-25T04:04:36.839Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUuHo79ywbRntQX",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUuHo79rOGlmRDF&canvasId=rcUuHo79ywbRntQX",
+      "image": "images/001-页面-1-rcUuHo79ywbRntQX.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【新增开屏动画时长配置】\n1. 新增配置：miracast_app_open_duration控制非VIP用户的开屏动画时长\n\ta. VIP用户固定展示2s开屏动画\n\tb. 如果配置成0，则开屏动画时长默认7",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 52,
+          "canvasY": 261,
+          "width": 290,
+          "height": 226,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

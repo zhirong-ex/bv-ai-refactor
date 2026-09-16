@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUaPmfKs504fHTs",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/待排期/03-【重要】连接设备相关问题",
+  "exportedAt": "2026-08-25T04:40:39.283Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUaPmfKwzVhJCpV",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUaPmfKs504fHTs&canvasId=rcUaPmfKwzVhJCpV",
+      "image": "images/001-页面-1-rcUaPmfKwzVhJCpV.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【bug】\n1. 连接设备不是有个5秒超时嘛，比如说，我连接A设备，5秒到了，断开连接了，但真实连接还在继续，很慢，7秒的时候连接成功了，这个时候，又会真给连上\n\ta. 没真的断开，网络那边没做判断\n2. connect库还有个status状态混乱问题，需要花时间排查",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 40,
+          "canvasY": 154,
+          "width": 330,
+          "height": 371,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "DS-04",
+  "module": "main-home",
+  "spec_alias": "DS:main-home-native-loading",
+  "lanhu_name": "home-native-loading",
+  "lanhu_image_id": "029da343-5216-4ee1-8128-c57147789d92",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=029da343-5216-4ee1-8128-c57147789d92",
+  "version_folder": "1.4.2+",
+  "compose_target": "presentation/common/ads/NativeAdSlot.kt",
+  "loading_note": "底栏 Native 骨架 #E9F3FB；CTA 底边距随 Native 占位调整",
+  "fetched_at": "2026-09-04T10:24:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

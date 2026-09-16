@@ -1,0 +1,234 @@
+{
+  "sliceScale": 4,
+  "isFigma": false,
+  "nodes": [
+    {
+      "type": "shape",
+      "name": "Tutorial",
+      "class": "bg-#FDFDFD"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0456901a590183943264c4fa9d68c1b8fe4e5531b95cb8123a5e15d289498878"
+    },
+    {
+      "type": "shape",
+      "name": "Border",
+      "class": "border-1px border-#000000 border-solid"
+    },
+    {
+      "type": "shape",
+      "name": "Cap",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "shape",
+      "name": "Capacity",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Battery",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga05957db16243a63d7c74f823baeb36bbafa63e1b3e30902724223c367fb5eeb"
+    },
+    {
+      "type": "icon",
+      "name": "Wifi",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga51e294a18a67a68f55dfbb95cbb5f16524a92678d746c3f6c5f2041d808d7d9"
+    },
+    {
+      "type": "icon",
+      "name": "Cellular Connection",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngaa0ac3100c0116c4423361fe3a0544c839fdba351689cbe6ba6e252283b36183"
+    },
+    {
+      "type": "text",
+      "name": "Time",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "椭圆形",
+      "class": "border-1px border-#1F21232E border-solid"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#1F2123",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd99e99795476096afbc35629bb622f03b0f7b32756bbb40b60ce51f82f22689e"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#1F2123",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng88c640638daf689c03a79b6a9b7d206fbba324db2fab5497fb8572a0b9fd3857"
+    },
+    {
+      "type": "icon",
+      "name": "back",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9e342615a6a105635952edb1cc8e0b59d3a2028c796b0e636f5022e159f25ab0"
+    },
+    {
+      "type": "text",
+      "name": "How to control a Sam",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "椭圆形",
+      "class": "bg-#D6E4EF",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng59f62c86ba291ef135c5915f60804f0cbed22e5ce58da4a697ad69e5e8a7cb8d"
+    },
+    {
+      "type": "text",
+      "name": "1",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "椭圆形",
+      "class": "bg-#D6E4EF",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng59f62c86ba291ef135c5915f60804f0cbed22e5ce58da4a697ad69e5e8a7cb8d"
+    },
+    {
+      "type": "text",
+      "name": "2",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "All Samsung TVs have",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "Tap the power button",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D6E4EF",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0906862271cfeeea6702b1f8741724ef6ceec2dd0c6afb302c80cb6d0b34eeca"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "icon",
+      "name": "编组 2",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ad9bbb0cc5ed7645b2fba6911320a6a5cab2b5313c02fdf807ef5f57d5c1237"
+    },
+    {
+      "type": "text",
+      "name": "Check on the back of",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D6E4EF",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0906862271cfeeea6702b1f8741724ef6ceec2dd0c6afb302c80cb6d0b34eeca"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "icon",
+      "name": "编组 2",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ad9bbb0cc5ed7645b2fba6911320a6a5cab2b5313c02fdf807ef5f57d5c1237"
+    },
+    {
+      "type": "text",
+      "name": "Check under the fron",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D6E4EF",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0906862271cfeeea6702b1f8741724ef6ceec2dd0c6afb302c80cb6d0b34eeca"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#1F2123"
+    },
+    {
+      "type": "icon",
+      "name": "编组 2",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ad9bbb0cc5ed7645b2fba6911320a6a5cab2b5313c02fdf807ef5f57d5c1237"
+    },
+    {
+      "type": "text",
+      "name": "Check under the fron",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "* If the buttons can",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "https://www.samsung.",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "Home Indicator",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5a55bce0e61824e6b35e82f487c8fc2828194ab82d71f586b93de2f8b36bc031"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd993c720276651f77ac926d7b5b2f16738ebbecab77ccbc5d724f49531991d1b"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHtzoUJcyS7n8ziQkP6",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改/03-插屏广告加载动效",
+  "exportedAt": "2026-08-24T10:51:46.613Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUHtzoLUJcyS7oDX5nJF2",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUHtzoUJcyS7n8ziQkP6&canvasId=rcUHtzoLUJcyS7oDX5nJF2",
+      "image": "images/001-页面-1-rcUHtzoLUJcyS7oDX5nJF2.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "● UI需要做一个全屏的动效页面\n\t○ 为了处理关闭插屏广告后，A页面到B页面的延迟问题\n【逻辑】\n1. vip用户因为不弹出广告，也不弹出动效页面\n\ta. [连接设备成功后的插屏广告] 如果此时需要弹出评分弹窗，也会出现加载动效\n2. 网络较好情况下，先弹出动效页面，再弹出插屏广告，关闭插屏广告后进入B页面\n3. 网络很差的情况下，动效页面用户会看到两次\n\ta. 点击A页面，弹出动效页面，进入插屏，关闭插屏进入B页面\n\tb. 点击A页面，弹出动效页面，进入插屏，关闭插屏，弹出动效页面，进入B页面\n4. 动效页面的系统按钮都可以正常使用，不屏蔽\n\ta. [极限情况] 用户在动效页面点击了系统返回后，到达A页面，A页面仍可以点击\n\t涉及到的插屏广告位：\n1. 连接设备成功后的插屏广告\n2. 点击设置页面弹出的插屏广告\n备注：\n1. 相当于在A页面增加了一个动效页面，就对A页面实行了全屏禁用\n2. 点击stop mirroring后的插屏广告，因为没有涉及到页面之间的跳转，不需要修改",
+          "author": "彭俊辉",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9foF56wr42jAp",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.5.0 新增设置页面引流/01-新增引流",
+  "exportedAt": "2026-08-25T03:58:13.925Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcV9foF5B9XgB3jf",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV9foF56wr42jAp&canvasId=rcV9foF5B9XgB3jf",
+      "image": "images/001-页面-1-rcV9foF5B9XgB3jf.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【设置页面引流新增AI Translate】\n「逻辑」\n1. 引流链接：https://applinks.tranvision.com/translator/link02\n2. APP Title：AI Translate: Voice Translate\n3. icon：见任务附件\n4. 相关配置：miracast_settings_promotion_order\n\ta. AI Translate的值：aitranslateapp（不是bundle ID，因为要做账号隔离，用bundle ID不安全）\n5. 备注：因为不能把Bundle ID放进APP代码，所以只能跳转到商店，不能直接启动引流APP",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 61,
+          "canvasY": 17,
+          "width": 481,
+          "height": 328,
+          "embeddedImages": []
+        },
+        {
+          "text": "【设置页面引流新增Al Meeting Notes】\n「逻辑」\n1. 引流链接：deltasoftware.cc/deeplink/tv?source=ai-note&action=qrscan\n2. APP Title：AI Meeting Notes: Auto Summary\n3. icon：见任务附件\n4. 相关配置：miracast_settings_promotion_order\n\ta. AI Meeting Notes的值：aimeetingnotesapp（不是bundle ID，因为要做账号隔离，用bundle ID不安全）\n5. 备注：因为不能把Bundle ID放进APP代码，所以只能跳转到商店，不能直接启动引流APP",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 588,
+          "canvasY": 17,
+          "width": 516,
+          "height": 328,
+          "embeddedImages": []
+        },
+        {
+          "text": "【文案】\n简中：语音翻译官：翻译照片、对话、文本，语言翻译软件\n繁中：語音翻譯官：翻譯照片、對話、文本，語言翻譯軟體\n德语：Sprachübersetzung：AI Translate\n西语：Traductor de Voz: Traductor IA\n日语：音声翻訳，AI翻訳，カメラ翻訳，翻訳アプリ\n韩语：언어 번역: AI 번역기，음성, 텍스트 및 사진 번역\n法语：Traduction Vocale：AI Translate\n意大利语：Traduzione Vocale：AI Translate\n葡萄牙语：Tradução de Voz: Tradutor IA\n泰语：แปลภาษาด้วยเสียง：AI Translator\n俄语：Голосовой перевод：AITranslator\n英文：AI Translate: Voice Translate\n开发可以直接自己填多语言表：只做简中、繁中、德语、西语、日语、韩语、法语、意大利语、葡萄牙语、泰语、俄语、英语，其他的就都用英语。",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 61,
+          "canvasY": 359,
+          "width": 481,
+          "height": 476,
+          "embeddedImages": []
+        },
+        {
+          "text": "【文案】\n简中：AI Meeting Notes：智能笔记助手\n繁中：AI Meeting Notes：智能筆記助手\n德语：MeetingNotes：KI-Notizassistent\n西语：Meeting Notes：Toma de notas IA\n日语：AI会議メモ: 音声をテキストに書き起こす\n韩语：AI Meeting Notes: 음성을 텍스트로 변환\n法语：Al Meeting Notes: Résumé Auto\n意大利语：Meeting：Prendi note con l'IA\n葡萄牙语：Meeting Notes：Anotações IA\n泰语：บันทึกการประชุม AI: สรุปอัตโนมัติ\n俄语：Al Meeting Notes: авто-резюме\n英文：Al Meeting Notes: Auto Summary\n开发可以直接自己填多语言表：只做简中、繁中、德语、西语、日语、韩语、法语、意大利语、葡萄牙语、泰语、俄语、英语，其他的就都用英语。",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 588,
+          "canvasY": 359,
+          "width": 481,
+          "height": 475,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DS-05",
+  "module": "main-home",
+  "spec_alias": "DS:main-home-update-bar",
+  "lanhu_name": "更新",
+  "lanhu_image_id": "70584691-a642-4198-a7eb-059bdfda0c4d",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=70584691-a642-4198-a7eb-059bdfda0c4d",
+  "version_folder": "1.4.2+",
+  "compose_target": "presentation/screen/mainhome/ui/UpdateRestartBar.kt",
+  "visual_tokens": {
+    "bar_background": "#EBF5FC",
+    "cta_label_i18n": "no_trans_string_install"
+  },
+  "fetched_at": "2026-09-04T10:24:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

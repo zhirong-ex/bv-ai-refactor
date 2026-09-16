@@ -1,0 +1,163 @@
+[
+  {
+    "key": "miracast_enable_purchase_remove_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": true,
+    "note": "[小额付费] 付费去除广告的功能开关（默认低付费价格）\n1、关闭配置后，不再展示任何相关付费入口，非vip正常展示广告，vip不展示任何广告\n2、付费去广告总开关，配置开启式，下面的国家配置有效，根据配置了的国家展示不同的价格；配置关闭时，下面的国家配置无效，统一关闭入口。\n2.1、开启配置后，如未在下面价格组配置的国家，则统一展示默认价格1.99\n2024/4/24修改默认配置为FALSE\n2025/1/ v1.4.1测试时，修改默认配置为true"
+  },
+  {
+    "key": "miracast_remove_ad_price_1",
+    "type": "json",
+    "since": "v1.1.3",
+    "default": "[\"US\",\"CA\",\"AU\",\"GB\",\"DE\",\"CN\",\"NZ\"]",
+    "note": "[小额付费] 付费价格1的国家配置\n1. 价格组1线上展示价格4.99\n2. 如果配置国家重复，则展示较低的价格"
+  },
+  {
+    "key": "miracast_remove_ad_price_2",
+    "type": "json",
+    "since": "v1.1.3",
+    "default": "[\"IN\",\"BR\",\"MX\",\"AR\",\"PK\",\"CO\",\"TW\",\"FR\",\"JP\",\"DK\",\"CL\",\"BE\",\"KR\",\"IE\",\"HK\",\"NO\",\"SA\"]",
+    "note": "[小额付费] 付费价格2的国家配置\n1. 价格组2线上展示价格2.99\n2. 如果配置国家重复，则展示较低的价格"
+  },
+  {
+    "key": "miracast_remove_ad_page_style",
+    "type": "json",
+    "since": "v1.1.3",
+    "default": "[\"serious\"]",
+    "note": "[小额付费] 小额付费页面的页面风格\n[\"funny\"]为更为轻松的风格"
+  },
+  {
+    "key": "miracast_enable_system_rate",
+    "type": "boolean",
+    "since": "v1.1.4",
+    "default": true,
+    "note": "[评分] GP系统评分功能的开关\n仅控制GP系统评分，不影响自定义评分"
+  },
+  {
+    "key": "miracast_enable_custom_rate",
+    "type": "boolean",
+    "since": "v1.1.4",
+    "default": true,
+    "note": "[评分] 自定义评分开关\n仅控制自定义评分，GP系统评分"
+  },
+  {
+    "key": "universal_mirror_troubleshoot_website",
+    "type": "json",
+    "since": "v1.0.0",
+    "default": "{\\\"url\\\":\\\"\\\"}",
+    "note": "[功能] 点击troubleshoot连接网址\n网址为空时，表示troubleshoot功能关闭，不展示入口。\n{\"url\":\"\"}表示网址为空，{\"url\":\"https://www.bilibili.com\"}为有网址时，网址可替换任意完整url（有https://)"
+  },
+  {
+    "key": "miracast_settings_promotion_order",
+    "type": "json",
+    "since": "v1.1.0",
+    "default": "[\"com.boost.universal.remote\", \"com.boost.cast.universal\", \"com.boost.lg.remote\",\"com.boost.samsung.remote\", \"tv.remote.control.firetv\"]",
+    "note": "[设置页面引流] 设置界面引流App排序\n展示顺序按照App id填写顺序按顺展示，无内容则不展示引流，空指连框都不要"
+  },
+  {
+    "key": "miracast_app_open_duration",
+    "type": "number",
+    "since": "v1.4.7",
+    "default": 7,
+    "note": "[开屏动画] 非VIP用户开屏动画时长\n单位: 秒\n1. VIP用户的开屏动画时长固定2s\n2.  如果配置成0，则开屏动画时长默认7"
+  },
+  {
+    "key": "miracast_enable_app_open_ad",
+    "type": "boolean",
+    "since": "v1.1.0",
+    "default": true,
+    "note": "[广告] 启动App时的开屏广告开关\n2024/4/24修改默认配置为FALSE\n2025/1/ v1.4.1测试时，修改默认配置为true"
+  },
+  {
+    "key": "miracast_ad_open_repeatedly_switch",
+    "type": "boolean",
+    "since": "v1.4.2",
+    "default": true,
+    "note": "[广告] 开屏广告多次请求和展示的开关\nFALSE：一次启动内，开屏广告最多只展示一次\nTRUE：一次启动内，只要用户从后台返回前台就可以展示\n1. 只有当“启动App时的开屏广告开关”为开时，这个配置才生效"
+  },
+  {
+    "key": "miracast_enable_exit_app_native_ad",
+    "type": "boolean",
+    "since": "v1.1.0",
+    "default": false,
+    "note": "[广告] 在首页退出APP时的底部浮层native广告的开关\n2024/4/18修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_search_device_native_ad",
+    "type": "boolean",
+    "since": "v1.1.0",
+    "default": true,
+    "note": "[广告] 设备搜索页底部native广告的开关\n2024/4/23修改默认配置为FALSE\n2025/1/ v1.4.1测试时，修改默认配置为true"
+  },
+  {
+    "key": "miracast_enable_mirror_tutorial_native_ad",
+    "type": "boolean",
+    "since": "v1.1.0",
+    "default": false,
+    "note": "[广告] 在mirror教程底部的native广告开关\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_mirror_page_native_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": false,
+    "note": "[广告] 镜像参数页的native广告开关\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_home_page_native_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": false,
+    "note": "[广告] 在首页底部的native广告开关\n目前首页有banner广告，当banner开关和native开关都打开时，则展示native\n2024/4/23修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_connect_device_interstitial_ad",
+    "type": "boolean",
+    "since": "v1.1.2",
+    "default": true,
+    "note": "[广告] 连接设备成功后的插屏广告开关\n2024/4/24修改默认配置为FALSE\n2025/1/ v1.4.1测试时，修改默认配置为true"
+  },
+  {
+    "key": "miracast_enable_stop_mirroring_interstitial_ad",
+    "type": "boolean",
+    "since": "v1.1.2",
+    "default": false,
+    "note": "[广告] 点击stop mirroring后的插屏广告开关\n目前仅针对LG web OS用户（使用web mirror方案）和Fire Tv用户\n新增ChromeCast用户！！！！！\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_click_setting_interstitial_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": false,
+    "note": "[广告] 点击设置页面的插屏广告开关\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_home_page_banner_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": false,
+    "note": "[广告] 主页上的banner广告开关\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_enable_setting_page_banner_ad",
+    "type": "boolean",
+    "since": "v1.1.3",
+    "default": false,
+    "note": "[广告] 设置页面上的banner广告开关\n2024/4/24修改默认配置为FALSE"
+  },
+  {
+    "key": "miracast_single_interstitial_load_time",
+    "type": "number",
+    "since": "v1.1.2",
+    "default": 3,
+    "note": "[广告加载失败] 单个插屏广告位连续加载失败n次\n会根据广告的匹配率变化来进行调整，（不存在n=0的配置）"
+  },
+  {
+    "key": "miracast_failed_interstitial_position_number",
+    "type": "number",
+    "since": "v1.1.2",
+    "default": 5,
+    "note": "[广告加载失败] 连续n个插屏广告位都加载失败\n会根据上线后的数据进行调整，（n=0表示无限制，本次启动app的插屏广告位无论加载失败几次，其他插屏广告位都会加载）"
+  }
+]

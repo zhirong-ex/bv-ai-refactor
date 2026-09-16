@@ -1,0 +1,30 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCAiDUDJIY8NmXc0HAG",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/04-录音权限弹窗逻辑",
+  "exportedAt": "2026-08-24T10:44:37.927Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "rcUC9RVjUDJIY8NVeudnUt-diagram-1",
+      "title": "页面1 — 1",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCAiDUDJIY8NmXc0HAG&canvasId=rcUC9RVjUDJIY8NVeudnUt",
+      "image": "images/001-页面1-—-1-rcUC9RVjUDJIY8NVeudnUt-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "1. 连接所有设备音量控制开关状态同步\n\ta. 如果连接Fire TV，关闭了sound，断开后Fire连接LG，sound依然关闭\n2. 用户未调整sound开关（默认打开），首次点击\"start mirroring\"时\n\ta. 检查是否获取录音权限，若未获取，调起系统录音权限弹窗\n\t1. 若用户拒绝提供权限，则将音量控制开关将开关转换为关闭状态\n3. 用户拨动音量控制开关，打开开关时\n\ta. 检查是否获取录音权限\n\t\tI. 若已开启，则打开开关\n\t\tII. 若未开启\n\t1. 弹出录音权限提醒弹窗\n\t2. 若用户点击取消，则将开关切换为关闭状态\n4. 音量控制开关不区分设备品牌，共用同一套\n5. 画质开关区分品牌",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUC9RVjUDJIY8NVeudnUt-diagram-2",
+      "title": "页面1 — 2",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCAiDUDJIY8NmXc0HAG&canvasId=rcUC9RVjUDJIY8NVeudnUt",
+      "image": "images/002-页面1-—-2-rcUC9RVjUDJIY8NVeudnUt-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": []
+    }
+  ]
+}

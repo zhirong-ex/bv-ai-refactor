@@ -1,0 +1,352 @@
+{
+  "sliceScale": 4,
+  "isFigma": false,
+  "nodes": [
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng0456901a590183943264c4fa9d68c1b8fe4e5531b95cb8123a5e15d289498878"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "border-1px border-#1893EC border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng09de3b9ec810557c85588a4f8465c939a368ed26615960a217bf6a14745086b5"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#1893EC",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng333934fd82613862ec65af1623a5420ae7f597535cbfac0170da6d442b014275"
+    },
+    {
+      "type": "shape",
+      "name": "路径",
+      "class": "bg-#FFFFFF"
+    },
+    {
+      "type": "icon",
+      "name": "勾",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng2e7395c8023d377c246b02c3fc813723f14837c74c847bef9ec6e9dba62a054e"
+    },
+    {
+      "type": "text",
+      "name": "Apple TV",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "MacBook",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "RokuRokuRokuRokuRoku",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "Fire tv",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "Lg web os",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "Android tv",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb216b5ef98276077000d83e984fe0d493b5ea8bb844cf7ed52f2818577e0f74a"
+    },
+    {
+      "type": "text",
+      "name": "Chromecast",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#FFFFFF",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng2a646aa98f58478ed64e0630e13499feed14a9b8ab61ec93736a96ee84a7dbba"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#2B94FB66",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng6e9bdf0fa9900e0ad3cafaf4df78544d3699f4bc1af132d5f6c83d8a65563a7b"
+    },
+    {
+      "type": "text",
+      "name": "Ad",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "蒙版",
+      "class": "bg-#D8D8D8",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng7fdafeb6292a35e66d3227ab9a74f6530be89786135fa4f9c4b03da9300ae72d"
+    },
+    {
+      "type": "icon",
+      "name": "位图",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng77192699ae34c0a80be5c1064c1adb620ac642ff0edc840e665dfe8fef620483"
+    },
+    {
+      "type": "icon",
+      "name": "位图",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng5e357908c89d2454878058d988c286bd6c04d0717a0aa02c886e65e02de87849"
+    },
+    {
+      "type": "text",
+      "name": "Here is ad.Here is a",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "Here is the title He",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "蒙版",
+      "class": "bg-#D8D8D8",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngbeb310fb7501cb2ecbdd2e6ec296d44411c09ea9474b6fb9aa9a6876f46e795c"
+    },
+    {
+      "type": "icon",
+      "name": "位图",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngcc79d522aaef45751b514ab88d17e8fdee87032965d39bb5d9d875d79a9506bd"
+    },
+    {
+      "type": "icon",
+      "name": "广告btn2",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPnga6846c471abe568d329bcf73a057b91e3670f5f59ecb0f28f44c5bfdeb112cb1"
+    },
+    {
+      "type": "text",
+      "name": "Install",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "Home Indicator",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng5a55bce0e61824e6b35e82f487c8fc2828194ab82d71f586b93de2f8b36bc031"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngd993c720276651f77ac926d7b5b2f16738ebbecab77ccbc5d724f49531991d1b"
+    },
+    {
+      "type": "shape",
+      "name": "Border",
+      "class": "border-1px border-#000000 border-solid"
+    },
+    {
+      "type": "shape",
+      "name": "Cap",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "shape",
+      "name": "Capacity",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Battery",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng665b3244c48d10ac9e8386b5cde29cfdb79b140fafc91d556654d25871be90b5"
+    },
+    {
+      "type": "icon",
+      "name": "Wifi",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPnga51e294a18a67a68f55dfbb95cbb5f16524a92678d746c3f6c5f2041d808d7d9"
+    },
+    {
+      "type": "icon",
+      "name": "Cellular Connection",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngaa0ac3100c0116c4423361fe3a0544c839fdba351689cbe6ba6e252283b36183"
+    },
+    {
+      "type": "text",
+      "name": "Time",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D8D8D800",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb9a259ffce10467f3bfb01b91cc4617a984cfe62b3a6ebdf81296f617dc10da3"
+    },
+    {
+      "type": "text",
+      "name": "Search devices",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "椭圆形",
+      "class": "border-1px border-#1F21232E border-solid"
+    },
+    {
+      "type": "icon",
+      "name": "路径",
+      "class": "bg-#1F2123 border-0px border-#1F2123 border-solid",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPnge226fa29b4229e6419a182cae1527a8f3f36614dbaf5982053fd085d5c5edca5"
+    },
+    {
+      "type": "icon",
+      "name": "back",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng35fe49f04ed2d4cf791c5722bde6b72f84646d6495ddae17b7d6a8e6487de499"
+    },
+    {
+      "type": "shape",
+      "name": "路径",
+      "class": "bg-#3C4042"
+    },
+    {
+      "type": "icon",
+      "name": "刷新 手动触发探查",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng0cc6370275282dbc5fc6ca5788ad4846bbc19f1e8491f8895fd00210d80d3959"
+    },
+    {
+      "type": "shape",
+      "name": "椭圆形",
+      "class": "bg-#D6E4EF"
+    },
+    {
+      "type": "icon",
+      "name": "形状",
+      "class": "bg-#1F2123",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng60565f0ea23261b339ca74351f2c340f43f7410d8a3367bc2784559c627bcfff"
+    },
+    {
+      "type": "icon",
+      "name": "wifi",
+      "class": "",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng9ddf4c943cf14c649cb1f083f5c0ba3d1f1512ed5d1ed0b49bc831099b3110e7"
+    },
+    {
+      "type": "text",
+      "name": "please make sure you",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#00000066",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng614991411fe180f3436740f87797563d2ede117b2761c8b5949eb1abc24351ce"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#FFFFFF",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngfa60cc7e46cbe2ef3e78cde839e87d4ab90fdc044acb6e993d9bd91573518350"
+    },
+    {
+      "type": "text",
+      "name": "Changes may take tim",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "*",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D8D8D800",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPngb4e5441b299c142014b84b682094353ca5c280fd9e67eaf9b3b863aee368191f"
+    },
+    {
+      "type": "text",
+      "name": "Get",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D8D8D88C",
+      "imageRef": "https://lanhu-oss-2537-2.lanhuapp.com/SketchPng1b1c8e674e507fb20c7770c129b882afb99c5265996e9307f33c34303ff0eeae"
+    },
+    {
+      "type": "text",
+      "name": "For better connectio",
+      "class": "",
+      "text": ""
+    }
+  ]
+}

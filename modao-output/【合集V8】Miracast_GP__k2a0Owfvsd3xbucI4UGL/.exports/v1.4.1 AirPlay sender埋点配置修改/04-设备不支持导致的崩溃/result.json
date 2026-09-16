@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ3shZ2juyI4Uc",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.1 AirPlay sender埋点配置修改/04-设备不支持导致的崩溃",
+  "exportedAt": "2026-08-25T04:24:13.746Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZ3shZ66okWxOL-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZ3shZ2juyI4Uc&canvasId=rcUZ3shZ66okWxOL",
+      "image": "images/001-页面-1-rcUZ3shZ66okWxOL-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "测试：无复现路径，全流程测试",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 71,
+          "canvasY": 406,
+          "width": 280,
+          "height": 120,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

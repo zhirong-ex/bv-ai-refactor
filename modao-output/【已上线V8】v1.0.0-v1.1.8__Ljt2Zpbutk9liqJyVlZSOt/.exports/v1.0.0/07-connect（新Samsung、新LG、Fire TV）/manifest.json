@@ -1,0 +1,98 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/07-connect（新Samsung、新LG、Fire TV）",
+  "exportedAt": "2026-08-24T08:32:02.578Z",
+  "pageCount": 8,
+  "pages": [
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-1",
+      "title": "connect（新Samsung、新LG、Fire TV） — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/001-connect(新Samsung、新LG、Fire-TV)-—-1-ssljzg7yVTCSMQePCtRZpI-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【设备连接——Fire TV】\n1. 链接FireTV设备时，设备返回未开启ADB状态，弹出提示弹窗，设备是未链接状态\n1.1 Cancel：关闭弹窗，返回设备链接界面\nInstructions：关闭弹窗，打开ADB教程\n2. 设备如果已开启ADB，则点击链接，会检查用户电视上有无镜像的APK，如果用户电视上没有镜像APK，则会显示弹窗，用户不可做其他操作，但是可以点击“cancel”取消弹窗，停留在当前界面，取消弹窗后仍继Push APK覆盖老APK或安装新APK（电视上APK与当前所需版本不一致）；如果用户电视有已有需要的APK，则不显示弹窗。\n3. 在APK安装好后，连接成功弹窗将自动关闭\n4. 在网络不佳的情况下，五秒未连接成功，弹出“remind”弹窗，30s后或用户点击“OK”，则弹出“Warning”弹窗。需要用户再次点击设备链接",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【设备连接——新LG】\n「页面」\n弹窗\n「逻辑」\n1. 点击新LG设备，出现pin码输入弹窗\n1.1 pin码输入不完整/错误，点击OK后未匹配时，弹出错误提示（x的图标）\n1.2 点击“Cancel”关闭弹窗，弹出错误提示（x的图标）",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【设备连接——新Samsung】\n「页面」\n弹窗\n「逻辑」\n1. 点击新Samsung设备，出现弹窗\n1.1 用户在电视端点击匹配，匹配成功后，手机自动关闭该弹窗，设备连接成功\n1.2 用户提前关闭了弹窗，匹配成功，也设备连接成功\n1.3 用户在电视端未点击匹配，匹配失败，需要用户手动关闭该弹窗出现确认弹窗，点击右上角关闭弹窗\n2. 点击下方的链接，出现教程，教程文案：https://www.samsung.com/ph/support/tv-audio-video/how-to-control-a-samsung-tv-without-a-remote/",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "其他设备连接成功后，自动关闭设备连接页面",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "https://www.samsung.com/ph/#productsupport/",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-2",
+      "title": "connect（新Samsung、新LG、Fire TV） — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/002-connect(新Samsung、新LG、Fire-TV)-—-2-ssljzg7yVTCSMQePCtRZpI-asset-2.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-3",
+      "title": "connect（新Samsung、新LG、Fire TV） — 3",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/003-connect(新Samsung、新LG、Fire-TV)-—-3-ssljzg7yVTCSMQePCtRZpI-asset-3.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-4",
+      "title": "connect（新Samsung、新LG、Fire TV） — 4",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/004-connect(新Samsung、新LG、Fire-TV)-—-4-ssljzg7yVTCSMQePCtRZpI-asset-4.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-5",
+      "title": "connect（新Samsung、新LG、Fire TV） — 5",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/005-connect(新Samsung、新LG、Fire-TV)-—-5-ssljzg7yVTCSMQePCtRZpI-asset-5.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-6",
+      "title": "connect（新Samsung、新LG、Fire TV） — 6",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/006-connect(新Samsung、新LG、Fire-TV)-—-6-ssljzg7yVTCSMQePCtRZpI-asset-6.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-7",
+      "title": "connect（新Samsung、新LG、Fire TV） — 7",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/007-connect(新Samsung、新LG、Fire-TV)-—-7-ssljzg7yVTCSMQePCtRZpI-asset-7.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    },
+    {
+      "id": "ssljzg7yVTCSMQePCtRZpI-asset-8",
+      "title": "connect（新Samsung、新LG、Fire TV） — 8",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljzg7ynVTCSMQeif9OhQM&canvasId=ssljzg7yVTCSMQePCtRZpI",
+      "image": "images/008-connect(新Samsung、新LG、Fire-TV)-—-8-ssljzg7yVTCSMQePCtRZpI-asset-8.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    }
+  ]
+}

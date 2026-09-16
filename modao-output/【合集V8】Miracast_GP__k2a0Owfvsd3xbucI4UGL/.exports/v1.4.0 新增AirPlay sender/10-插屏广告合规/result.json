@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUS0synwUWnwOp1",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/10-插屏广告合规",
+  "exportedAt": "2026-08-25T04:36:30.658Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUS0syo0brtJITF",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUS0synwUWnwOp1&canvasId=rcUS0syo0brtJITF",
+      "image": "images/001-页面-1-rcUS0syo0brtJITF.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【逻辑】\n1. 插屏合规（在当前页面展示完广告后，再去下一个页面）——用库里最新的\n适用的广告位置：\n1. 连接设备成功后（保存设备成功后）\n广告相关影响备注：\n根据上述情况，因为会“再次短暂展示页面”，所以会触发进入页面的native请求（触发加载逻辑），实际上native展示不出来或只能展示极短的时间，会影响native广告收入，和开发商量后，开发层面规避该广告问题：“插屏广告短暂展示后，不刷新当前页面的native”",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 15,
+          "canvasY": 128,
+          "width": 390,
+          "height": 353,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

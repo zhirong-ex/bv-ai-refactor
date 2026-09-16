@@ -1,0 +1,37 @@
+{
+  "id": "zhongnan",
+  "displayName": "Zhongnan Miracast GP 1.5.3",
+  "specRepo": "/Users/lizhirong/boostvision/otherBoostvision/AI",
+  "androidProject": "/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3",
+  "workspace": "/Users/lizhirong/boostvision/zhongnan/zhongnan-refactor.code-workspace",
+  "gitBranch": "zhirong/1.5.4",
+  "startFrom": "compose",
+  "modules": [
+    "device-search",
+    "settings",
+    "mirror-flow",
+    "splash-loading",
+    "ads",
+    "app-update",
+    "troubleshoot"
+  ],
+  "modao": {
+    "sharingUrls": [],
+    "reconcile": "modao-output/miracast.reconcile.json"
+  },
+  "feishu": {
+    "configSheet": "https://boostvision.feishu.cn/sheets/Rx5rs40k1hHZSUtShdacPxmenph",
+    "analyticsSheet": "https://boostvision.feishu.cn/sheets/Y82NsQtzAhNInAt04VecueNGnhd",
+    "i18nSheet": "https://boostvision.feishu.cn/sheets/KgrzsvYDzhAMrftRHnYcqOlTnne",
+    "appVersion": "1.5.4"
+  },
+  "lanhu": {
+    "stageUrl": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49"
+  },
+  "compose": {
+    "autoCommit": true,
+    "push": false,
+    "pushBranchPattern": "zhirong/**"
+  },
+  "finishWith": "spec-lite"
+}

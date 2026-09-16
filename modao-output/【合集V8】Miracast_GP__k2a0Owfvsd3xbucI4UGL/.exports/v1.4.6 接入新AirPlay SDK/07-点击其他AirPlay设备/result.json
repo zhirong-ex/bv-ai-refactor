@@ -1,0 +1,46 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QRAt9MEl10M",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/07-点击其他AirPlay设备",
+  "exportedAt": "2026-08-25T06:11:23.072Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "rcUr6QRAxLl6NpZU-diagram-1",
+      "title": "页面 1 — 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QRAt9MEl10M&canvasId=rcUr6QRAxLl6NpZU",
+      "image": "images/001-页面-1-—-1-rcUr6QRAxLl6NpZU-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【开始连接其他AirPlay设备- password】\n「UI」\n1. 弹窗如原型，文案不变\n「逻辑」\n1. 点击开始连接其他AirPlay设备时，我们不知道电视是否开启了password，但是为了连接顺利，则先提示用户关闭password\n\ta. 5s内不可点击，5s内点击后，开始连接",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 461,
+          "canvasY": 211,
+          "width": 292,
+          "height": 330,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUr6QRAxLl6NpZU-diagram-2",
+      "title": "页面 1 — 2",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QRAt9MEl10M&canvasId=rcUr6QRAxLl6NpZU",
+      "image": "images/002-页面-1-—-2-rcUr6QRAxLl6NpZU-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【连接其他AirPlay设备】\n「UI」\n1. 使用之前的弹窗，只有四位数字\n「逻辑」\n1. 点击其他AirPlay设备，就开始连接，弹出pin码弹窗\n\ta. 弹窗逻辑不变",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 1268.1199951171875,
+          "canvasY": 156,
+          "width": 292,
+          "height": 246,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

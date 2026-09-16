@@ -1,0 +1,109 @@
+>>> Folder: v1.2.0
+=== [1] v1.2.0 / 对接FireMirrorReceiver ===
+{
+  "pageCount": 6,
+  "annotationCount": 3,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/01-对接FireMirrorReceiver"
+}
+=== [1] done in 47s ===
+=== [2] v1.2.0 / LG_webOS镜像调整 ===
+{
+  "pageCount": 2,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/02-LG_webOS镜像调整"
+}
+=== [2] done in 46s ===
+=== [3] v1.2.0 / 镜像准备动画 ===
+{
+  "pageCount": 1,
+  "annotationCount": 2,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/03-镜像准备动画"
+}
+=== [3] done in 47s ===
+=== [4] v1.2.0 / 录音权限弹窗逻辑 ===
+{
+  "pageCount": 2,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/04-录音权限弹窗逻辑"
+}
+=== [4] done in 45s ===
+=== [5] v1.2.0 / 录音权限提醒 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/05-录音权限提醒"
+}
+=== [5] done in 45s ===
+>>> Folder: v1.3.0（GoogleCast协议镜像）
+=== [6] v1.3.0（GoogleCast协议镜像） / GoogleCast协议镜像 ===
+{
+  "pageCount": 2,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/01-GoogleCast协议镜像"
+}
+=== [6] done in 46s ===
+=== [7] v1.3.0（GoogleCast协议镜像） / 镜像超时 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/02-镜像超时"
+}
+=== [7] done in 46s ===
+=== [8] v1.3.0（GoogleCast协议镜像） / 优化native布局 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/03-优化native布局"
+}
+=== [8] done in 19s ===
+=== [9] v1.3.0（GoogleCast协议镜像） / 相关改动 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/04-相关改动"
+}
+=== [9] done in 46s ===
+=== [10] v1.3.0（GoogleCast协议镜像） / 插屏广告合规 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.0（GoogleCast协议镜像）/05-插屏广告合规"
+}
+=== [10] done in 46s ===
+>>> Folder: v1.3.1 campaign参数获取尝试
+=== [11] v1.3.1 campaign参数获取尝试 / 标记主页 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.1 campaign参数获取尝试/01-标记主页"
+}
+=== [11] done in 46s ===
+>>> Folder: v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改
+=== [12] v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改 / 其他 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改/01-其他"
+}
+=== [12] done in 45s ===
+=== [13] v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改 / 设置页面引流方式调整 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改/02-设置页面引流方式调整"
+}
+=== [13] done in 46s ===
+=== [14] v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改 / 插屏广告加载动效 ===
+{
+  "pageCount": 1,
+  "annotationCount": 1,
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改/03-插屏广告加载动效"
+}
+=== [14] done in 18s ===
+>>> Building PRD markdown files...
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.2.0.md (5 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.0（GoogleCast协议镜像）.md (5 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.1 campaign参数获取尝试.md (1 canvases, relative images)
+Wrote /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改.md (3 canvases, relative images)
+Done. Exported 14 new, skipped 0, failed 0 / 14 canvases into /Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3
+>>> Export phase: 590s | Build PRD: 0s | Total (incl. urls_codex): 590s (~9.83 min)

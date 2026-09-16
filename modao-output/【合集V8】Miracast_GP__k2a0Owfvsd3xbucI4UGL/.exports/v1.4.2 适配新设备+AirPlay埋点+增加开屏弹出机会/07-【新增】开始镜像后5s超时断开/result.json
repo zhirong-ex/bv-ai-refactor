@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfyfPdaVp49wTh",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/07-【新增】开始镜像后5s超时断开",
+  "exportedAt": "2026-08-25T04:19:25.528Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUfyfPdg1XGiYcm",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfyfPdaVp49wTh&canvasId=rcUfyfPdg1XGiYcm",
+      "image": "images/001-页面-1-rcUfyfPdg1XGiYcm.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【详情】\n1. 详情：Chromecast和WebMirror有个开始镜像后的5秒超时断开镜像的逻辑，这个目前是跟页面挂钩的，在5s内把页面关了，超时逻辑就没了\n2. 修改为：不与页面挂钩，即使是在5s内把页面关了，也会有5s的超时逻辑",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 42,
+          "canvasY": 182,
+          "width": 280,
+          "height": 265,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

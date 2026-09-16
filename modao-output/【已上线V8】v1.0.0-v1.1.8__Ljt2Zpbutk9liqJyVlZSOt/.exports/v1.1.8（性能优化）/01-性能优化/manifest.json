@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slv6a95vVTCT0p4uacznFd",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.8（性能优化）/01-性能优化",
+  "exportedAt": "2026-08-24T08:50:08.068Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "sslv6a95VTCT0p4vDwj4Fu",
+      "title": "性能优化",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slv6a95vVTCT0p4uacznFd&canvasId=sslv6a95VTCT0p4vDwj4Fu",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "Android添加基准配置文件，优化启动性能\nhttps://developer.android.com/topic/performance/baselineprofiles/overview?hl=zh-cn\n测试注意：基准配置这个版本测试的时候要增加一个上传internal test之后，从google play下载下来冒个烟的过程，主要是防止万一会不会上线之后下载下来直接crash",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

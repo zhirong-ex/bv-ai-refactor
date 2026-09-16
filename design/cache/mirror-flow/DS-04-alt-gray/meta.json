@@ -1,0 +1,12 @@
+{
+  "id": "DS-04-alt-gray",
+  "module": "mirror-flow",
+  "lanhu_name": "fire tv-置灰",
+  "lanhu_image_id": "5f8dea09-987c-4bb1-8b74-3d1d3176f7c4",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=5f8dea09-987c-4bb1-8b74-3d1d3176f7c4",
+  "version_folder": "1.4.2+",
+  "compose_target": "presentation/screen/mirrorflow/",
+  "fetched_at": "2026-09-11T02:23:32.810Z",
+  "mcp": "lanhu",
+  "error": null
+}

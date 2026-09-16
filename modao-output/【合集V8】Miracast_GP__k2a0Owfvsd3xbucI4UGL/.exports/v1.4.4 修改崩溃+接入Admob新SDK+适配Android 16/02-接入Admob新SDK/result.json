@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUnm3p1Th0qJSh1",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16/02-接入Admob新SDK",
+  "exportedAt": "2026-08-25T04:13:17.014Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUnm3p1bSh5HcRK",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUnm3p1Th0qJSh1&canvasId=rcUnm3p1bSh5HcRK",
+      "image": "images/001-页面-1-rcUnm3p1bSh5HcRK.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "接入文档\nhttps://developers.google.com/admob/android/early-access/nextgen/quick-start",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 72,
+          "canvasY": 236,
+          "width": 280,
+          "height": 206,
+          "embeddedImages": []
+        },
+        {
+          "text": "移除KAE，升级Kotlin SDK到1.9\n测试注意UI！",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 72,
+          "canvasY": 484,
+          "width": 280,
+          "height": 160,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

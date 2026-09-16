@@ -1,0 +1,12 @@
+{
+  "id": "DS-02",
+  "module": "device-search",
+  "lanhu_name": "device-no wifi",
+  "image_id": "135a9da0-0d0f-41e5-9d09-b546cb84acd1",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=135a9da0-0d0f-41e5-9d09-b546cb84acd1",
+  "version_folder": "1.4.6",
+  "fetched_at": "2026-08-25T10:20:22Z",
+  "mcp": "lanhu",
+  "preview": "preview.png",
+  "error": null
+}

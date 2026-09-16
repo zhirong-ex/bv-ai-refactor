@@ -1,0 +1,30 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmypz4VTCSUViOxOFQdL",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/06-banner页面",
+  "exportedAt": "2026-08-24T08:38:11.537Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "sslnmypzVTCSUVilx3QhiI-diagram-1",
+      "title": "banner页面 — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmypz4VTCSUViOxOFQdL&canvasId=sslnmypzVTCSUVilx3QhiI",
+      "image": "images/001-banner页面-—-1-sslnmypzVTCSUVilx3QhiI-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "sslnmypzVTCSUVilx3QhiI-diagram-2",
+      "title": "banner页面 — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmypz4VTCSUViOxOFQdL&canvasId=sslnmypzVTCSUVilx3QhiI",
+      "image": "images/002-banner页面-—-2-sslnmypzVTCSUVilx3QhiI-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【Banner广告】ca-app-pub-3925850724927301/4820177914\n「页面」\n1. 加载框\n2. 加载动效\n「逻辑」\n1. 进入banner所在页面后，才开始加载banner广告\n2. 谷歌自动优化刷新（产品后台配置）\n3. 无网络状态，不加载广告，也不展示加载框",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

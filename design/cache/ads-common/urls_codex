@@ -1,0 +1,6 @@
+version	folder_name	lanhu_url	ds_id	notes
+1.4.2	插屏loading	https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=6e651d30-8f0a-48db-9c93-e76553d85aac	DS-01	InterstitialAdLoadingOverlay；画板较 1.4.2 晚入库
+1.4.2	Loading	https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=eeed56f4-256a-4ec2-9583-a1fa27aedd26	DS-02	App Open Welcome Back；四色圆点 + WELCOME BACK
+1.4.2	device-native	https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=c2da56ea-f017-4951-8269-36e85d4e6b00	DS-03	NativeAdSlot；同 device-search DS-09
+1.4.2	home-banner	https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=0d83696d-c41d-4d76-9910-f94e3c7a0e8b	DS-04	首页 BannerAdSlot
+1.4.2	setting-引流-banner	https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=bd7469f1-ab04-4b23-9d7b-17fa07669492	DS-05	设置页 BannerAdSlot

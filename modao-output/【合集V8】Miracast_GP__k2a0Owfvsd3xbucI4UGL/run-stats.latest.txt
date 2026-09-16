@@ -1,0 +1,9 @@
+bv-modao2prd run 2026-08-25T06:13:13Z
+Version filter: v1.4.6 接入新AirPlay SDK
+Total: 6.95 min (417 s)
+  urls_codex: 0 min | export: 6.95 min | build_prd: 0 min
+Canvases: 9 exported, 0 skipped, 0 failed / 9 total
+Avg per exported canvas: 0.77 min (46.33 s)
+
+Historical runs in this project: 2
+Cumulative export time: 54.68 min

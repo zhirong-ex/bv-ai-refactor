@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCLmYUDJIY8L3P1CqRN",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/.exports/v1.2.0/03-镜像准备动画",
+  "exportedAt": "2026-08-24T10:43:52.668Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUCLmYlUDJIY8MSB1ftEJ-diagram-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/71koi256sd5cg2jHyZX6p3/sharing?view_mode=read_only&screen=rbpUCLmYUDJIY8L3P1CqRN&canvasId=rcUCLmYlUDJIY8MSB1ftEJ",
+      "image": "images/001-页面-1-rcUCLmYlUDJIY8MSB1ftEJ-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【界面】\n将镜像准备提示由文字“please wait”修改为动画\n【逻辑】\n● 用户点击“Start Mirroring”时弹出，镜像准备完成后消失\n● 点击左上方返回键、系统返回键等方式离开等页面，镜像不中断\n● 镜像成功后，“Start Mirroring”键切换为“Stop Mirroring”\n\t○ 目前切换时机：点击“Start Mirroring”直接切换",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "镜像成功后被中断，回到画质选择页面\n画质默认为该品牌设备上次的选择",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

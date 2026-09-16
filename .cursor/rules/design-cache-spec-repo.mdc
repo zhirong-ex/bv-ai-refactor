@@ -1,0 +1,27 @@
+---
+description: 蓝湖 design/bindings 与 design/cache 只在本 Spec 仓维护
+alwaysApply: true
+---
+
+# design/ 只在本仓库（Spec 仓）
+
+本仓库 `otherBoostvision/AI` 是 **Spec + bv-* skills** 根目录。`@bv-design-bind` 的所有产出写在这里。
+
+## 写入位置（相对本仓根）
+
+- `design/bindings.md`
+- `design/cache/<模块>/urls_codex`
+- `design/cache/<模块>/DS-xx/{preview.png,schema.json,meta.json,slices/}`
+
+## 不要写到 Android 仓
+
+即使 Cursor 同时打开 `zhongnan1.5.3`，也 **禁止** 在 Android 工程下创建 `design/`。
+
+Android 工程：`/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3`  
+本仓 design 示例：`design/cache/device-search/`、`design/cache/ads-common/`
+
+## @bv-design-bind 检查清单
+
+1. MCP 拉取后 cache 落盘路径以 **本仓** `design/cache/` 为准
+2. 更新 **本仓** `design/bindings.md`（可追加模块段，勿在 Android 仓复制一份）
+3. `spec/gaps.md` 写本仓（若存在）

@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZHBAW79j1Xogk",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.1 AirPlay sender埋点配置修改/05-【新增】中文文案符号修改",
+  "exportedAt": "2026-08-25T04:25:01.715Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZHBAWDTK3i03m",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZHBAW79j1Xogk&canvasId=rcUZHBAWDTK3i03m",
+      "image": "images/001-页面-1-rcUZHBAWDTK3i03m.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "用户点击apple设备出现的弹窗上的文案“隔空播放接收器”的引号错误\n只有中文出错，开发已在代码和多语言表上修改",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 56,
+          "canvasY": 232,
+          "width": 466,
+          "height": 189,
+          "embeddedImages": [
+            "images/sticky-01-01-v2_sprhfm.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

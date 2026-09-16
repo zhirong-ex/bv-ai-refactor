@@ -1,0 +1,18 @@
+{
+  "id": "DS-03",
+  "module": "billing",
+  "lanhu_name": "Restore succeed",
+  "lanhu_image_id": "6dbaae1c-90c9-4eae-a48e-9c10bb2b52cb",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=6dbaae1c-90c9-4eae-a48e-9c10bb2b52cb",
+  "version_folder": "v1.1.3",
+  "compose_target": "presentation/common/billing/BillingRestoreResultToast.kt",
+  "visual_tokens": {
+    "toast_background": "#D6E4EFE6",
+    "toast_text": "#1F2123",
+    "icon": "icon_Restore succeed",
+    "label_i18n": "string_restore_success"
+  },
+  "fetched_at": "2026-09-04T05:50:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

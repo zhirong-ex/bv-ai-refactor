@@ -1,0 +1,85 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljxwjmjVTCSMMaEuTcP8s",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.0.0/09-主页",
+  "exportedAt": "2026-08-24T08:33:34.112Z",
+  "pageCount": 2,
+  "pages": [
+    {
+      "id": "ssljxwjmVTCSMMa4BMSqyK-asset-1",
+      "title": "主页 — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljxwjmjVTCSMMaEuTcP8s&canvasId=ssljxwjmVTCSMMa4BMSqyK",
+      "image": "images/001-主页-—-1-ssljxwjmVTCSMMa4BMSqyK-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【主页】\n「界面」\n1. 启动页面设计\n2. 主页界面设计\n「逻辑」\n1. 启动APP后，进入主页\n2. 主页上有“镜像”、“链接设备”、“设置”、“troubleshoot”功能，点击进入对应的页面\n3. 点击“troubleshoot”，跳转原生trouble shoot界面\n文案：https://boostvision.feishu.cn/docx/MylyduNzjoxjOXxpaNfcDGfDnjh?from=from_copylink",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【更新提示重启条】\n「界面」\n「逻辑」\n1. 有新版本后，用户打开APP，会有Google的下载APP提示弹窗，下载完成后，APP内会出现该“更新提示重启条”\n2. 在APP下载过程中，用户可以继续操作\n3. 点击系统返回，或点击空白处，可以收起“更新提示重启条”，则等有新版本后，重复上述操作\n4. 点击“restart”，立刻重启APP，完成更新",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【退出APP】\n「逻辑」\n在主页点击返回，toast提示“Tap again to exit“，展示3s，在toast展示的3s内再次点击系统返回，则退出APP；如果在3s后，（toast消失）再次点击系统返回，则重新出现toast提示",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【镜像页面】\n「逻辑」\n1. 设备已连接的情况下，根据连接设备的选择最佳镜像方案，进入对应教程\n2. 在设备未连接的状态下，则先进入设备连接页面\n2.1 连接失败：用户点击返回，则返回主页\n2.2 连接成功：自动跳转连接设备的对应最佳镜像方案的教程",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【Miracast教程】\n「页面」\n整个页面（内容与Universal remote的镜像页面相同）\n「逻辑」\n1. 在连接Samsung（新、老）、Roku、Chromecast设备后，进入screen mirror页面，出现miracast教程\n2. 点击“Go Mirroring”跳转系统镜像界面，按钮文案不变\n3. 在镜像过程中点击“Start Mirroring”，依然跳转到系统镜像",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【针对小部分设备不支持miracast的toast】\n1. 在用户点击“Go Mirroring”，检查用户的系统是否支持“Miracast”，\n*用户支持：按之前逻辑跳转Miracast\n*用户不支持：toast提示\n2. toast文案（多语言）：显示3s\n对不起，您的设备暂时不支持镜像\nSorry, your device currently does not support mirroring.",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【Fire TV 自研镜像教程】\n「页面」\n正常页面&选项置灰页面\n「逻辑」\n1. 在连接Fire TV设备后，进入screen mirror页面，出现相关选项\n2. 只有在开始镜像前可以选择“quality”、“sound”选项，开始镜像后，选项置灰，不能选择；结束镜像后，可以重新设置\n2.1 默认quality为high，sound开关为开\n2.2 如果用户对设置进行修改，则记住上一次的设置\n3. 在镜像过程中，用物理遥控板退出镜像和在APP内点击“Stop Mirroring”，APP内按钮变为“Start Mirroring”，电视均会退出镜像界面",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【新LG—web mirror镜像中】\n「页面」\n文案：你可以在开始镜像后，使用触控板来选择使用相关的功能\n「逻辑」\n1. 点击“Start mirroring”，首先采用web mirror方案，如果5s内镜像加载不成功，则立即出现弹窗，切换到miracast方案，跳转系统镜像页面\n2. 开始镜像后，“ Start Mirroring”文案变化为“Stop Mirroring”\n3. 在镜像过程中，用物理遥控板退出镜像和在APP内点击“Stop Mirroring”时，APP内按钮变为“Start Mirroring”，电视上均会退出镜像界面",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【web mirror教程】\n「页面」\n「逻辑」\n1. 在连接新LG设备后，出现web mirror教程\n2. 点击“Go Mirroring”，首先采用web mirror方案界面",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【新LG—miracast镜像中】\n「逻辑」\n1. 开始镜像后，“Start Mirroring”文案不变\n2. 镜像过程中点击“Start Mirroring”，跳转系统镜像页面\n3. 停止镜像后，用户点击左上角返回按钮返回主页，重新点击“Screen mirror”——>“Start Mirroring”，依然先尝试web mirror方案",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【新LG—镜像方案切换】\n「页面」\n文案：\n网络有一些问题，我们将为您提供另一种镜像方案\n3s后自动跳转……\n「逻辑」\n1. 如果使用web mirror方案镜像新LG设备失败，则出现提示弹窗，倒计时结束后，自动跳转系统镜像页面\n2. 倒计时过程中，可以通过弹窗上的关闭按钮，和系统返回按钮关闭弹窗，回到上级页面，点击“Start Mirroring”再次先采用web mirror方案，如果5s内不成功，则出现弹窗",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【Setting页面】\n「页面」\n页面设计\n「逻辑」\n1. 共计4个功能，“疑难解答”、“联系我们”、“使用条款”、“隐私协议”，排序如图\n2. 点击“联系我们”，跳转Google表单\n3. 点击“使用条款”、“隐私协议”跳转对应的浏览器协议界面\n4. 点击“疑难解答”，跳转原生trouble shoot界面\ntrouble shoot文案：https://boostvision.feishu.cn/docx/MylyduNzjoxjOXxpaNfcDGfDnjh?from=from_copylink",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "ssljxwjmVTCSMMa4BMSqyK-asset-2",
+      "title": "主页 — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=sljxwjmjVTCSMMaEuTcP8s&canvasId=ssljxwjmVTCSMMa4BMSqyK",
+      "image": "images/002-主页-—-2-ssljxwjmVTCSMMa4BMSqyK-asset-2.png",
+      "layoutKind": "screenshot",
+      "annotations": []
+    }
+  ]
+}

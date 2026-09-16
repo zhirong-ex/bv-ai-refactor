@@ -1,0 +1,196 @@
+{
+  "sliceScale": 4,
+  "isFigma": false,
+  "nodes": [
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng0456901a590183943264c4fa9d68c1b8fe4e5531b95cb8123a5e15d289498878"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "border-1px border-#1893EC border-solid",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng51bb9de86bac6558ba287e609eb4c24b0a35d1952221cd50930b405a3a6b12aa"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#1893EC",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5cd0c8002efe3245c7b31dbe3d7932ca5d92b46657ff8f7ee1a377931309c4a3"
+    },
+    {
+      "type": "shape",
+      "name": "路径",
+      "class": "bg-#FFFFFF"
+    },
+    {
+      "type": "icon",
+      "name": "勾",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2e7395c8023d377c246b02c3fc813723f14837c74c847bef9ec6e9dba62a054e"
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4cb9c8a705c3d8a742016a29d1352d53be7c35b3c03fb74c9019f9e320207a21"
+    },
+    {
+      "type": "icon",
+      "name": "矩形备份 2",
+      "class": "border-1px border-#1F21232E border-solid",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4cb9c8a705c3d8a742016a29d1352d53be7c35b3c03fb74c9019f9e320207a21"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#4990E780",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngc4a32f223f44ed5ffe82a8ed25b71e83f8cbe3ebe532f52a37e3cbe33f657f1d"
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng1c5e439293a0984b0f6653559baea907eb39251cc523cccdd6038863720049f8"
+    },
+    {
+      "type": "text",
+      "name": "Start Mirroring",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "Home Indicator",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5a55bce0e61824e6b35e82f487c8fc2828194ab82d71f586b93de2f8b36bc031"
+    },
+    {
+      "type": "icon",
+      "name": "Bars/Home Indicators/iPhone/Light - Portrait",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd993c720276651f77ac926d7b5b2f16738ebbecab77ccbc5d724f49531991d1b"
+    },
+    {
+      "type": "shape",
+      "name": "Border",
+      "class": "border-1px border-#000000 border-solid"
+    },
+    {
+      "type": "shape",
+      "name": "Cap",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "shape",
+      "name": "Capacity",
+      "class": "bg-#000000"
+    },
+    {
+      "type": "icon",
+      "name": "Battery",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga05957db16243a63d7c74f823baeb36bbafa63e1b3e30902724223c367fb5eeb"
+    },
+    {
+      "type": "icon",
+      "name": "Wifi",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga51e294a18a67a68f55dfbb95cbb5f16524a92678d746c3f6c5f2041d808d7d9"
+    },
+    {
+      "type": "icon",
+      "name": "Cellular Connection",
+      "class": "bg-#000000",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngaa0ac3100c0116c4423361fe3a0544c839fdba351689cbe6ba6e252283b36183"
+    },
+    {
+      "type": "text",
+      "name": "Time",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "icon",
+      "name": "矩形",
+      "class": "bg-#D8D8D800",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngb9a259ffce10467f3bfb01b91cc4617a984cfe62b3a6ebdf81296f617dc10da3"
+    },
+    {
+      "type": "text",
+      "name": "Screen Mirror",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "椭圆形",
+      "class": "border-1px border-#1F21232E border-solid"
+    },
+    {
+      "type": "icon",
+      "name": "路径",
+      "class": "bg-#1F2123 border-0px border-#1F2123 border-solid",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng6d2516aec2617ec9881bc999b96146afc9bf6681cd82fd8f6806ce60995c7722"
+    },
+    {
+      "type": "icon",
+      "name": "back",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng3933ce0f3870df70f5882ca18ddd066284ca98452e21cc165022ebc511d72dd6"
+    },
+    {
+      "type": "text",
+      "name": "Quality",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "Sound",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "High",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "Medium",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "name": "low",
+      "class": "",
+      "text": ""
+    },
+    {
+      "type": "shape",
+      "name": "矩形",
+      "class": "bg-#D4E0E9 border-0px border-#C7D0D7 border-solid"
+    },
+    {
+      "type": "shape",
+      "name": "椭圆形",
+      "class": "bg-#FFFFFF"
+    },
+    {
+      "type": "icon",
+      "name": "switch",
+      "class": "",
+      "imageRef": "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng431774178aa5e60fc1b039a1a5f9591df0a1ea8f31ba0617bfb1657dfe3d3d79"
+    }
+  ]
+}

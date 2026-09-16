@@ -1,0 +1,32 @@
+# mirror-flow — 蓝湖画板清单（Lanhu MCP 拉取）
+# fetched: 2026-09-11
+# project: Zhongnan
+# stage: https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49
+
+ds_id	image_id	lanhu_name	lanhu_url	note
+DS-01	957b6771-2436-4d9e-940d-bf97f609efa6	Tutorial	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=957b6771-2436-4d9e-940d-bf97f609efa6	镜像教程（折叠）
+DS-01-unfold	558c4ca6-b861-4ca5-825d-3d1813e5afd0	Tutorial-unfold	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=558c4ca6-b861-4ca5-825d-3d1813e5afd0	教程展开态
+DS-02	8dde88e4-2af0-43c1-9679-85d9a27e3490	miracast	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=8dde88e4-2af0-43c1-9679-85d9a27e3490	参数选择/开始镜像（Chromecast 等通用）
+DS-03	4719a634-1554-40a1-a15c-19f08e5eaac6	miracast-lg	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=4719a634-1554-40a1-a15c-19f08e5eaac6	LG webOS 参数页（较新 duplicate）
+DS-03-alt-touch	096b122f-5693-4b98-8252-eb795b56eb4f	miracast-lg-touch	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=096b122f-5693-4b98-8252-eb795b56eb4f	LG touch 变体
+DS-04	61937fe9-735d-4a74-9dca-c31ccee62045	fire tv	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=61937fe9-735d-4a74-9dca-c31ccee62045	Fire TV 参数页
+DS-04-alt-gray	5f8dea09-987c-4bb1-8b74-3d1d3176f7c4	fire tv-置灰	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=5f8dea09-987c-4bb1-8b74-3d1d3176f7c4	Start 按钮不可用态
+DS-04-alt-v2	f1ca79bd-d036-4a3c-9f6d-53293eadbcdb	fire tv2	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=f1ca79bd-d036-4a3c-9f6d-53293eadbcdb	Fire TV 辅本
+DS-05	d785631c-1e36-4ae5-8497-72f344286fd1	web	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d785631c-1e36-4ae5-8497-72f344286fd1	镜像中控制页（WebMirror）
+DS-05-alt-volume	33d6e7b8-e654-41fe-b481-1a42251ca9cb	web-音量	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=33d6e7b8-e654-41fe-b481-1a42251ca9cb	Web 音量 overlay
+DS-06	38f49f18-b99b-47fb-ab35-875814bb4620	mirror_loading	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=38f49f18-b99b-47fb-ab35-875814bb4620	开始镜像 loading overlay
+DS-06-alt	92217760-b637-44d6-b533-2540b3ff4894	miracast-loading	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=92217760-b637-44d6-b533-2540b3ff4894	参数页 loading 辅本
+DS-07	84493a88-f2ab-446a-a10d-8c784f44e660	miracast-lg-弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=84493a88-f2ab-446a-a10d-8c784f44e660	LG 切换镜像提示弹窗
+DS-08	d19143cc-5040-47a3-a7e9-63a399c95fdb	fire tv弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d19143cc-5040-47a3-a7e9-63a399c95fdb	Fire TV 弹窗
+DS-09	3128b6fd-53ea-44bc-b42e-2a3a1550f002	miracast-下载提示弹窗	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=3128b6fd-53ea-44bc-b42e-2a3a1550f002	Receiver 下载提示（较新 duplicate）
+DS-10	f2fd8045-e0fc-4229-9102-e7476c6de46c	record_remind	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=f2fd8045-e0fc-4229-9102-e7476c6de46c	录屏/录音权限提醒
+DS-11	f03b1ddd-66b0-4a09-b2e1-bda4abc606ea	miracast-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=f03b1ddd-66b0-4a09-b2e1-bda4abc606ea	教程页 Native（≠ main-home DS-03）
+DS-12	2967c8ed-4c1c-4bca-912f-4485ead8c308	miracast-lg-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=2967c8ed-4c1c-4bca-912f-4485ead8c308	LG 参数页 Native
+DS-13	63f4cd48-96e1-4224-af86-3e39143f9629	fire tv-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=63f4cd48-96e1-4224-af86-3e39143f9629	Fire TV 参数页 Native
+DS-14	a198efa7-9385-4a0f-a866-532c25f033a5	google cast-start-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=a198efa7-9385-4a0f-a866-532c25f033a5	Google Cast Start + Native
+DS-15	5d1e0c58-e403-48e2-812d-fc7b68613aa9	google cast-stop-native	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=5d1e0c58-e403-48e2-812d-fc7b68613aa9	Google Cast Stop + Native
+—	e20e2a1a-ab9e-4a97-b810-ace4769267fa	adb教程	—	**skipped**（v1.2.0 移除 ADB 连接）
+—	3956d054-2f57-4e4a-bad0-1962e11312c6	miracast-lg	—	旧 duplicate，主本见 DS-03
+—	3463de72-ba79-431f-a11b-db87a98ab5c0	miracast-下载提示弹窗	—	旧 duplicate，主本见 DS-09
+—	a21441a5-cea8-49e3-9ad3-bb806ac12f4a	miracast-lg-native	—	旧 duplicate，主本见 DS-12
+—	501da79a-fc61-405e-9299-41616458e92b	fire tv-native	—	旧 duplicate，主本见 DS-13

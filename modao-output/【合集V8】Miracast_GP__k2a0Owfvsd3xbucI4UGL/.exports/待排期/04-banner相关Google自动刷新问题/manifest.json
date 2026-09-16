@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXChqfSwrOP87m",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/待排期/04-banner相关Google自动刷新问题",
+  "exportedAt": "2026-08-25T04:41:24.402Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUXChqfVWsAKWse",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUXChqfSwrOP87m&canvasId=rcUXChqfVWsAKWse",
+      "image": "images/001-页面-1-rcUXChqfVWsAKWse.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "目前采用的是Google的自动刷新，就可能导致某个banner位在不展示的情况下持续请求，当前采用的解决方案是“开发判断当前banner位是否展示，如果没有展示，就限制请求”，同时加上进入各个页面的埋点，来辅助计算展示",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 43,
+          "canvasY": 226,
+          "width": 280,
+          "height": 244,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

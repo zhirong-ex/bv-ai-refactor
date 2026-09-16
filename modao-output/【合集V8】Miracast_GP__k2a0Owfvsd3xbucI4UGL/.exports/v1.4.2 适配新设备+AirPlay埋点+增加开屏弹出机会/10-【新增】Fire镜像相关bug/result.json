@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRUt2ymqN93yd",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/10-【新增】Fire镜像相关bug",
+  "exportedAt": "2026-08-25T04:21:15.066Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUgRUt35AFcLm0x",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgRUt2ymqN93yd&canvasId=rcUgRUt35AFcLm0x",
+      "image": "images/001-页面-1-rcUgRUt35AFcLm0x.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【Fire镜像相关bug】\n1. bug详情：新amazon账号，用户没有下载过任何软件的情况下，无法调起Fire mirror receiver下载页面\n2. 本次将修改安装/下载方案\n3. 测试注意：需要先申请新amazon账号，不要下载任何软件\n4. 注意：新下载方案，有小概率打不开应用情况",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 40,
+          "canvasY": 213,
+          "width": 281,
+          "height": 286,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

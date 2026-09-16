@@ -1,0 +1,39 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZAgMhzKMUqeHA",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.1 AirPlay sender埋点配置修改/02-AirPlay sender相关埋点修改",
+  "exportedAt": "2026-08-25T04:23:11.249Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUZAgMi4F4eUcmm",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUZAgMhzKMUqeHA&canvasId=rcUZAgMi4F4eUcmm",
+      "image": "images/001-页面-1-rcUZAgMi4F4eUcmm.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【需要林哥协助排查】\n1. Apple设备的连接提示弹窗出现的人数>点击Apple TV设备+点击Macbook设备的人数\n\ta. 相关埋点：click_connect_apple_tv；click_connect_mac；show_apple_connect_remind\n2. 新下载的用户的用户状态埋点中，returning_n的人数>returning_3的人数\n\ta. 相关埋点：downloader_status\n\t（如果确实没有问题，就告知PM，PM会再过一段时间，再次回收相关数据）——1/7更新：问题1考虑是有apple品牌的其他设备影响了该埋点，目前在v1.4.1新增了关于apple other的埋点监控。问题2暂时没有发现问题，一周后再拉一次数据——1/15更新：目前问题2的情况依然存在，继续跑一周",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 53,
+          "canvasY": 23,
+          "width": 495,
+          "height": 429,
+          "embeddedImages": [
+            "images/sticky-01-01-v2_sppffv.png"
+          ]
+        },
+        {
+          "text": "【可以直接修改/添加的】\n1. 相关埋点：connect_apple_tv_plan；connect_mac_plan\n\ta. 切换连接Apple设备，会导致埋点重复\n2. 目前发现连接失败的设备中，Apple设备较多，并且有73%左右的用户失败在connecting这个过程中，开发考虑“可能是底层库连接不行，返回了错误”，所以单独埋点，只要是底层库的问题就返回埋点\n\ta. 新增埋点：apple_connect_base_error（仅针对apple相关设备）\n\tb. 测试：注意测试apple的连接流程",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 54,
+          "canvasY": 460,
+          "width": 495,
+          "height": 271,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

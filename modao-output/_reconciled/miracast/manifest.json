@@ -1,0 +1,365 @@
+{
+  "schema": "bv-prd-reconcile/v1",
+  "project": "miracast",
+  "generated_at": "2026-08-25T06:46:41.123Z",
+  "sources": [
+    {
+      "dir": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "name": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "priority": 0,
+      "version_count": 10
+    },
+    {
+      "dir": "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "name": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "priority": 1,
+      "version_count": 4
+    },
+    {
+      "dir": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "name": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "priority": 2,
+      "version_count": 14
+    }
+  ],
+  "git": {
+    "url": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git",
+    "repo": null,
+    "branch": "develop",
+    "changelog_path": "ChangeLog",
+    "ref": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git@develop"
+  },
+  "excludes": [
+    "待排期",
+    "待排期",
+    "v1.5.5"
+  ],
+  "version_range": {
+    "min": "1.0.0",
+    "max": "1.5.5"
+  },
+  "duplicates": [
+    {
+      "semver": "1.3.0",
+      "winner": {
+        "sourceName": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+        "folderName": "v1.3.0（GoogleCast协议镜像）",
+        "priority": 1
+      },
+      "losers": [
+        {
+          "sourceName": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+          "folderName": "v1.3.0（GoogleCast协议镜像）",
+          "priority": 0
+        }
+      ]
+    }
+  ],
+  "versions": [
+    {
+      "semver": "1.0.0",
+      "folder_name": "v1.0.0",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.0.0.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.0.0.md",
+      "source_type": "modao",
+      "canvas_count": 9
+    },
+    {
+      "semver": "1.1.0",
+      "folder_name": "v1.1.0",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.0.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.0.md",
+      "source_type": "modao",
+      "canvas_count": 6
+    },
+    {
+      "semver": "1.1.1",
+      "folder_name": "v1.1.1",
+      "source": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git@develop",
+      "origin_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.1.1.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.1.md",
+      "source_type": "changelog",
+      "canvas_count": 0
+    },
+    {
+      "semver": "1.1.2",
+      "folder_name": "v1.1.2",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.2.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.2.md",
+      "source_type": "modao",
+      "canvas_count": 3
+    },
+    {
+      "semver": "1.1.3",
+      "folder_name": "v1.1.3",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.3.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.3.md",
+      "source_type": "modao",
+      "canvas_count": 5
+    },
+    {
+      "semver": "1.1.4",
+      "folder_name": "v1.1.4",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.4.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.4.md",
+      "source_type": "modao",
+      "canvas_count": 4
+    },
+    {
+      "semver": "1.1.5",
+      "folder_name": "v1.1.5（广告警告修改）",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.5（广告警告修改）.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.5（广告警告修改）.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.1.6",
+      "folder_name": "v1.1.6 （广告警告修改2.0）",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.6 （广告警告修改2.0）.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.6 （广告警告修改2.0）.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.1.7",
+      "folder_name": "v1.1.7（广告警告修改 最终版）",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.7（广告警告修改 最终版）.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.7（广告警告修改 最终版）.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.1.8",
+      "folder_name": "v1.1.8（性能优化）",
+      "source": "【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt",
+      "origin_md": "modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/v1.1.8（性能优化）.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.8（性能优化）.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.2.0",
+      "folder_name": "v1.2.0",
+      "source": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "origin_md": "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.2.0.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.2.0.md",
+      "source_type": "modao",
+      "canvas_count": 5
+    },
+    {
+      "semver": "1.3.0",
+      "folder_name": "v1.3.0（GoogleCast协议镜像）",
+      "source": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "origin_md": "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.0（GoogleCast协议镜像）.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.3.0（GoogleCast协议镜像）.md",
+      "source_type": "modao",
+      "canvas_count": 5
+    },
+    {
+      "semver": "1.3.1",
+      "folder_name": "v1.3.1 campaign参数获取尝试",
+      "source": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "origin_md": "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.1 campaign参数获取尝试.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.3.1 campaign参数获取尝试.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.3.2",
+      "folder_name": "v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改",
+      "source": "【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3",
+      "origin_md": "modao-output/【已上线V8】v1.2.0-v1.3.2__71koi256sd5cg2jHyZX6p3/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.3.2 crash修复+引流实现方式更新+第三方依赖库修改.md",
+      "source_type": "modao",
+      "canvas_count": 3
+    },
+    {
+      "semver": "1.3.3",
+      "folder_name": "v1.3.3",
+      "source": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git@develop",
+      "origin_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.3.3.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.3.3.md",
+      "source_type": "changelog",
+      "canvas_count": 0
+    },
+    {
+      "semver": "1.4.0",
+      "folder_name": "v1.4.0 新增AirPlay sender",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.0 新增AirPlay sender.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.0 新增AirPlay sender.md",
+      "source_type": "modao",
+      "canvas_count": 13
+    },
+    {
+      "semver": "1.4.1",
+      "folder_name": "v1.4.1 AirPlay sender埋点配置修改",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.1 AirPlay sender埋点配置修改.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.1 AirPlay sender埋点配置修改.md",
+      "source_type": "modao",
+      "canvas_count": 5
+    },
+    {
+      "semver": "1.4.2",
+      "folder_name": "v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会.md",
+      "source_type": "modao",
+      "canvas_count": 11
+    },
+    {
+      "semver": "1.4.3",
+      "folder_name": "v1.4.3 适配安卓15+其他SDK",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.3 适配安卓15+其他SDK.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.3 适配安卓15+其他SDK.md",
+      "source_type": "modao",
+      "canvas_count": 3
+    },
+    {
+      "semver": "1.4.4",
+      "folder_name": "v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.4 修改崩溃+接入Admob新SDK+适配Android 16.md",
+      "source_type": "modao",
+      "canvas_count": 3
+    },
+    {
+      "semver": "1.4.5",
+      "folder_name": "v1.4.5 修改关于Admob 新SDK崩溃",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.5 修改关于Admob 新SDK崩溃.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.5 修改关于Admob 新SDK崩溃.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.4.6",
+      "folder_name": "v1.4.6 接入新AirPlay SDK",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.6 接入新AirPlay SDK.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.6 接入新AirPlay SDK.md",
+      "source_type": "modao",
+      "canvas_count": 9
+    },
+    {
+      "semver": "1.4.7",
+      "folder_name": "v1.4.7 解决遗留bug+其他",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.7 解决遗留bug+其他.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.7 解决遗留bug+其他.md",
+      "source_type": "modao",
+      "canvas_count": 6
+    },
+    {
+      "semver": "1.4.8",
+      "folder_name": "v1.4.8 更新AirPlay Sender SDK",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.8 更新AirPlay Sender SDK.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.8 更新AirPlay Sender SDK.md",
+      "source_type": "modao",
+      "canvas_count": 3
+    },
+    {
+      "semver": "1.4.9",
+      "folder_name": "v1.4.9 设置页面新增Android Remote引流",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.4.9 设置页面新增Android Remote引流.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.4.9 设置页面新增Android Remote引流.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.5.0",
+      "folder_name": "v1.5.0 新增设置页面引流",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.5.0 新增设置页面引流.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.0 新增设置页面引流.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.5.1",
+      "folder_name": "v1.5.1",
+      "source": "git@gitlab.boostvision.com.cn:boostvision/android/mirroring/zhongnan.android.git@develop",
+      "origin_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.5.1.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.1.md",
+      "source_type": "changelog",
+      "canvas_count": 0
+    },
+    {
+      "semver": "1.5.2",
+      "folder_name": "v1.5.2 Banner代码调整",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.5.2 Banner代码调整.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.2 Banner代码调整.md",
+      "source_type": "modao",
+      "canvas_count": 1
+    },
+    {
+      "semver": "1.5.3",
+      "folder_name": "v1.5.3 删除Setting里对AINote和AITranslate的引流",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.5.3 删除Setting里对AINote和AITranslate的引流.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.3 删除Setting里对AINote和AITranslate的引流.md",
+      "source_type": "modao",
+      "canvas_count": 0
+    },
+    {
+      "semver": "1.5.4",
+      "folder_name": "v1.5.4 升级Biling库从8.0.0到8.3.0",
+      "source": "【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL",
+      "origin_md": "modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/v1.5.4 升级Biling库从8.0.0到8.3.0.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.4 升级Biling库从8.0.0到8.3.0.md",
+      "source_type": "modao",
+      "canvas_count": 0
+    }
+  ],
+  "changelog_supplements": [
+    {
+      "semver": "1.5.1",
+      "version": "v1.5.1",
+      "items": [
+        "升级nextgen到\"0.25.0-beta01\"及第三方中介组"
+      ],
+      "supplement_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.5.1.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.5.1.md"
+    },
+    {
+      "semver": "1.3.3",
+      "version": "v1.3.3",
+      "items": [
+        "fix online crash [FGS]"
+      ],
+      "supplement_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.3.3.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.3.3.md"
+    },
+    {
+      "semver": "1.1.1",
+      "version": "v1.1.1",
+      "items": [
+        "fix online crashes"
+      ],
+      "supplement_md": "modao-output/_reconciled/miracast/changelog-supplements/v1.1.1.md",
+      "reconciled_md": "modao-output/_reconciled/miracast/versions/v1.1.1.md"
+    }
+  ],
+  "missing_in_modao": [
+    "v1.1.1",
+    "v1.3.3",
+    "v1.5.1"
+  ],
+  "extra_in_modao": []
+}

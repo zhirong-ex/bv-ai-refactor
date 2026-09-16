@@ -1,0 +1,108 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QR49HWJYoEi",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.6 接入新AirPlay SDK/06-点击Mac设备",
+  "exportedAt": "2026-08-25T06:10:34.704Z",
+  "pageCount": 3,
+  "pages": [
+    {
+      "id": "rcUnEg0iUr6e79Dvn4gE3O-diagram-1",
+      "title": "页面 1 — 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QR49HWJYoEi&canvasId=rcUnEg0iUr6e79Dvn4gE3O",
+      "image": "images/001-页面-1-—-1-rcUnEg0iUr6e79Dvn4gE3O-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【文案】\n中文：打开MAC的系统设置-通用-隔空投送与接力-打开“隔空播放接收器”开关-允许“任何人”隔空播放至此电脑\n英文：On your Mac, go to System Settings - General - AirDrop & Handoff - enable \"AirPlay Receiver\" - Allow \"Everyone\" to AirPlay to this device\n中文：如果您使用的是macOS 12.5或更早版本的Mac，请选择菜单-系统偏好设置，然后单击“共享”\n英文：If you're using a Mac with macOS 12.5 or earlier, choose Apple menu - System Preferences, then click \"Sharing\"\n中文：您的设备上可能会出现接收确认弹窗，请“允许”\n英文：An AirDrop confirmation pop up will appear on your device. Please choose \"Accept\"\n中文： 为了提高连接设备的成功率，如果您使用了密码，请关闭“需要密码”的开关\n英文：For better connection, turn off \"Require Password\" if it's enabled\n中文：配置生效需要一定的时间，如果您刚刚关闭了密码，请等待一段时间后，再次尝试连接该设备\n英文：Changes may take time—wait a moment before trying again",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 394.760009765625,
+          "canvasY": 0.07000732421875,
+          "width": 673,
+          "height": 503,
+          "embeddedImages": []
+        },
+        {
+          "text": "【点击Mac设备时的提示弹窗】\n「UI」\n1. 主要图片上要突出用户需要选择的项目\n\ta. 弹窗限制2/3的屏幕高度，滑动区域（红框内）为处标题外的正文部分\n2. “知道了”的可点击和不可点击状态\n「逻辑」\n1. 当用户点击首次点击Mac设备时，出现提示弹窗，“下次不再提醒”默认不勾选\n\ta. 5s内，“知道了”按钮不可点击；5s后，点击”知道了“，关闭提示弹窗，开始连接设备\n\tb. 只有当用户勾选“下次不再提醒”+点击“知道了”，下次点击该设备时才不再弹出该提示弹窗\n\tc. 弹窗出现时，屏蔽系统弹窗",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 411.760009765625,
+          "canvasY": 515.0700073242188,
+          "width": 531,
+          "height": 354,
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "rcUnEg0iUr6e79Dvn4gE3O-diagram-2",
+      "title": "页面 1 — 2",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QR49HWJYoEi&canvasId=rcUnEg0iUr6e79Dvn4gE3O",
+      "image": "images/002-页面-1-—-2-rcUnEg0iUr6e79Dvn4gE3O-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "rcUnEg0iUr6e79Dvn4gE3O-diagram-3",
+      "title": "页面 1 — 3",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUr6QR49HWJYoEi&canvasId=rcUnEg0iUr6e79Dvn4gE3O",
+      "image": "images/003-页面-1-—-3-rcUnEg0iUr6e79Dvn4gE3O-diagram-3.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【连接Mac设备】\n「UI」\n1. 使用之前的弹窗，只有四位数字\n「逻辑」\n1. 开始连接Mac设备时，发现该设备需要用“pin码”来连接，就弹出pin码弹窗\n\ta. 弹窗逻辑不变",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 2908,
+          "canvasY": 106,
+          "width": 292,
+          "height": 246,
+          "embeddedImages": []
+        },
+        {
+          "text": "图1",
+          "author": "",
+          "kind": "label",
+          "canvasX": 1448,
+          "canvasY": 129,
+          "width": 63,
+          "height": 56,
+          "inlineImage": "images/inline-01-v2_sxdnwe.png",
+          "inlineMode": "replace",
+          "embeddedImages": []
+        },
+        {
+          "text": "【开始连接mac设备- password】\n「UI」\n1. 弹窗如原型，文案不变\n「逻辑」\n1. 开始连接Mac设备时，发现该设备需要用“password”来连接，则弹出弹窗进行提示\n\ta. 5s内，“知道了”按钮不可点击；5s后，点击”知道了“，关闭提示弹窗，开始连接设备\n\tb. 弹窗出现时，屏蔽系统返回",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 2164,
+          "canvasY": 206,
+          "width": 292,
+          "height": 330,
+          "embeddedImages": []
+        },
+        {
+          "text": "图2",
+          "author": "",
+          "kind": "label",
+          "canvasX": 1448,
+          "canvasY": 342,
+          "width": 63,
+          "height": 56,
+          "inlineImage": "images/inline-03-v2_sxdnxl.png",
+          "inlineMode": "replace",
+          "embeddedImages": []
+        },
+        {
+          "text": "图3",
+          "author": "",
+          "kind": "label",
+          "canvasX": 1448,
+          "canvasY": 618,
+          "width": 63,
+          "height": 56,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

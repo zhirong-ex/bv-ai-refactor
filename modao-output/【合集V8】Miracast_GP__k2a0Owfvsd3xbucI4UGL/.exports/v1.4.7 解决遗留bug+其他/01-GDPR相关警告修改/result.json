@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUzYoqbQ8qz4x9r",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.7 解决遗留bug+其他/01-GDPR相关警告修改",
+  "exportedAt": "2026-08-25T04:01:32.434Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUzYoqbWErl4Sv3-asset-1",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUzYoqbQ8qz4x9r&canvasId=rcUzYoqbWErl4Sv3",
+      "image": "images/001-页面-1-rcUzYoqbWErl4Sv3-asset-1.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "1. Admob后台有一个Miracast的GDPR的警告，GDPR之前是集成了的，可能是什么地方没更新\n2. 截图中的文档链接\n\ta. https://iabeurope.eu/transparency-consent-framework/\n\tb. https://support.google.com/admob/answer/13554116#google-cmps&zippy=%2Cgoogle-certified-cmps\n\tc. https://support.google.com/admob/answer/9999955\n\td. https://support.google.com/admob/answer/14661013\n3. 测试注意：走GDPR流程",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 39,
+          "canvasY": 503,
+          "width": 753,
+          "height": 228,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

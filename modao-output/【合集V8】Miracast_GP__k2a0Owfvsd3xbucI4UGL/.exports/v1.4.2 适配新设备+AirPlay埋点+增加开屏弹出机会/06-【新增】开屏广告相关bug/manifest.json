@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfgjExX5pHBWRr",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/06-【新增】开屏广告相关bug",
+  "exportedAt": "2026-08-25T04:18:38.820Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUfgjExecNcUp5M",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUfgjExX5pHBWRr&canvasId=rcUfgjExecNcUp5M",
+      "image": "images/001-页面-1-rcUfgjExecNcUp5M.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【开屏广告相关bug】\n1. bug详情：在保活状态下大退APP后，第一次进入app，没有开屏广告\n2. 修改工期：很快（主要是要改库）\n3. 测试注意：正常测试，把APP直接退了，再进来，看看有没有开屏广告",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 45,
+          "canvasY": 254,
+          "width": 280,
+          "height": 223,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

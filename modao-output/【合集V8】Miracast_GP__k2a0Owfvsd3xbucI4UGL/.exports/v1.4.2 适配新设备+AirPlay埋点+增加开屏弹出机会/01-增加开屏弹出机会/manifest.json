@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUdQ9CYE2AReGPi",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/01-增加开屏弹出机会",
+  "exportedAt": "2026-08-25T04:16:40.523Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rbpUdQ9CYE2AReGPi",
+      "title": "rbpUdQ9CYE2AReGPi",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUdQ9CYE2AReGPi",
+      "image": "",
+      "layoutKind": "annotation-only",
+      "annotations": [
+        {
+          "text": "【增加开屏弹出机会】\n【界面】\n● 增加一个表示loading状态的页面\n● 元素：文案、图标，蒙层(能看到底部页面）\n● 中文文案\n\t○ 欢迎回来\n● 英文文案\n\t○ WELCOME BACK\n【开屏广告逻辑】\n总的来说是多次加载并展示的逻辑：消耗一个开屏广告后，当用户每次将APP退到后台时，马上加载下一个，用户每次返回APP时触发展示\n1. 首次开屏广告的加载展示逻辑\n\ta. 在开屏动画页加载开屏广告，开屏动画结束前加载成功，则立即展示，加载未成功则继续加载直达拿回结果，加载成功后等用户第一次返回APP时进行保底展示\n\t\tI. 开屏动画页最长停留改为6秒\n2. 增加加载和展示机会（这里用配置控制是否增加）\n\ta. 配置：miracast_ad_open_repeatedly_switch\n\tb. 开屏广告消耗1个后，等用户每次将APP退到后台时，就开始加载下一个\n\t\tI. 加载广告前要检查同一ID下的缓存，如有缓存，则展示缓存，没缓存再加载\n\tc. 用户每次返回APP，都触发展示开屏广告\n\t\tI. 返回到APP前台时检查有无开屏广告广告可以展示，如果有广告，则先展示loading页，等待1.5秒后，展示开屏广告；如果没广告，则也不展示loading页\n\t\tII. 若用户trigger了一个开屏广告展示，但开屏广告还没加载成功，那本次trigger就过了，不再找机会展示。下次退到后台开屏广告继续加载，用户trigger下一次机会再展示\n\t1. 开屏广告返回展示页面不包含：全屏广告页（从这些页面出去也不请求）\n3. 加载失败逻辑\n\ta. 首次加载失败后，间隔3s再次尝试加载\n\tb. 请求连续加载失败3次，不再继续加载，下次APP退到后台时再尝试加载\n4. 无网络状态下，不加载广告\n【loading界面逻辑】\n1. 返回到APP前台时检查有无开屏广告广告可以展示\n\ta. 如果有广告，则先展示loading页，等待1.5秒后，展示开屏广告；\n\tb. 如果没广告，则不展示loading页\n2. 展示loading页面时，屏蔽系统返回，页面覆盖的按钮也不可以点击",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 300.8599853515625,
+          "canvasY": 178.5,
+          "width": 893,
+          "height": 891,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

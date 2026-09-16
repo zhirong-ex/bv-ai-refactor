@@ -1,0 +1,37 @@
+---
+description: Android 重构工步 — 新建项目文件自动 git add 并随 commit 提交，无需用户逐项授权
+alwaysApply: true
+---
+
+# Git：新建文件自动暂存与提交
+
+适用：**bv-compose-write**、Android Compose 重构 handoff、用户说「提交/继续工步/跑流水线」时。
+
+## 自动暂存（禁止漏 add）
+
+- **禁止**只 `git add -u` 或只 add 已修改文件。
+- 工步 commit 前 **`git add` 整个目录**（含 untracked 新建文件）：
+
+```bash
+git add app/src/main/java/.../feature/<模块包名>/
+git add app/src/main/java/.../compose/          # 若本工步动公共 Compose
+git add app/src/main/java/.../utils/            # 若本工步动公共工具
+git add app/src/test/ app/src/androidTest/      # 若本工步动测试
+git add app/build.gradle* gradle/libs.versions.toml app/src/main/AndroidManifest.xml  # 按需
+git add docs/ai/ .github/                       # plan / gate / CI 按需
+```
+
+- commit 前 **`git status` 复核**：本工步范围内 **不得** 仍有 untracked 的 `.kt` / `.java` / 工步相关配置。
+
+## 无需用户授权
+
+以下操作 **Agent 直接执行**，**不要** 向用户确认「是否 add / 是否 commit」：
+
+- 新建 `.kt` / `.java` 及上述目录内项目文件
+- 工步 gate + AT 通过后的 **`git commit`**
+- Shell 需 `git_write` / `all` 权限时 **直接申请并执行**，不等用户点批准（Secrets、`.env`、`.kotlin/`、`build/` 除外）
+
+## 仍须用户明确说才做
+
+- `git push`（除非 handoff / 用户规则已授权仅 push 个人分支如 `zhirong/**`）
+- 合并 develop / force push / amend 已 push 的 commit

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV28qbvcwrPcPSK",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/【合集V8】Miracast_GP/02-埋点问题",
+  "exportedAt": "2026-08-25T03:55:14.505Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcV28qbvlnklvOKJ",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpV28qbvcwrPcPSK&canvasId=rcV28qbvlnklvOKJ",
+      "image": "images/001-页面-1-rcV28qbvlnklvOKJ.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "v1.4.6之后，这个埋点基本没有触发了，需要排查一下\n“apple_connect_base_error”",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 21,
+          "canvasY": 174,
+          "width": 280,
+          "height": 160,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

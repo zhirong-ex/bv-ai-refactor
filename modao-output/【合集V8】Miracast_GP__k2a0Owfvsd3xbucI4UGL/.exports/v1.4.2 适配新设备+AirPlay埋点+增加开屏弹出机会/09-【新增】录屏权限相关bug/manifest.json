@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ0RY5avgPqzl",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.2 适配新设备+AirPlay埋点+增加开屏弹出机会/09-【新增】录屏权限相关bug",
+  "exportedAt": "2026-08-25T04:20:29.675Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUgQ0RYC3YRk5kl",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUgQ0RY5avgPqzl&canvasId=rcUgQ0RYC3YRk5kl",
+      "image": "images/001-页面-1-rcUgQ0RYC3YRk5kl.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【点击开始镜像后的录屏权限相关bug】\n1. bug详情：等待用户选择录屏权限的时候，如果用户稍微多等一点时间不操作，会断开镜像，但这个时候，选择开始录屏，又在正常录\n2. 相关设备：apple、Fire、LG（webos）、chromecast设备",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 41,
+          "canvasY": 157,
+          "width": 314,
+          "height": 312,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

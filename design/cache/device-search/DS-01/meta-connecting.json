@@ -1,0 +1,13 @@
+{
+  "id": "DS-01-alt",
+  "module": "device-search",
+  "lanhu_name": "device-连接中",
+  "image_id": "89cde083-a62b-4921-aff0-211dbede5e38",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=89cde083-a62b-4921-aff0-211dbede5e38",
+  "version_folder": "1.4.6",
+  "fetched_at": "2026-08-25T10:20:22Z",
+  "mcp": "lanhu",
+  "preview": "preview-connecting.png",
+  "parent": "DS-01",
+  "error": null
+}

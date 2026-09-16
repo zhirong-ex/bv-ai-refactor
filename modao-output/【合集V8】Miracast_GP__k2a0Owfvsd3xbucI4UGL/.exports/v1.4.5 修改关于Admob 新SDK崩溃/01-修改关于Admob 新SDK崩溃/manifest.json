@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqVlzsh8hWkHIo",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.5 修改关于Admob 新SDK崩溃/01-修改关于Admob 新SDK崩溃",
+  "exportedAt": "2026-08-25T04:12:13.033Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUqVlzsmQ80vNHh",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUqVlzsh8hWkHIo&canvasId=rcUqVlzsmQ80vNHh",
+      "image": "images/001-页面-1-rcUqVlzsmQ80vNHh.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "【修改Admob 新SDK的崩溃】—— v1.4.4线上崩溃\n1. 复现路径：启动APP，进入一个非首页页面（可以加载广告，比如connect页面），然后进入后台，操作其他APP，让内存耗尽，让系统把我们APP杀死，大概几分钟后，再从后台进入APP，即可复现\n\ta. 关于内存耗尽：一般在后台几分钟后你用用其他APP ，系统自动就会杀死本APP，内存小的老手机很好复现",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 19,
+          "canvasY": 198,
+          "width": 354,
+          "height": 279,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}

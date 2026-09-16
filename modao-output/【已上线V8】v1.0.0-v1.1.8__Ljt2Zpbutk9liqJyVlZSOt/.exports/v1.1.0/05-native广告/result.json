@@ -1,0 +1,79 @@
+{
+  "sourceUrl": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【已上线V8】v1.0.0-v1.1.8__Ljt2Zpbutk9liqJyVlZSOt/.exports/v1.1.0/05-native广告",
+  "exportedAt": "2026-08-24T08:37:29.202Z",
+  "pageCount": 6,
+  "pages": [
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-1",
+      "title": "native广告 — 1",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/001-native广告-—-1-sslnmwwwVTCSUVHOU8U5cC-diagram-1.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-2",
+      "title": "native广告 — 2",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/002-native广告-—-2-sslnmwwwVTCSUVHOU8U5cC-diagram-2.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【退出APP浮层广告】\n「界面」\nnative广告+退出APP按钮（TAP AGAIN TO EXIT）\n「逻辑」\n1. 在首页单击系统返回，弹出底部确认退出浮层（上方附带native广告，加载逻辑和之前相同）\n3. 点击“再次点击返回桌面”或“系统返回”返回手机桌面、点击浮层外的空白处，回到首页\n4. 完全没有网络的情况下，点击“系统返回”，不展示该底部浮层，直接toast提示“TAP AGAIN TO EXIT”，toast展示3s，用户在toast展示状态中，再次点击系统返回，则退出APP；用户在toast展示完后，再次点击“系统返回”，则再次展示toast。",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-3",
+      "title": "native广告 — 3",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/003-native广告-—-3-sslnmwwwVTCSUVHOU8U5cC-diagram-3.png",
+      "layoutKind": "layout",
+      "annotations": []
+    },
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-4",
+      "title": "native广告 — 4",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/004-native广告-—-4-sslnmwwwVTCSUVHOU8U5cC-diagram-4.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【搜索页面——找不到设备UI变动】\n「逻辑」\n1. 目前：只有设备可以滑动\n修改后：“找不到设备”模块可以和设备一起滑动",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-5",
+      "title": "native广告 — 5",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/005-native广告-—-5-sslnmwwwVTCSUVHOU8U5cC-diagram-5.png",
+      "layoutKind": "layout",
+      "annotations": [
+        {
+          "text": "【native广告逻辑汇总】\n搜索设备页面、教程页面：ca-app-pub-3925850724927301/4645698342\n退出APP的底部浮层native：ca-app-pub-3925850724927301/7415164047\n「界面」\n1. 加载中的加载框（横屏）+广告标识\n2. 横版+竖版UI\n3. native广告位置：搜索设备页面底部、教程页面底部、退出APP时的底部浮层\n「逻辑」\n1. 加载规则：用户trigger了有native广告位的页面，才开始加载native广告，加载成功后，则展示native广告\n1.1 消耗一个native广告后，用户再次trigger一个有native广告位置的页面后，才开始加载新的native广告\n1.2 如果用户在有native广告的页面停留，超过30s后，开始加载下一个广告，在下一个广告加载成功之前，仍然展示原广告\n1.3 如果在下一个native广告还没有预加载成功时，用户就已经trigger到下一个有native广告的页面了，该页面需要展示加载框，并继续加载广告\n1.4 加载前先检查是否有上次加载成功但未展示的广告，有的话先展示上次的广告，不同位置的缓存也可用\n2. 加载失败策略：\n加载失败后，间隔3s再次尝试加载\n2.1 请求连续加载失败4次，计为1个失败，间隔30s之后继续主动加载\n2.2 若加载1个广告失败后，间隔计时还未到30s，用户就trigger了下一个有native广告的页面，则立马加载下一个native广告（就是说30s、3s计时会被用户的trigger打断，trigger的层级高于30s、3s的间隔计时）(trigger后4次request不用重新计数)\n2.3 连续4个native广告都加载失败，本次启动app都不再加载（native的加载框也不再展示）\n2.4 针对退出APP的底部浮层广告\n*退出APP的底部浮层广告最多只有4次加载失败的机会\n* 如果用户触发了退出APP的底部浮层广告，一直停留，如果失败了四次，则停留在加载状态\n3. 无网络状态，不加载广告\n4. 这三个位置的native广告都偏好加载横屏广告\n5. 【新增】如果在某一个位置native已经展示了15s（<30s）时，将软件退到后台，则计时器会停止，并且回到软件回到前台，也无法继续计时（开发难度大）",
+          "author": "",
+          "embeddedImages": []
+        },
+        {
+          "text": "【教程页面】\n「逻辑」\n1. native广告和“Go Mirroring按钮”固定，教程内容可以滑动",
+          "author": "",
+          "embeddedImages": []
+        }
+      ]
+    },
+    {
+      "id": "sslnmwwwVTCSUVHOU8U5cC-diagram-6",
+      "title": "native广告 — 6",
+      "url": "https://modao.cc/proto/Ljt2Zpbutk9liqJyVlZSOt/sharing?view_mode=read_only&screen=slnmwww6VTCSUVHl6zDJ5c&canvasId=sslnmwwwVTCSUVHOU8U5cC",
+      "image": "images/006-native广告-—-6-sslnmwwwVTCSUVHOU8U5cC-diagram-6.png",
+      "layoutKind": "layout",
+      "annotations": []
+    }
+  ]
+}

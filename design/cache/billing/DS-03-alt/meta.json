@@ -1,0 +1,18 @@
+{
+  "id": "DS-03-alt",
+  "module": "billing",
+  "lanhu_name": "Restore failed",
+  "lanhu_image_id": "6c99e20a-2656-437a-a9fe-5232288298cc",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/detailDetach?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=6c99e20a-2656-437a-a9fe-5232288298cc",
+  "version_folder": "v1.1.3",
+  "compose_target": "presentation/common/billing/BillingRestoreResultToast.kt",
+  "visual_tokens": {
+    "toast_background": "#D6E4EFE6",
+    "toast_text": "#1F2123",
+    "icon": "icon_Restore failed",
+    "label_i18n": "string_restore_failed"
+  },
+  "fetched_at": "2026-09-04T05:50:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

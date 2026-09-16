@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUTK78mlZoka6bX",
+  "outputDir": "/Users/lizhirong/boostvision/otherBoostvision/AI/modao-output/【合集V8】Miracast_GP__k2a0Owfvsd3xbucI4UGL/.exports/v1.4.0 新增AirPlay sender/12-新增新用户状态埋点",
+  "exportedAt": "2026-08-25T04:37:57.441Z",
+  "pageCount": 1,
+  "pages": [
+    {
+      "id": "rcUTK78msfc5UMTV",
+      "title": "页面 1",
+      "url": "https://modao.cc/proto/k2a0Owfvsd3xbucI4UGL/sharing?view_mode=read_only&screen=rbpUTK78mlZoka6bX&canvasId=rcUTK78msfc5UMTV",
+      "image": "images/001-页面-1-rcUTK78msfc5UMTV.png",
+      "layoutKind": "screenshot",
+      "annotations": [
+        {
+          "text": "任务目标：判断新下载的用户是不是以前已经下载过我们产品的人\n原理：新用户首次启动APP后，在手机的公共存储位置music或movie写入一个空目录文件夹。该用户下次安装首次启动的时候判断是否存在写入的空目录文件夹，用来判断用户是否曾经安装过。实测>=android11以上才有效\n【逻辑】\n● 先判断是否有对应文件夹、再写入、最后再上传埋点数据\n● 所有产品下载后都先创建一个文件夹：.VERS\n● 再在这个.VERS下建子目录，下面是子目录的逻辑\n\t○ .VERS6-1\n\t■ 先判断是否有文件夹.VERS，无则写入此文件夹和此子目录\n\t○ .VERS6-2\n\t■ 先判断是否有文件夹.VERS，有则判断是否有.VERS6-1，有则删除，并创建此名称的新文件夹\n\t○ .VERS6-3\n\t■ 先判断是否有文件夹.VERS，有则判断是否有.VERS6-2，有则删除，并创建此名称的新文件夹\n\t○ 子目录名称字段解释\n\t■ 名称前面的“.”是隐藏文件夹的写法，但是不一定隐藏成功，和手机的文件读取器有关\n\t■ “.VERS” 代表公司的总目录\n\t■ “.VERS6-2” 前面的数字6表示具体是哪个产品\n\t■ “.VERS6-2” 后面的数字2表示总下载的次数",
+          "author": "雷晨萌",
+          "kind": "",
+          "canvasX": 86,
+          "canvasY": 63,
+          "width": 478,
+          "height": 622,
+          "embeddedImages": []
+        }
+      ]
+    }
+  ]
+}
