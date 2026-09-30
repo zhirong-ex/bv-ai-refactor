@@ -1,0 +1,8 @@
+version	folder_name	lanhu_image_id	lanhu_url	ds_id	note
+1.0.0+	troubleshoot	d4ae787f-97a2-4b9c-a208-6a40d5445a5c	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d4ae787f-97a2-4b9c-a208-6a40d5445a5c	DS-01	主本：全折叠
+1.0.0+	troubleshoot-展开	a70bd655-c8b4-448e-911c-42a2190d0887	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=a70bd655-c8b4-448e-911c-42a2190d0887	DS-02	单组展开 + 子项
+1.0.0+	troubleshoot-展开2	e429caa9-f85b-4a85-8a84-5af00717f915	https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=e429caa9-f85b-4a85-8a84-5af00717f915	DS-03	长滚动 + 多图步骤
+skip	2090c724-7ed3-4352-aa46-e8c7865b1032	troubleshoot	—	—	旧版，被 d4ae787f 替代
+skip	45215dfd-4fc9-4a0f-85e9-1d22c686c292	troubleshoot-展开	—	—	旧版，被 a70bd655 替代
+skip	bbaa25b0-ed88-4537-a09b-6b01a3459880	troubleshoot-展开2	—	—	旧版，被 e429caa9 替代
+skip	06b6280f-0787-42dc-85d7-7186928be047	troubleshoot	—	—	长页变体，与 DS-01/03 重复构图

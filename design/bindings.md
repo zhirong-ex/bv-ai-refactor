@@ -230,3 +230,59 @@
 - **Restore Toast**：`billing/DS-03` / `DS-03-alt`（设置页与购买页共用）
 - **进入设置插屏**：无 settings 独立插屏画板；loading 见 DS-03，插屏 overlay 见 `ads-common/DS-01`
 - **引流排序**：`miracast_settings_promotion_order`（`registry/config.json`）
+
+## troubleshoot
+
+> 维护：**bv-design-bind**（2026-09-30，模块 troubleshoot，Lanhu MCP 拉取）  
+> Android 工程：`/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3`  
+> 代码路径：`app/.../presentation/screen/troubleshoot/`  
+> **行为主本**：Android 仓 `docs/ai/existing-logic/troubleshoot.md` + `docs/ai/diff/troubleshoot.md`（手风琴 **Topic 顺序/文案** 跟现网 XML，蓝湖只管像素）
+
+| id | spec alias | 模块 | 名称（蓝湖画板） | 蓝湖链接 | 缓存 | 代码路径 | 状态 |
+|----|------------|------|------------------|----------|------|----------|------|
+| DS-01 | DS:troubleshoot-main | troubleshoot | troubleshoot | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d4ae787f-97a2-4b9c-a208-6a40d5445a5c) | cache/troubleshoot/DS-01/ | presentation/screen/troubleshoot/ | todo |
+| DS-02 | DS:troubleshoot-expanded | troubleshoot | troubleshoot-展开 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=a70bd655-c8b4-448e-911c-42a2190d0887) | cache/troubleshoot/DS-02/ | presentation/screen/troubleshoot/ui/TroubleshootAccordion.kt | todo |
+| DS-03 | DS:troubleshoot-expanded-rich | troubleshoot | troubleshoot-展开2 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=e429caa9-f85b-4a85-8a84-5af00717f915) | cache/troubleshoot/DS-03/ | presentation/screen/troubleshoot/ui/TroubleshootTopicContent.kt | todo |
+
+画板清单 TSV：`design/cache/troubleshoot/urls_codex`
+
+### 画板 ↔ 场景对照
+
+| DS-xx | 场景 / 说明 |
+|-------|-------------|
+| DS-01 | 顶栏（返回 + 标题 + Contact Us）+ 手风琴全折叠 |
+| DS-02 | 单主题展开 + 子项列表（含返回箭头行） |
+| DS-03 | 长内容：步骤图、Forgot Password 图示等（**子项数据**仍以现网 strings/XML 为准） |
+
+### 跨模块引用
+
+- **入口**：settings `SettingsScreen` → 远程 URL 浏览器 / 空 URL → 本地 `TroubleshootActivity`
+- **Contact Us**：与 settings 相同 `PrefillDataGenerate.generateUrl()`
+- **无**独立 WebView 页画板（远程分支为系统浏览器）
+
+## app-update
+
+> 维护：**bv-design-bind**（2026-09-30，模块 app-update，Lanhu MCP 拉取）  
+> Android 工程：`/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3`  
+> 代码路径：`app/.../presentation/screen/appupdate/`（更新条 UI；Play 系统面板无蓝湖稿）  
+> **行为主本**：Android 仓 `docs/ai/existing-logic/app-update.md` + `docs/ai/diff/app-update.md`
+
+| id | spec alias | 模块 | 名称（蓝湖画板） | 蓝湖链接 | 缓存 | 代码路径 | 状态 |
+|----|------------|------|------------------|----------|------|----------|------|
+| DS-01 | DS:app-update-restart-bar | app-update | 更新 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=70584691-a642-4198-a7eb-059bdfda0c4d) | cache/app-update/DS-01/ | presentation/screen/appupdate/ui/UpdateRestartBar.kt | todo |
+| DS-02 | DS:app-update-with-home-native | app-update | home-native-更新 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d967c2ba-bff7-4fa5-9a68-66ca199b1e20) | cache/app-update/DS-02/ | MainHomeScreen + UpdateRestartBar | todo |
+
+画板清单 TSV：`design/cache/app-update/urls_codex`
+
+### 画板 ↔ 场景对照
+
+| DS-xx | 场景 / 说明 |
+|-------|-------------|
+| DS-01 | FLEXIBLE 下载完成：底栏 `#EBF5FC` 提示 + **RESTART**（无 dismiss） |
+| DS-02 | 同 DS-01 更新条 + Home Native loaded 同屏（验收 CTA/Native 间距） |
+
+### 跨模块引用
+
+- **main-home**：`main-home/DS-05` 与 **app-update/DS-01** 同画板 `70584691…`（整页构图 vs 组件主本）
+- **Play 系统更新 UI**：无蓝湖；`AppPopQueue` priority 10 + `Updater.kt` 行为见 existing-logic
+- **I18N**：`string_in_app_update_notice_message`；CTA `no_trans_string_install` / RESTART 文案

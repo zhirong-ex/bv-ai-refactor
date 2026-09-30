@@ -1,0 +1,18 @@
+{
+  "id": "DS-01",
+  "module": "app-update",
+  "spec_alias": "DS:app-update-restart-bar",
+  "lanhu_name": "更新",
+  "lanhu_image_id": "70584691-a642-4198-a7eb-059bdfda0c4d",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=70584691-a642-4198-a7eb-059bdfda0c4d",
+  "version_folder": "1.0.0+",
+  "compose_target": "presentation/screen/appupdate/ui/UpdateRestartBar.kt",
+  "visual_tokens": {
+    "bar_background": "#EBF5FC",
+    "message_text": "#1F2123",
+    "restart_text": "#549EFF"
+  },
+  "fetched_at": "2026-09-30T07:20:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

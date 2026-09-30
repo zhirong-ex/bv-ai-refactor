@@ -1,0 +1,14 @@
+{
+  "id": "DS-02",
+  "module": "app-update",
+  "spec_alias": "DS:app-update-with-home-native",
+  "lanhu_name": "home-native-更新",
+  "lanhu_image_id": "d967c2ba-bff7-4fa5-9a68-66ca199b1e20",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d967c2ba-bff7-4fa5-9a68-66ca199b1e20",
+  "version_folder": "1.0.0+",
+  "compose_target": "presentation/screen/mainhome/ + appupdate/",
+  "visual_tokens": {},
+  "fetched_at": "2026-09-30T07:20:00Z",
+  "mcp": "lanhu",
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DS-03",
+  "module": "troubleshoot",
+  "spec_alias": "DS:troubleshoot-expanded-rich",
+  "lanhu_name": "troubleshoot-展开2",
+  "lanhu_image_id": "e429caa9-f85b-4a85-8a84-5af00717f915",
+  "lanhu_url": "https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=e429caa9-f85b-4a85-8a84-5af00717f915",
+  "version_folder": "1.0.0+",
+  "compose_target": "presentation/screen/troubleshoot/ui/TroubleshootTopicContent.kt",
+  "visual_tokens": {
+    "step_image_background": "#EBEBEC",
+    "bullet": "#3C4042"
+  },
+  "fetched_at": "2026-09-30T07:20:00Z",
+  "mcp": "lanhu",
+  "error": null
+}
