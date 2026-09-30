@@ -197,3 +197,36 @@
 - **Native 槽组件**：`ads-common/DS-03`（`NativeAdSlot.kt`）；DS-11–15 为各页整页构图主本
 - **Stop 插屏**：无独立 mirror-flow DS；行为见 spec + `ads-common/DS-01`
 - **AirPlay 镜像中 UI**：蓝湖无独立「镜像中」手机页（通知栏回前台）；见 `spec/gaps.md`
+
+## settings
+
+> 维护：**bv-design-bind**（2026-09-17 拉取；2026-09-30 MT 签收标 done）  
+> Android 工程：`/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3`  
+> 代码路径：`app/.../presentation/screen/settings/`
+
+| id | spec alias | 模块 | 名称（蓝湖画板） | 蓝湖链接 | 缓存 | 代码路径 | 状态 |
+|----|------------|------|------------------|----------|------|----------|------|
+| DS-01 | DS:settings-main | settings | setting-位置调整 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=ffcfc6b3-69b3-4f72-99db-9bcaafab1a06) | cache/settings/DS-01/ | presentation/screen/settings/ | done |
+| DS-02 | DS:settings-banner | settings | setting-引流-banner | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=bd7469f1-ab04-4b23-9d7b-17fa07669492) | cache/settings/DS-02/ | SettingsScreen + BannerAdSlot（槽见 ads-common DS-05） | done |
+| DS-03 | DS:settings-loading | settings | setting-loading | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=f4c51581-fdeb-4fcb-881d-ba6a25627c8e) | cache/settings/DS-03/ | presentation/screen/settings/ui/SettingsLoadingOverlay.kt | done |
+| DS-04 | DS:settings-rate-low | settings | rate1-3 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=d631058d-f770-4d34-b43e-f3de41a2b4ed) | cache/settings/DS-04/ | presentation/screen/settings/ui/CustomRateDialog.kt | done |
+| DS-05 | DS:settings-rate-high | settings | rate4-5 | [画板](https://lanhuapp.com/web/#/item/project/stage?pid=537f6e5a-6555-4108-8771-28d5f167d8ae&tid=7e6fd821-1dab-4f48-8c32-80325d496c49&image_id=c454284e-bf90-4836-9d14-dddfc9926b97) | cache/settings/DS-05/ | presentation/screen/settings/ui/CustomRateDialog.kt | done |
+
+画板清单 TSV：`design/cache/settings/urls_codex`
+
+### 画板 ↔ 场景对照
+
+| DS-xx | 场景 / CFG |
+|-------|------------|
+| DS-01 | 设置主列表：Remove Ads、Restore Purchase、Recommend 引流（≤5）、Rate us、Troubleshoot、Contact Us、Terms、Privacy；引流在协议项之前 |
+| DS-02 | `miracast_enable_setting_page_banner_ad` 开；整页含底栏 Banner |
+| DS-03 | 点击设置入口 → 插屏前 loading 整页（`miracast_enable_click_setting_interstitial_ad`） |
+| DS-04 | 自定义评分 1–3 星：哭脸 + `#FFDA31` 选中星；Confirm → Contact Us |
+| DS-05 | 自定义评分 4–5 星：笑脸 + 明亮星；Sure → GP 评分 |
+
+### 跨模块引用
+
+- **Banner 槽**：`ads-common/DS-05`（`BannerAdSlot.kt`）；DS-02 为整页构图主本
+- **Restore Toast**：`billing/DS-03` / `DS-03-alt`（设置页与购买页共用）
+- **进入设置插屏**：无 settings 独立插屏画板；loading 见 DS-03，插屏 overlay 见 `ads-common/DS-01`
+- **引流排序**：`miracast_settings_promotion_order`（`registry/config.json`）
