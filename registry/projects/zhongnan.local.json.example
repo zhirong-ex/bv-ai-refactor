@@ -1,6 +1,6 @@
 {
   "id": "zhongnan",
-  "displayName": "Zhongnan Miracast GP 1.5.3",
+  "displayName": "zhongnan Miracast GP 1.5.3",
   "specRepo": "/ABS/PATH/TO/bv-ai-refactor",
   "androidProject": "/ABS/PATH/TO/zhongnan1.5.3",
   "workspace": "/ABS/PATH/TO/bv-ai-refactor/zhongnan-refactor.code-workspace",

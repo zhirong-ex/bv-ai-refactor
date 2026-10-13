@@ -9,7 +9,7 @@ bv-work-plan · bv-compose-write · bv-accept-gate · bv-fix-record · bv-debug-
 bv-feishu-task · bv-index · bv-refactor-pipeline · bv-existing-logic
 ```
 
-中南示范克隆与 workspace：见 [demo-zhongnan.md](demo-zhongnan.md)。本机 `@bv-*` 识别：运行 `./scripts/link-bv-skills.sh`。
+zhongnan 示范克隆与 workspace：见 [demo-zhongnan.md](demo-zhongnan.md)。本机 `@bv-*` 识别：运行 `./scripts/link-bv-skills.sh`。
 
 Agent 对话中通过 `@bv-<name>` 引用；命令行脚本统一为 `run_bv_modao2prd.sh` 等 `bv-` 命名。
 

@@ -1,0 +1,32 @@
+{
+  "id": "myapp",
+  "displayName": "myapp — replace with product name",
+  "specRepo": "/ABS/PATH/TO/bv-ai-refactor",
+  "androidProject": "/ABS/PATH/TO/your-android-repo",
+  "workspace": "/ABS/PATH/TO/bv-ai-refactor/myapp-refactor.code-workspace",
+  "gitBranch": "develop",
+  "startFrom": "existing-logic",
+  "modules": [
+    "module-a",
+    "module-b"
+  ],
+  "modao": {
+    "sharingUrls": [],
+    "reconcile": "modao-output/myapp.reconcile.json"
+  },
+  "feishu": {
+    "configSheet": "",
+    "analyticsSheet": "",
+    "i18nSheet": "",
+    "appVersion": "1.0.0"
+  },
+  "lanhu": {
+    "stageUrl": ""
+  },
+  "compose": {
+    "autoCommit": true,
+    "push": false,
+    "pushBranchPattern": "your-team/**"
+  },
+  "finishWith": "spec-lite"
+}

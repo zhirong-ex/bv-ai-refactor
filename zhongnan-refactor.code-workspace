@@ -1,7 +1,7 @@
 {
   // Boostvision Compose 重构 — 请用本文件（Spec 仓根目录）打开 Cursor 工作区。
   // bv-spec-skills：本仓库（design / spec / registry / bv-* skills）
-  // zhongnan-android：中南 Android 工程（默认相对路径见 docs/demo-zhongnan.md）
+  // zhongnan-android：zhongnan Android 工程（默认相对路径见 docs/demo-zhongnan.md）
   // design/bindings.md 与 design/cache/ 只允许写在 bv-spec-skills 根下，禁止在 Android 仓新建 design/
   "folders": [
     {

@@ -3,7 +3,8 @@
 本仓库 skill 统一使用 **`bv-*`** 前缀。实现代码时只读 `spec/`、`registry/`、`design/bindings.md`，不读 `modao-output` 单版本 PRD。
 
 **给人看的完整说明**：[docs/bv-skills-guide.md](docs/bv-skills-guide.md)（各 Skill 职责、用法、场景 walkthrough）  
-**中南示范项目（克隆 / workspace / symlink）**：[docs/demo-zhongnan.md](docs/demo-zhongnan.md)
+**同事接入任意老项目（Clone 后重构）**：[docs/refactor-onboarding.md](docs/refactor-onboarding.md)  
+**zhongnan 示范项目（克隆 / workspace / symlink）**：[docs/demo-zhongnan.md](docs/demo-zhongnan.md)
 
 ## Skill 索引
 

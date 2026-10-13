@@ -1,8 +1,9 @@
-# 示范项目：zhongnan（中南 Miracast GP）
+# Demo project: zhongnan (Miracast GP)
 
 本文说明如何把 **bv-ai-refactor（Spec 仓）** + **zhongnan1.5.3（Android 仓）** 作为团队培训与录屏的固定样例。
 
-完整 Skill 说明见 [bv-skills-guide.md](bv-skills-guide.md)；Agent 总规则见仓库根 [AGENTS.md](../AGENTS.md)。
+**其他 App 接同一套流水线** → [refactor-onboarding.md](refactor-onboarding.md)。  
+Skill 说明见 [bv-skills-guide.md](bv-skills-guide.md)；Agent 总规则见 [AGENTS.md](../AGENTS.md)。
 
 ---
 
