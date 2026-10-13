@@ -19,6 +19,7 @@ description: >-
 | 只摸现网逻辑 | `@bv-existing-logic` |
 | 墨刀导出 / 多版本合并 | `@bv-modao2prd` → `@bv-prd-reconcile` → `@bv-spec-canonical` |
 | 飞书 CFG/EVT/I18N | `@bv-table-sync` |
+| **飞书任务 → 单需求实现** | `@bv-feishu-task` |
 | 蓝湖映射 | `@bv-design-bind` |
 | 拆工步 | `@bv-work-plan` |
 | 写验收项 | `@bv-accept-gate` |
