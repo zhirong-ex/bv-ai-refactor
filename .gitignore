@@ -10,3 +10,6 @@ node_modules/
 # IDE local
 .idea/
 *.iml
+
+# Per-machine pipeline paths (copy from zhongnan.local.json.example)
+registry/projects/*.local.json

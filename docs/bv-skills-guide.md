@@ -1,12 +1,15 @@
 # Boostvision AI 重构流水线 — Skill 使用说明
 
 本文档说明本仓库全部 **`bv-*`** Skill 的职责、用法与产物，供产品、开发、测试同事查阅。  
-本仓库 **全部 11 个 Skill 均使用 `bv-*` 前缀**（含墨刀导出，无单独的 `modao2prd`）：
+本仓库 **全部 `bv-*` Skill 均在本仓 `.cursor/skills/`**（含墨刀导出，无单独的 `modao2prd`）：
 
 ```text
 bv-modao2prd · bv-prd-reconcile · bv-spec-canonical · bv-table-sync · bv-design-bind
 bv-work-plan · bv-compose-write · bv-accept-gate · bv-fix-record · bv-debug-console · bv-spec-lite
+bv-feishu-task · bv-index · bv-refactor-pipeline · bv-existing-logic
 ```
+
+中南示范克隆与 workspace：见 [demo-zhongnan.md](demo-zhongnan.md)。本机 `@bv-*` 识别：运行 `./scripts/link-bv-skills.sh`。
 
 Agent 对话中通过 `@bv-<name>` 引用；命令行脚本统一为 `run_bv_modao2prd.sh` 等 `bv-` 命名。
 
@@ -592,6 +595,10 @@ Miracast GP Compose 重构已完成，开始文档收敛
 | bv-fix-record | `.cursor/skills/bv-fix-record/SKILL.md` |
 | bv-debug-console | `.cursor/skills/bv-debug-console/SKILL.md` |
 | bv-spec-lite | `.cursor/skills/bv-spec-lite/SKILL.md` |
+| bv-feishu-task | `.cursor/skills/bv-feishu-task/SKILL.md` |
+| bv-index | `.cursor/skills/bv-index/SKILL.md` |
+| bv-refactor-pipeline | `.cursor/skills/bv-refactor-pipeline/SKILL.md` |
+| bv-existing-logic | `.cursor/skills/bv-existing-logic/SKILL.md` |
 
 ---
 

@@ -2,7 +2,8 @@
 
 本仓库 skill 统一使用 **`bv-*`** 前缀。实现代码时只读 `spec/`、`registry/`、`design/bindings.md`，不读 `modao-output` 单版本 PRD。
 
-**给人看的完整说明**：[docs/bv-skills-guide.md](docs/bv-skills-guide.md)（各 Skill 职责、用法、场景 walkthrough）
+**给人看的完整说明**：[docs/bv-skills-guide.md](docs/bv-skills-guide.md)（各 Skill 职责、用法、场景 walkthrough）  
+**中南示范项目（克隆 / workspace / symlink）**：[docs/demo-zhongnan.md](docs/demo-zhongnan.md)
 
 ## Skill 索引
 
@@ -19,6 +20,7 @@
 | **bv-fix-record** | 横切 bug 沉淀 | `learn/` |
 | **bv-debug-console** | 横切 INTERNAL 调试台 | Android `feature/debug/` |
 | **bv-spec-lite** | 收尾文档瘦身 | `docs/` |
+| **bv-feishu-task** | 飞书任务小需求 | Android 最小 diff + 编译 |
 | **bv-refactor-pipeline** | 全链路编排 | `registry/projects/*.json` |
 
 ## 流水线顺序

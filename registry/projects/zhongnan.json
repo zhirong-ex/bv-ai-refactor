@@ -3,8 +3,8 @@
   "displayName": "Zhongnan Miracast GP 1.5.3",
   "specRepo": "/Users/lizhirong/boostvision/otherBoostvision/AI",
   "androidProject": "/Users/lizhirong/boostvision/zhongnan/zhongnan1.5.3",
-  "workspace": "/Users/lizhirong/boostvision/zhongnan/zhongnan-refactor.code-workspace",
-  "gitBranch": "zhirong/1.5.4",
+  "workspace": "/Users/lizhirong/boostvision/otherBoostvision/AI/zhongnan-refactor.code-workspace",
+  "gitBranch": "zhirong/v1.5.5_ai",
   "startFrom": "compose",
   "modules": [
     "device-search",

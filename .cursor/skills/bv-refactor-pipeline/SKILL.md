@@ -69,7 +69,7 @@ description: >-
 
 ## 配置文件
 
-路径：`registry/projects/<projectId>.json`
+路径：`registry/projects/<projectId>.json`；若存在同目录 **`<projectId>.local.json`**（gitignore），**优先读 local**（本机绝对路径，见 `docs/demo-zhongnan.md`）。
 
 | 字段 | 必填 | 说明 |
 |------|------|------|
